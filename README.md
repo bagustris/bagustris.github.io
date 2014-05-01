@@ -1,3 +1,3 @@
-bagustris.github.io
+bagustris@github
 ===================
-a raw bagustri.github.io. What's different with bagus.github.iu?
+a raw bagustri.github.io.
