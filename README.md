@@ -1,3 +1,3 @@
 bagustris@github
 ===================
-a raw bagustri.github.io.
+a raw bagustris.github.io.
