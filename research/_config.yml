@@ -1,9 +1,0 @@
-kramdown:
-    input: GFM
-
-pygments: true
-github: [Repository medata]
-lsi: safe
-lsi: false
-source: .
-    
