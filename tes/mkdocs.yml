@@ -1,0 +1,6 @@
+site_name: Info
+theme: alabaster
+pages:
+- Home: index.md
+- About: about.md
+
