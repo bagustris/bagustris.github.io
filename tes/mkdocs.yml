@@ -1,5 +1,5 @@
 site_name: Info
-theme: united
+theme: alabaster
 pages:
 - Home: index.md
 - About: about.md
