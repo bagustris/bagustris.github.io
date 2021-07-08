@@ -19,4 +19,10 @@
 [On Source Signal Segregation Based On Binaural Inputs](https://www.dropbox.com/s/5wjsrrhxjw5oby3/bta_tesis_en_v16.pdf?dl=0)
 3. Bagus' PhD thesis:  
 [Dimensional Speech Emotion Recognition by Fusing Acoustic
-   and Linguistic Information](https://dspace.jaist.ac.jp/dspace/bitstream/10119/17472/2/paper.pdf)
+   and Linguistic
+   Information](https://dspace.jaist.ac.jp/dspace/bitstream/10119/17472/2/paper.pdf)
+   
+## Publications:
+1. [Google
+   Scholar](https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en)
+2. [Scopus](https://www.scopus.com/authid/detail.uri?authorId=36004642300)
