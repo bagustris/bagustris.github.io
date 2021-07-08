@@ -1,7 +1,7 @@
 kramdown:
     input: GFM
 
-pygments: true
+# pygments: true
 github: [Repository medata]
 lsi: safe
 lsi: false
