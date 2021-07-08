@@ -1,6 +1,4 @@
-<center>
-<h1> Do! Don't just read! </h1>
-</center>
+    Do! Don't just read!
 
 ## Tutorials:
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
