@@ -1,3 +1,4 @@
+## Research Theme
 The following is research theme that I offered, particularly for Enginenering Physics students ITS.  
 *Berikut ini adalah judul-judul TA yang saya tawarkan kepada mahasiswa, khususnya mahasiswa Departemen Teknik Fisika ITS.*    
 
@@ -8,6 +9,8 @@ Undergraduate/bachelor level:
 2. Indonesian speech recognition using DeepSpeech/STT
 3. Toward universal acousctic features for multi-corpus speech emotion recognition
 4. Predicting Alzheimer desease using speech analysis 
+5. Development of Calfem-Python
+6. Development of Vibration Toolbox
 
 Master level:  
 1. Abnormal sound detection for predictive maitenance (the method is from you/your idea), dataset: DCASE
