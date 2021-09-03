@@ -2,7 +2,7 @@
 The following is research theme that I offered, particularly for Enginenering Physics students ITS.  
 *Berikut ini adalah judul-judul TA yang saya tawarkan kepada mahasiswa, khususnya mahasiswa Departemen Teknik Fisika ITS.*    
 
-For undergraduate level, I will provide the baseline method, and you will improve the results using the proposed method.
+For undergraduate level, I will try to provide the baseline method, and you will improve the results using the proposed method.
 
 Undergraduate/bachelor level:  
 1. Speech emotion recognition using multilayer perceptron with CCC loss, dataset: IEMOCAP
