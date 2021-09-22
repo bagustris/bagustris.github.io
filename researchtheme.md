@@ -5,8 +5,8 @@ The following is research theme that I offered, particularly for Enginenering Ph
 For undergraduate level, I will try to provide the baseline method, and you will improve the results using the proposed method.
  
 1. Speech emotion recognition using multilayer perceptron with CCC loss, dataset: IEMOCAP
-2. Indonesian speech recognition using DeepSpeech/STT
-3. Toward universal acousctic features for multi-corpus speech emotion recognition
+2. Indonesian speech recognition using DeepSpeech/STT/Wav2Vec2/Hubert/etc.
+3. Toward universal acoustic features for multi-corpus speech emotion recognition
 4. Predicting Alzheimer desease using speech analysis 
 5. Development of Calfem-Python
 6. Development of Vibration Toolbox  
