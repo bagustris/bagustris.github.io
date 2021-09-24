@@ -1,6 +1,6 @@
 ## Research Theme
 The following is research theme that I offered, particularly for Enginenering Physics students ITS.  
-*Berikut ini adalah judul-judul TA yang saya tawarkan kepada mahasiswa, khususnya mahasiswa Departemen Teknik Fisika ITS.*    
+*Berikut ini adalah tema riset, khususnya judul-judul TA yang saya tawarkan kepada mahasiswa, khususnya mahasiswa Departemen Teknik Fisika ITS.*    
 
 For undergraduate level, I will try to provide the baseline method, and you will improve the results using the proposed method.
  
@@ -11,6 +11,8 @@ For undergraduate level, I will try to provide the baseline method, and you will
 5. Development of Calfem-Python
 6. Development of Vibration Toolbox  
 7. Abnormal sound detection for predictive maitenance (the method is from you/your idea), dataset: DCASE
+8. Indoneisan emotional Speech synthesis Using Deep Learning -- no baseline
+9. COVID-19 diagnosis using speech and cough sound with deep learning
 
 
 Other topics/themes:  
