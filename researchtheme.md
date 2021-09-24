@@ -1,6 +1,6 @@
 ## Research Theme
 The following is research theme that I offered, particularly for Enginenering Physics students ITS.  
-*Berikut ini adalah tema riset, khususnya judul-judul TA yang saya tawarkan kepada mahasiswa, khususnya mahasiswa Departemen Teknik Fisika ITS.*    
+*Berikut ini adalah tema riset, khususnya judul-judul TA yang saya tawarkan kepada mahasiswa Departemen Teknik Fisika ITS.*    
 
 For undergraduate level, I will try to provide the baseline method, and you will improve the results using the proposed method.
  
