@@ -11,7 +11,7 @@ For undergraduate level, I will try to provide the baseline method, and you will
 5. Development of Calfem-Python
 6. Development of Vibration Toolbox  
 ~~7. Abnormal sound detection for predictive maitenance (the method is from you/your idea), dataset: DCASE~~
-8. Indonesian emotional Speech synthesis Using FastSpeech
+8. Indonesian emotional Speech synthesis Using FastSpeech  
 ~~9. COVID-19 diagnosis using speech and cough sound with deep learning~~
 
 
