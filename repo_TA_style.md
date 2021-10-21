@@ -1,4 +1,4 @@
-Gaya selingkung (Style) Tugas Akhir aka Skripsi S1
+# Gaya selingkung (Style) Repository untuk Tugas Akhir aka Skripsi S1
 
 ## Nama Repo
 Tugas-Akhir, contoh: bagustris/Tugas-Akhir
