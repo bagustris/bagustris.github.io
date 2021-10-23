@@ -9,7 +9,7 @@ Tugas-Akhir, contoh: bagustris/Tugas-Akhir
    - coding untuk plot
    - diambil dari hasil terbaik di direktori `exp`
    - hendaknya dibagi per bab berdasarkan buku
-- `data`: berisi raw data, baik yang digunakan di `code` atai `exp. Contoh:  
+- `data`: berisi raw data, baik yang digunakan di `code` atau `exp`. Contoh:  
    - X_si.npy
    - X_sd.npy
    - y_si.npy
