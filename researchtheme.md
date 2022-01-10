@@ -6,7 +6,7 @@ For undergraduate level, I will try to provide the baseline method, and you will
  
 1. Speech emotion recognition using multilayer perceptron with CCC loss, dataset: IEMOCAP
 2. Indonesian speech recognition using Wav2Vec2/Hubert/WavLM/UniSpeech-SAT, etc.
-3. Toward universal acoustic features for multi-corpus speech emotion recognition (30+ datasets).
+3. Toward universal acoustic features for multi-corpus speech emotion recognition (30+ datasets).  
 ~~4. Predicting Alzheimer desease using speech analysis.~~
 5. Development of Calfem-Python
 6. Development of Vibration Toolbox  
