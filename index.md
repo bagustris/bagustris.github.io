@@ -1,6 +1,6 @@
     Do! Don't just read!
 
-> **Tawaran tema penelitian di sini >> [researchtheme](https://bagustris.github.io/researchtheme)**
+> ***Resecearch themes offered in areas of acoustics, vibration analysis, and speech processing are in here >> [research themes](https://bagustris.github.io/researchtheme)***
 
 ## Tutorials:
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
@@ -14,7 +14,7 @@
 1. [bagustris@/home: random notes](http://bagustris.blogspot.com)
 2. [bagustris@/tumblr: random quotes](https://bagustris.tumblr.com)
 
-## [Theses](https://bagustris.github.io/thesis):
+## [Theses](https://bagustris.github.io/thesis) (my main research areas!):
 1. Bagus' undergraduate thesis:  
 [Pemisahan Banyak Sumber Suara Mesin Dari Microphone Array Dengan Metode Independent Component Analysis Untuk Deteksi Kerusakan](https://www.dropbox.com/s/qvifo67qzju99de/TAbagus.pdf?dl=0)
 2. Bagus' master thesis:  
@@ -33,4 +33,6 @@
 1. [Style of repository for undergraduate final project](./repo_TA_style)
 2. [(Offered) research theme, feel free to adopt](https://bagustris.github.io/researchtheme)
 
-I am welcome for research collaboration! Contact me by email at bagus[at]ep[dot]its[dot]ac[dot]id.
+## [News]((https://bagustris.github.io/news)
+
+I am open for research collaboration! Contact me by email at bagus[at]ep[dot]its[dot]ac[dot]id.
