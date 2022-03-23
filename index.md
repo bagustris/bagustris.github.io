@@ -33,6 +33,6 @@
 1. [Style of repository for undergraduate final project](./repo_TA_style)
 2. [(Offered) research theme, feel free to adopt](https://bagustris.github.io/researchtheme)
 
-## [News]((https://bagustris.github.io/news)
+## [News](https://bagustris.github.io/news)
 
 I am open for research collaboration! Contact me by email at bagus[at]ep[dot]its[dot]ac[dot]id.
