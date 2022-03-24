@@ -16,8 +16,13 @@ For undergraduate level, I will try to provide the baseline method, and you will
 10. COVID-19 diagnosis using SPEECH sound with deep learning, dataset: ComPare CSS 2021
 11. Predicting Pathological voice disorder with speech processing technique, dataset: SVD, Voiced, HUPA
 
-Other topics/themes:  
+## Other topics/themes:  
 Read my [papers](https://scholar.google.co.jp/citations?user=xuiLAewAAAAJ&hl=en). Usually, I wrote down the remaining tasks for future work in that topic. 
 For master level, you can also propose your research theme. Contact me by email for details.
 
-Email: bagus[at]ep.its.ac.id
+## Typical Timeline:  
+![Timeline for undergraduate](images/pengerjaan-ta.png)
+
+The timeline is ideal for undergraduate (S1), it can be adapted for master (S2) and PhD (three years of research from the beginning).
+
+Contact email: bagus[at]ep.its.ac.id
