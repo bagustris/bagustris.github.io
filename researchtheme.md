@@ -1,4 +1,7 @@
 ## Research Theme
+
+My research goals aimed at extracting knowledge from acoustic information (aka acoustic features). The examples of this theme are: speech emotion recognition, abnormal sound detection, and audio classication. Moreover, the research can be extended to vibration signal. My approaches to achieve these goal are defined by: (1) data-drive approach (instead of physical modeling) and (2) focus on practical implemention (not necessary to follow human mechanism). For me, science should be able to be implemented, directly.
+
 The following is research theme that I offered, particularly for Enginenering Physics students ITS.  
 *Berikut ini adalah tema riset, khususnya judul-judul TA yang saya tawarkan kepada mahasiswa Departemen Teknik Fisika ITS.*    
 
