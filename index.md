@@ -1,6 +1,6 @@
     Do! Don't just read!
 
-> ***Resecearch themes offered in areas of acoustics, vibration analysis, and speech processing are in here >> [research themes](https://bagustris.github.io/researchtheme)***
+> ***Research themes offered in areas of acoustics, vibration analysis, and speech processing are in here >> [research themes](https://bagustris.github.io/researchtheme)***
 
 ## Tutorials:
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
@@ -11,8 +11,8 @@
 6. [Tutorial Latex](https://github.com/bagustris/tutorial-latex)
 
 ## Blogs:
-1. [bagustris@/home: random notes](http://bagustris.blogspot.com)
-2. [bagustris@/tumblr: random quotes](https://bagustris.tumblr.com)
+1. [bagustris@/home: random notes](http://bagustris.blogspot.com), including my research notes.
+2. [bagustris@/tumblr: random quotes](https://bagustris.tumblr.com), where I got some inspirations.
 
 ## [Theses](https://bagustris.github.io/thesis) (my main research areas!):
 1. Bagus' undergraduate thesis:  
@@ -35,4 +35,4 @@
 
 ## [News](https://bagustris.github.io/news)
 
-I am open for research collaboration! Contact me by email at bagus[at]ep[dot]its[dot]ac[dot]id.
+I am open for research collaboration! Contact me by email at bagus[at]ep.its.ac.id (replace [at] with @].
