@@ -1,6 +1,6 @@
 ## Research Theme
 
-My research goals aimed at extracting knowledge from acoustic information (aka acoustic features). The examples of this theme are: speech emotion recognition, abnormal sound detection, and audio classication. Moreover, the research can be extended to vibration signal. My approaches to achieve these goal are defined by: (1) data-drive approach (instead of physical modeling), (2) focus on practical implemention (not necessary to follow human  mechanism), and robustness (how stable the model given any perturbation instead of correctness). For me, science should be evidence-based, able to be implemented and consistent.
+My research goals aimed at extracting knowledge from acoustic information (aka acoustic features). The examples of this theme are: speech emotion recognition, abnormal sound detection, and audio classication. Moreover, the research can be extended to vibration signal. My approaches to achieve these goal are defined by: (1) data-drive approach (instead of physical modeling), (2) focus on practical implemention (not necessary to follow human  mechanism), and robustness (how stable the model given any perturbation instead of correctness). For me, science should be evidence-based, able to be implemented and consistent. My reserch contributes to developing technologies to solve issues in Society 5.0 (What is Society 5.0? [Read here in Indonesian language](http://bagustris.blogspot.com/2022/04/menuju-masyarakat-50-melalui-riset-dan.html)).
 
 ![research_concept](images/research_concept.png)
 
