@@ -5,10 +5,11 @@
 ## Tutorials:
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
 2. [Tutorial Shell](http://bagustris.github.io/tutorial-shell)
-3. [NLP Python](http://bagustris.github.io/nlp-pythhon)
+3. [NLP Python](http://bagustris.github.io/nlp-python)
 4. [Spreadsheet Tutorial](http://bagustris.github.io/spreadsheet-tutorial)
 5. [Octave Tutorial](http://bagustris.github.io/octave-tutorial)
 6. [Tutorial Latex](https://github.com/bagustris/tutorial-latex)
+7. [Tutorial Git](https://bagustris.github.io/tutorial-git)
 
 ## Blogs:
 1. [bagustris@/home: random notes](http://bagustris.blogspot.com), including my research notes.
