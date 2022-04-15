@@ -4,7 +4,7 @@ My research goals aimed at extracting knowledge from acoustic information (aka a
 
 ![research_concept](images/research_concept.png)
 
-The following is research theme that I offered, particularly for Enginenering Physics students ITS.  
+The following is research theme that I offered, particularly (but not limited) for Enginenering Physics students ITS.  
 *Berikut ini adalah tema riset, khususnya judul-judul TA yang saya tawarkan kepada mahasiswa Departemen Teknik Fisika ITS.*    
 
 For undergraduate level, I will try to provide the baseline method, and you will improve the results using the proposed method.
