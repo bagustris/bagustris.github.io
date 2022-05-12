@@ -23,10 +23,10 @@ For undergraduate level, I will try to provide the baseline method, and you will
 11. Predicting pathological voice disorder with speech processing technique, dataset: SVD, Voiced, HUPA
 12. Detecting of emotion intensity of non-speech sound (laughter, crying, etc.)
 13. Detecting/predicting stuttering (bahasa: gagap) in speech with machine learning
-14. Predicting the intensities of seven self-reported emotions (Adoration, Amusement, Anxiety, Disgust, Empathic Pain, Fear, Surprise) from user-generated reactions to emotionally evocative videos.
-15. Few-shot learning on acoustic data to capture 10 dimensions of emotion reliably perceived in distinct vocal bursts: Awe, Excitement, Amusement, Awkwardness, Fear, Horror, Distress, Triumph, Sadness and Surprise. 
-16. Multimodal learning (audio+video+text) to capture 10 dimensions of emotion reliably perceived in distinct vocal bursts: Awe, Excitement, Amusement, Awkwardness, Fear, Horror, Distress, Triumph, Sadness and Surprise. 
-17. Inferring self-reported emotion from multimodal expression, using multi-output regression to predict fine-grained self-report annotations of seven ‘in-the-wild' emotional experiences.
+14. Predicting the intensities of seven self-reported emotions (Adoration, Amusement, Anxiety, Disgust, Empathic Pain, Fear, Surprise) from user-generated reactions to emotionally evocative videos
+15. Few-shot learning on acoustic data to capture 10 dimensions of emotion reliably perceived in distinct vocal bursts: Awe, Excitement, Amusement, Awkwardness, Fear, Horror, Distress, Triumph, Sadness and Surprise 
+16. Multimodal learning (audio+video+text) to capture 10 dimensions of emotion reliably perceived in distinct vocal bursts: Awe, Excitement, Amusement, Awkwardness, Fear, Horror, Distress, Triumph, Sadness and Surprise
+17. Inferring self-reported emotion from multimodal expression, using multi-output regression to predict fine-grained self-report annotations of seven ‘in-the-wild' emotional experiences
 
 
 
@@ -37,6 +37,6 @@ For master level, you can also propose your research theme. Contact me by email 
 ## Typical Timeline:  
 ![Timeline for undergraduate](images/pengerjaan-ta.png)
 
-The timeline is ideal for undergraduate (S1), it can be adapted for master (S2) and PhD (three years of research from the beginning).
+The timeline is ideal for undergraduate (S1), it can be adapted for master (S2) and PhD (S3. three years of research from the beginning).
 
 Contact email: bagus[at]ep.its.ac.id
