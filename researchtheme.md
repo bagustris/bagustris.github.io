@@ -5,6 +5,7 @@ My research goals aimed at extracting knowledge from acoustic information (aka a
 <!---![research_concept](images/research_concept.png) --->
 ![research_concept_iot](images/research_concept_iot.png)
 
+
 The following is research theme that I offered, particularly (but NOT limited) for Enginenering Physics students ITS.  
 <!--- *Berikut ini adalah tema riset, khususnya judul-judul TA yang saya tawarkan kepada mahasiswa Departemen Teknik Fisika ITS.*    --->
 
@@ -37,6 +38,6 @@ For master level, you can also propose your research theme. Contact me by email 
 ## Typical Timeline:  
 ![Timeline for undergraduate](images/pengerjaan-ta.png)
 
-The timeline is ideal for undergraduate (S1), it can be adapted for master (S2) and PhD (S3. three years of research from the beginning).
+The timeline is ideal for undergraduate (S1), it can be adapted for master (S2) and PhD (S3, three years of research from the beginning).
 
 Contact email: bagus[at]ep.its.ac.id
