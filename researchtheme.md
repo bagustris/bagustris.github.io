@@ -2,7 +2,8 @@
 
 My research goals aimed at extracting knowledge from acoustic information (aka acoustic features). The examples of this theme are: speech emotion recognition, abnormal sound detection, and audio classication. Moreover, the research can be extended to vibration signal. My approaches to achieve these goal are defined by: (1) data-driven approach (instead of physical modeling), (2) focus on practical implemention (not necessary to follow human  mechanism), and robustness (how stable/consistent the model given any perturbation instead of correctness). For me, science should be evidence-based, able to be implemented and consistent. My research is result-oriented instead of process-oriented. It doesn't mean that process (physical phenomena, modeling, math, and algorithms) is not important. If we understand the process very well, the solution may appears by itself. However, I judge my research mainly based on the results. My research contributes to developing technologies to solve issues in Society 5.0 (What is Society 5.0? [Read here in Indonesian language](http://bagustris.blogspot.com/2022/04/menuju-masyarakat-50-melalui-riset-dan.html)).
 
-![research_concept](images/research_concept.png)
+<!---![research_concept](images/research_concept.png) --->
+[research_concept_iot](images/research_concept_iot.png)
 
 The following is research theme that I offered, particularly (but NOT limited) for Enginenering Physics students ITS.  
 <!--- *Berikut ini adalah tema riset, khususnya judul-judul TA yang saya tawarkan kepada mahasiswa Departemen Teknik Fisika ITS.*    --->
