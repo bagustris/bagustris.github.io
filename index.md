@@ -29,6 +29,7 @@
 1. [Google
    Scholar](https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en)
 2. [Scopus](https://www.scopus.com/authid/detail.uri?authorId=36004642300)
+3. [WoS](https://www.webofscience.com/wos/author/record/AAI-5222-2020)
 
 ## Others:  
 1. [Style of repository for undergraduate final project](./repo_TA_style)
