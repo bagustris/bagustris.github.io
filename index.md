@@ -1,6 +1,6 @@
-    Do! Don't just read!
+## **Do! Don't just read!**
 
-> ***Research themes offered in areas of acoustics, vibration analysis, and speech processing are in here >> [research themes](https://bagustris.github.io/researchtheme)***
+> ***Research themes offered in areas of acoustics, vibration analysis, and speech processing are in [here](https://bagustris.github.io/researchtheme)***
 
 ## Tutorials:
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
@@ -31,10 +31,11 @@
 2. [Scopus](https://www.scopus.com/authid/detail.uri?authorId=36004642300)
 3. [WoS](https://www.webofscience.com/wos/author/record/AAI-5222-2020)
 
-## Others:  
+## Research theme:  
 1. [Style of repository for undergraduate final project](./repo_TA_style)
 2. [(Offered) research theme, feel free to adopt](https://bagustris.github.io/researchtheme)
 
+## [Resources](https://bagustris.github.com/tools)
 ## [News](https://bagustris.github.io/news)
 
 I am open for research collaboration! Contact me by email at bagus[at]ep.its.ac.id (replace [at] with @].
