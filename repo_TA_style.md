@@ -1,7 +1,7 @@
 # Gaya selingkung (Style) Repository untuk Tugas Akhir aka Skripsi S1
 
 ## Nama Repo
-Tugas-Akhir, contoh: bagustris/Tugas-Akhir
+Tugas-Akhir, contoh: [bagustris/Tugas-Akhir](https://github.com/bagustris/Tugas-Akhir)
 
 ## Struktur Direktori
 - `code`: 
@@ -14,9 +14,9 @@ Tugas-Akhir, contoh: bagustris/Tugas-Akhir
    - X_sd.npy
    - y_si.npy
    - y_sd.npy
-- `fig`: berisi gambar
+- `figs`: berisi gambar
 - `book`: berisi file buku TA: Latex, ms word, atau LibreOffice Writer, Google Doc, dll.
-- `exp`: direktori **UTAMA** yang berisi experimen berdasarkan waktu
+- `exps`: direktori **UTAMA** yang berisi experimen berdasarkan waktu
    - 2021:
       - oktober:  
          - klasikasi_unbalance_normal.py  
@@ -31,11 +31,11 @@ Tugas-Akhir, contoh: bagustris/Tugas-Akhir
       - mei   
       - juni
       - juli
-- `note`:  
-  Berisi catatan dan lain-lain:  
+- `notes`:  
+  Berisi catatan MINGGUAN dengan format YYYY-MM-DD.md yang berisi:  
   - diskusi dengan dosen pembimbing
   - pertanyan dan jawaban
-  - apa yang belum paham
+  - apa yang belum paham (minggu ini)
   - apa yang ingin dipelajari
   - permasalahan
   - temuan
