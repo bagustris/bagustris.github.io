@@ -1,4 +1,6 @@
 News: 
+- 16/10/2024: Presenting two papers at O-COCOSDA 2024 in Hsinchu, Taiwan. One paper is entitled "UNCERTAINTY-BASED ENSEMBLE LEARNING FOR SPEECH CLASSIFICATION", another is "Uncertainty-Based Ensemble Learning For Speech Classification".
+- 31/05/2024: A paper was published online in "Journal of Applied Data Science", Title: [Performance Improvement of Covid-19 Cough Detection Based on Deep Learning with Segmentation Methods](https://bright-journal.org/Journal/index.php/JADS/article/view/205)
 - 31/10/2023: Attending APSIPA 2023 in Taipei, Taiwan. I present two papers on speech emotion recognition. It was the first time I had become chair of a conference.
 - 04/06/2023: Attending ICASSP 2023 at Rhodes Island, Greece. In the poster session, I will present my work entitled "EVALUATING VARIANTS OF WAV2VEC 2.0 ON AFFECTIVE VOCAL BURST TASKS"
 - 27/02/2023: Attending Joint ICTP-IAEA Advanced School/Workshop on Machine Learning in Citizen Science at ICTP, Triete, Italy
