@@ -1,6 +1,6 @@
 ## **Do! Don't just read!**
 
-> ***Research themes offered in areas of acoustics, vibration analysis, and speech processing are in [here](https://bagustris.github.io/researchtheme)***
+> ***Research themes offered in areas of speech processing are in [here](https://bagustris.github.io/researchtheme)***
 
 ## Tutorials:
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
@@ -37,7 +37,9 @@
 1. [Style of repository for undergraduate final project](./repo_TA_style)
 2. [(Offered) research theme, feel free to adopt](https://bagustris.github.io/researchtheme)
 
-## [Resources](https://bagustris.github.com/tools)
-## [News](https://bagustris.github.io/news)
+## Tools I contributed
+1. [Nkululeko](https://github.com/felixbur/nkululeko)
+2. [Speechain](https://github.com/bagustris/speechain)
 
-I am open for research collaboration! Contact me by email at bagus[at]ep.its.ac.id (replace [at] with @].
+## Contact
+I am open to research collaboration! Contact me by email at b-atmaja[at]aist.go.jp (replace [at] with @].
