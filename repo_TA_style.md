@@ -19,7 +19,7 @@ Tugas-Akhir, contoh: [bagustris/Tugas-Akhir](https://github.com/bagustris/Tugas-
 - `exps`: direktori **UTAMA** yang berisi experimen berdasarkan waktu
    - 2021:
       - oktober:  
-         - klasikasi_unbalance_normal.py  
+         - klasifikasi_unbalance_normal.py  
          - klasifikasi_4_kelas.py  
       - november
       - desember
