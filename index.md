@@ -11,7 +11,8 @@
 6. [Tutorial Latex](https://github.com/bagustris/tutorial-latex)
 7. [Tutorial Git](https://bagustris.github.io/tutorial-git)
 8. [Python for signal processing](https://bagustris.github.io/python-for-signal-processing)
-9. [Linear filter](https://bagustris.github.io/linear-filter)
+9. [Linear filter](https://github.com/bagustris/linear-filter)
+1. [Speech Recognition](https://bagustris.github.io/speech-recognition-course)
 
 ## Blogs:
 1. [bagustris@/home: random notes](http://bagustris.blogspot.com), including my research notes.
