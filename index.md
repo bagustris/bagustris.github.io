@@ -10,7 +10,7 @@
 5. [Octave Tutorial](http://bagustris.github.io/octave-tutorial)
 6. [Tutorial Latex](https://github.com/bagustris/tutorial-latex)
 7. [Tutorial Git](https://bagustris.github.io/tutorial-git)
-8. [Python for signal processing](https://bagustris.github.io/python-for-signal-processing)
+8. [Python for signal processing](https://github.com/bagustris/python-for-signal-processing)
 9. [Linear filter](https://github.com/bagustris/linear-filter)
 1. [Speech Recognition](https://bagustris.github.io/speech-recognition-course)
 
