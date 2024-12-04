@@ -38,6 +38,9 @@
 1. [Style of repository for undergraduate final project](./repo_TA_style)
 2. [(Offered) research theme, feel free to adopt](https://bagustris.github.io/researchtheme)
 
+## Islam  
+1. [Arbain Nawawi (Syarah Ibn Daqiq)](https://bagustris.github.io/arbain-nawawi)
+
 ## Tools I contributed
 1. [Nkululeko](https://github.com/felixbur/nkululeko)
 2. [Speechain](https://github.com/bagustris/speechain)
