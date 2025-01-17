@@ -2,6 +2,8 @@
 
 > ***Research themes offered in areas of speech processing are in [here](https://bagustris.github.io/researchtheme)***
 
+## [Bio](bio)
+
 ## Tutorials:
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
 2. [Tutorial Shell](http://bagustris.github.io/tutorial-shell)
