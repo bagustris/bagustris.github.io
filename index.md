@@ -36,15 +36,15 @@
 2. [Scopus](https://www.scopus.com/authid/detail.uri?authorId=36004642300)
 3. [WoS](https://www.webofscience.com/wos/author/record/AAI-5222-2020)
 
-## [Research theme](https://bagustris.github.io/researchtheme):  
+## [Research theme](https://bagustris.github.io/researchtheme): 
 1. [Style of repository for undergraduate final project](./repo_TA_style)
 2. [(Offered) research theme, feel free to adopt](https://bagustris.github.io/researchtheme)
 
-## Islam  
+## Islam:  
 1. [Arbain Nawawi (Syarah Ibn Daqiq)](https://bagustris.github.io/arbain-nawawi)
 2. [Kisah 25 Nabi](https://bagustris.github.io/kisah-nabi)
 
-## [Tools](tools)
+## [Tools:](tools)
 1. [Nkululeko](https://github.com/felixbur/nkululeko)
 2. [Speechain](https://github.com/bagustris/speechain)
 
