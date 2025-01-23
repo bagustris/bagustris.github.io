@@ -45,8 +45,8 @@
 2. [Kisah 25 Nabi](https://bagustris.github.io/kisah-nabi)
 
 ## [Tools:](tools)
-1. [Nkululeko](https://github.com/felixbur/nkululeko)
-2. [Speechain](https://github.com/bagustris/speechain)
+1. [Nkululeko](https://nkululeko.readthedocs.io)
+2. [Speechain](https://bagustris.github.io/speechain)
 
 ## Contact
 I am open to research collaboration! Contact me by email at b-atmaja[at]aist.go.jp (replace [at] with @].
