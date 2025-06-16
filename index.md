@@ -2,7 +2,7 @@
 
 > ***Research themes offered in areas of speech processing are in [here](https://bagustris.github.io/researchtheme)***
 
-**[🔍 Search Site Content](search)**
+<!-- **[🔍 Search Site Content](search)** -->
 
 ## [Bio](bio)
 
