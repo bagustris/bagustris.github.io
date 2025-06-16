@@ -11,3 +11,11 @@ source: .
 
 title: Bagus Tris Atmaja
 description: Researcher on Speech Processing
+
+# Search configuration
+search:
+  enabled: true
+
+# Enable plugins
+plugins:
+  - jekyll-seo-tag

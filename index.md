@@ -2,6 +2,8 @@
 
 > ***Research themes offered in areas of speech processing are in [here](https://bagustris.github.io/researchtheme)***
 
+**[🔍 Search Site Content](search)**
+
 ## [Bio](bio)
 
 ## Tutorials:
@@ -49,4 +51,4 @@
 2. [Speechain](https://bagustris.github.io/speechain)
 
 ## Contact
-I am open to research collaboration! Contact me by email at b-atmaja[at]aist.go.jp (replace [at] with @].
+I am open to research collaboration! Contact me by email at bagustris[at]outlook.com (replace [at] with @].

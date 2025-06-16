@@ -1,3 +1,8 @@
+---
+title: Tools & Software
+layout: default
+---
+
 Tools I used and contributed:
 1. [S3PRL](https://github.com/s3prl/s3prl)
 2. [VIM-101](https://github.com/bagustris/VIM101)
