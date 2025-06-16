@@ -4,6 +4,7 @@ layout: default
 ---
 
 News: 
+- 01/04/2025: Start working as an assistant professor at somewhere on earth
 - 14/01/2025: [A paper was accepted in ICASSP workshop 2025](https://bagustris.blogspot.com/2025/01/a-paper-was-accepted-at-2025-icassp.html) (SPADE Workshop). A first paper in ICASSP Workshop.
 - 06/01/2025: [A paper was accepted in ICAIIC 2025](https://bagustris.blogspot.com/2025/01/a-paper-was-accepted-at-icaiic-2025.html). A first paper in ICAIIC conference.
 - 02/12/2024: Presenting two papers at TENCON 2024:
