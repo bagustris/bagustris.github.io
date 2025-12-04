@@ -13,20 +13,21 @@ BAGUS TRIS ATMAJA is a researcher and lecturer in speech and audio processing. H
 
 ## Research Themes
 
-Research themes offered in areas of speech processing are available [here](/research/)
+Research themes offered in areas of speech processing are available [here](/research/).
 
 ## Tutorials
 
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
-2. [Tutorial Shell](http://bagustris.github.io/tutorial-shell)
-3. [NLP Python](http://bagustris.github.io/nlp-python)
-4. [Spreadsheet Tutorial](http://bagustris.github.io/spreadsheet-tutorial)
-5. [Octave Tutorial](http://bagustris.github.io/octave-tutorial)
-6. [Tutorial Latex](https://github.com/bagustris/tutorial-latex)
-7. [Tutorial Git](https://bagustris.github.io/tutorial-git)
-8. [Python for signal processing](https://github.com/bagustris/python-for-signal-processing)
-9. [Linear filter](https://github.com/bagustris/linear-filter)
-10. [Speech Recognition](https://bagustris.github.io/speech-recognition-course)
+1. [Tutorial Shell](http://bagustris.github.io/tutorial-shell)
+1. [Shell Extras](http://bagustris.github.io/shell-extras)
+1. [NLP Python](http://bagustris.github.io/nlp-python)
+1. [Spreadsheet Tutorial](http://bagustris.github.io/spreadsheet-tutorial)
+1. [Octave Tutorial](http://bagustris.github.io/octave-tutorial)
+1. [Tutorial Latex](https://github.com/bagustris/tutorial-latex)
+1. [Tutorial Git](https://bagustris.github.io/tutorial-git)
+1. [Python for signal processing](https://github.com/bagustris/python-for-signal-processing)
+1. [Linear filter](https://github.com/bagustris/linear-filter)
+1. [Speech Recognition](https://bagustris.github.io/speech-recognition-course)
 
 ## Blogs
 
