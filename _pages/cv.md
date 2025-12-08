@@ -30,7 +30,7 @@ Work experience
   * Artificial Intelligence Research Center
   * Research on speech processing and affective computing
 
-* 2014-Present: Lecturer (Docent)
+* 2014-2024: Lecturer (Docent)
   * Sepuluh Nopember Institute of Technology
   * Vibrastic Laboratory
   * Teaching and research in signal processing, acoustics, building physics, and vibration

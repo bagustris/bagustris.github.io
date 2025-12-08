@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-You can also find my articles on [my Google Scholar profile]({{site.author.googlescholar}}).
+You can also find my articles on [my Google Scholar profile]({{site.author.googlescholar}}). If you don't have access to some of the papers, please feel free to contact me.
 {% endif %}
 
 {% include base_path %}
@@ -17,164 +17,168 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 ## 2025
 
-- Atmaja, B. T., Zanjabila, Suyanto, Asmoro, W. A., & Sasou, A. (2025). Cross-dataset COVID-19 transfer learning with data augmentation. International Journal of Information Technology. https://doi.org/10.1007/s41870-025-02433-z  
+1. B. T. Atmaja, Zanjabila, Suyanto, W. A. Asmoro, and A. Sasou, "Cross-dataset COVID-19 transfer learning with data augmentation," *Int. J. Inf. Technol.*, 2025, doi: [10.1007/s41870-025-02433-z](https://doi.org/10.1007/s41870-025-02433-z).
 
-- Atmaja, B. T., & Sasou, A. (2025). Pathological Voice Detection From Sustained Vowels : Handcrafted vs. Self-supervised Learning. 2025 IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW), 1–5. https://doi.org/10.1109/ICASSPW65056.2025.11011272  
+2. B. T. Atmaja and A. Sasou, "Pathological voice detection from sustained vowels: Handcrafted vs. self-supervised learning," in *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. Workshops (ICASSPW)*, 2025, pp. 1–5, doi: [10.1109/ICASSPW65056.2025.11011272](https://doi.org/10.1109/ICASSPW65056.2025.11011272).
 
-- Atmaja, B. T., Sasou, A., & Burkhardt, F. (2025). Performance-Weighted Ensemble Learning for Speech Classification. 2025 International Conference on Artificial Intelligence in Information and Communication (ICAIIC), 0044–0048. https://doi.org/10.1109/ICAIIC64266.2025.10920862 
+3. B. T. Atmaja, A. Sasou, and F. Burkhardt, "Performance-weighted ensemble learning for speech classification," in *Proc. Int. Conf. Artif. Intell. Inf. Commun. (ICAIIC)*, 2025, pp. 44–48, doi: [10.1109/ICAIIC64266.2025.10920862](https://doi.org/10.1109/ICAIIC64266.2025.10920862).
 
-- Atmaja, B. T., & Sakti, S. (2025). Dementia Prediction From Speech Signal Using Optimized Prosodic Features. APSIPA Annual Summit and Conference.  
+4. B. T. Atmaja and S. Sakti, "Dementia prediction from speech signal using optimized prosodic features," in *Proc. APSIPA Annu. Summit Conf.*, 2025, doi: [https://doi.org/10.1109/APSIPAASC65261.2025.11249322](https://doi.org/10.1109/APSIPAASC65261.2025.11249322).
 
-- Burkhardt, F., & Atmaja, B. T. (2025). Nkululeko 1 . 0 : A Python package to predict speaker characteristics with a high-level interface How Does It Work ? Statement of Need Usage in Existing Research. Journal of Open Source Software, 0, 1–4. https://doi.org/10.21105/joss.08049  
+5. F. Burkhardt and B. T. Atmaja, "Nkululeko 1.0: A Python package to predict speaker characteristics with a high-level interface," *J. Open Source Softw.*, pp. 1–4, 2025, doi: [10.21105/joss.08049](https://doi.org/10.21105/joss.08049).
+
+6. B. T. Atmaja, D. V. Rashika, D. P. Lestari and S. Sakti, "Semi-supervised Acoustic Scene Classification with Label Smoothing and Hard Samples Identification," 2025 IEEE International Conference on Signals and Systems (ICSigSys), Bali, Indonesia, 2025, pp. 15-19, [doi: 10.1109/ICSigSys67277.2025.11269138](https://doi.org/10.1109/ICSigSys67277.2025.11269138).
+
+7. M. B. Pratama Tjoa, B. Tris Atmaja and S. Sakti, "Indonesian Folklore Storytelling in Japanese Language with Text-to-Speech," 2025 IEEE International Conference on Signals and Systems (ICSigSys), Bali, Indonesia, 2025, pp. 113-117, [doi: 10.1109/ICSigSys67277.2025.11269173](https://doi.org/10.1109/ICSigSys67277.2025.11269173).
+
+8. A. D. Prasetyo, B. T. Atmaja, D. Arifianto and S. Sakti, "A Comparison of Solicited and Longitudinal Cough Sounds for Tuberculosis Detection," 2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), Singapore, Singapore, 2025, pp. 1657-1662, [doi: 10.1109/APSIPAASC65261.2025.11249364](https://doi.org/10.1109/APSIPAASC65261.2025.11249364).
 
 ## 2024
 
-- Atmaja, B. T., Zanjabila, Suyanto, & Sasou, A. (2024). Comparing hysteresis comparator and RMS threshold methods for automatic single cough segmentations. International Journal of Information Technology (Singapore), 16(1), 5–12. https://doi.org/10.1007/s41870-023-01626-8   
+1. B. T. Atmaja, Zanjabila, Suyanto, and A. Sasou, "Comparing hysteresis comparator and RMS threshold methods for automatic single cough segmentations," *Int. J. Inf. Technol. (Singapore)*, vol. 16, no. 1, pp. 5–12, 2024, doi: [10.1007/s41870-023-01626-8](https://doi.org/10.1007/s41870-023-01626-8).
 
-- Suyanto, Zanjabila, Atmaja, B. T., & Asmoro, W. A. (2024). Performance Improvement of Covid-19 Cough Detection Based on Deep Learning with Segmentation Methods. Journal of Applied Data Science, 5(2), 520–531.  
+2. Suyanto, Zanjabila, B. T. Atmaja, and W. A. Asmoro, "Performance improvement of Covid-19 cough detection based on deep learning with segmentation methods," *J. Appl. Data Sci.*, vol. 5, no. 2, pp. 520–531, 2024. [Online]. Available: [https://bright-journal.org/Journal/index.php/JADS/article/view/205](https://bright-journal.org/Journal/index.php/JADS/article/view/205)
 
-- Burkhardt, F., Atmaja, B. T., Derington, A., & Eyben, F. (2024). Check Your Audio Data : Nkululeko for Bias Detection. Oriental COCOSDA, 1–6. https://doi.org/10.1109/O-COCOSDA64382.2024.10800580  
+3. F. Burkhardt, B. T. Atmaja, A. Derington, and F. Eyben, "Check your audio data: Nkululeko for bias detection," in *Proc. Oriental COCOSDA*, 2024, pp. 1–6, doi: [10.1109/O-COCOSDA64382.2024.10800580](https://doi.org/10.1109/O-COCOSDA64382.2024.10800580).
 
-- Atmaja, B. T. (2024). Evaluating Hyperparameter Optimization for Machinery Anomalous Sound Detection. 2024 IEEE REGION 10 CONFERENCE (TENCON).  
+4. B. T. Atmaja, "Evaluating hyperparameter optimization for machinery anomalous sound detection," in *Proc. IEEE Region 10 Conf. (TENCON)*, 2024, doi: [https://doi.org/10.1109/TENCON61640.2024.10903017](https://doi.org/10.1109/TENCON61640.2024.10903017).
 
-- Atmaja, B. T., & Sasou, A. (2024). Multi-label Emotion Share Regression From Speech Using Pre-Trained Self-Supervised Learning Models. 2024 IEEE REGION 10 CONFERENCE (TENCON).  
+5. B. T. Atmaja and A. Sasou, "Multi-label emotion share regression from speech using pre-trained self-supervised learning models," in *Proc. IEEE Region 10 Conf. (TENCON)*, 2024, pp. 339–342, doi: [10.1109/TENCON61640.2024.10903112](https://doi.org/10.1109/TENCON61640.2024.10903112).
 
-- Atmaja, B. T., Sasou, A., & Burkhardt, F. (2024). Uncertainty-Based Ensemble Learning for Speech Classification. 2024 27th Conference of the Oriental COCOSDA International Committee for the Co-Ordination and Standardisation of Speech Databases and Assessment Techniques (O-COCOSDA), 1–6. https://doi.org/10.1109/O-COCOSDA64382.2024.10800111  
+6. B. T. Atmaja, A. Sasou, and F. Burkhardt, "Uncertainty-based ensemble learning for speech classification," in *Proc. 27th Conf. Oriental COCOSDA*, 2024, pp. 1–6, doi: [10.1109/O-COCOSDA64382.2024.10800111](https://doi.org/10.1109/O-COCOSDA64382.2024.10800111).
 
-## 2023  
+## 2023
 
-- Atmaja, B. T., Zanjabila, Suyanto, & Sasou, A. (2024). Comparing hysteresis comparator and RMS threshold methods for automatic single cough segmentations. International Journal of Information Technology (Singapore), 16(1), 5–12. https://doi.org/10.1007/s41870-023-01626-8  
+1. B. T. Atmaja and A. Sasou, "Ensembling multilingual pre-trained models for predicting multi-label regression emotion share from speech," in *Proc. Asia Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2023, pp. 1026–1029, doi: [10.1109/APSIPAASC58517.2023.10317109](https://doi.org/10.1109/APSIPAASC58517.2023.10317109).
 
-- Atmaja, B. T., & Sasou, A. (2023). Ensembling Multilingual Pre-Trained Models for Predicting Multi-Label Regression Emotion Share from Speech. 2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 1026–1029. https://doi.org/10.1109/APSIPAASC58517.2023.10317109  
-
-- Atmaja, B. T., & Sasou, A. (2023). Multilingual, Cross-lingual, and Monolingual Speech Emotion Recognition on EmoFilm Dataset. 2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 1019–1025. https://doi.org/10.1109/APSIPAASC58517.2023.10317223  
+2. B. T. Atmaja and A. Sasou, "Multilingual, cross-lingual, and monolingual speech emotion recognition on EmoFilm dataset," in *Proc. Asia Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2023, pp. 1019–1025, doi: [10.1109/APSIPAASC58517.2023.10317223](https://doi.org/10.1109/APSIPAASC58517.2023.10317223).
 
 ## 2022
 
-- Atmaja, B. T., Sasou, A., & Akagi, M. (2022). Survey on bimodal speech emotion recognition from acoustic and linguistic information fusion. Speech Communication, 140, 11–28. https://doi.org/10.1016/j.specom.2022.03.002
+1. B. T. Atmaja, A. Sasou, and M. Akagi, "Survey on bimodal speech emotion recognition from acoustic and linguistic information fusion," *Speech Commun.*, vol. 140, pp. 11–28, 2022, doi: [10.1016/j.specom.2022.03.002](https://doi.org/10.1016/j.specom.2022.03.002).
 
-- Atmaja, B. T., Sasou, A., & Akagi, M. (2022). Speech Emotion and Naturalness Recognitions With Multitask and Single-Task Learnings. IEEE Access, 10, 72381–72387. https://doi.org/10.1109/ACCESS.2022.3189481
+2. B. T. Atmaja, A. Sasou, and M. Akagi, "Speech emotion and naturalness recognitions with multitask and single-task learnings," *IEEE Access*, vol. 10, pp. 72381–72387, 2022, doi: [10.1109/ACCESS.2022.3189481](https://doi.org/10.1109/ACCESS.2022.3189481).
 
-- Atmaja, B. T., Zanjabila, & Sasou, A. (2022). Jointly Predicting Emotion, Age, and Country Using Pre-Trained Acoustic Embedding. 2022 10th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW), 1–6. https://doi.org/10.1109/ACIIW57231.2022.10085991  
+3. B. T. Atmaja, Zanjabila, and A. Sasou, "Jointly predicting emotion, age, and country using pre-trained acoustic embedding," in *Proc. 10th Int. Conf. Affective Comput. Intell. Interact. Workshops Demos (ACIIW)*, 2022, pp. 1–6, doi: [10.1109/ACIIW57231.2022.10085991](https://doi.org/10.1109/ACIIW57231.2022.10085991).
 
-- Atmaja, B. T., & Sasou, A. (2022). Effects of Data Augmentations on Speech Emotion Recognition. Sensors, 22(16), 5941. https://doi.org/10.3390/s22165941  
+4. B. T. Atmaja and A. Sasou, "Effects of data augmentations on speech emotion recognition," *Sensors*, vol. 22, no. 16, Art. no. 5941, 2022, doi: [10.3390/s22165941](https://doi.org/10.3390/s22165941).
 
-- Atmaja, B. T., & Sasou, A. (2022). Sentiment Analysis and Emotion Recognition from Speech Using Universal Speech Representations. Sensors, 22(17), 6369. https://doi.org/10.3390/s22176369  
+5. B. T. Atmaja and A. Sasou, "Sentiment analysis and emotion recognition from speech using universal speech representations," *Sensors*, vol. 22, no. 17, Art. no. 6369, 2022, doi: [10.3390/s22176369](https://doi.org/10.3390/s22176369).
 
-- Atmaja, B. T., & Sasou, A. (2022). Evaluating Self-Supervised Speech Representations for Speech Emotion Recognition. IEEE Access, 10, 124396–124407. https://doi.org/10.1109/ACCESS.2022.3225198  
+6. B. T. Atmaja and A. Sasou, "Evaluating self-supervised speech representations for speech emotion recognition," *IEEE Access*, vol. 10, pp. 124396–124407, 2022, doi: [10.1109/ACCESS.2022.3225198](https://doi.org/10.1109/ACCESS.2022.3225198).
 
-- Atmaja, B. T., & Sasou, A. (2022). Leveraging Pre-Trained Acoustic Feature Extractor For Affective Vocal Bursts Tasks. 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), November, 1409–1414. https://doi.org/10.23919/APSIPAASC55919.2022.9980083   
+7. B. T. Atmaja and A. Sasou, "Leveraging pre-trained acoustic feature extractor for affective vocal bursts tasks," in *Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2022, pp. 1409–1414, doi: [10.23919/APSIPAASC55919.2022.9980083](https://doi.org/10.23919/APSIPAASC55919.2022.9980083).
 
-- Atmaja, B. T., Zanjabila, & Sasou, A. (2022). On The Optimal Classifier For Affective Vocal Bursts And Stuttering Predictions Based On Pre-Trained Acoustic Embedding. 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), November, 1690–1695. https://doi.org/10.23919/APSIPAASC55919.2022.9980310  
+8. B. T. Atmaja, Zanjabila, and A. Sasou, "On the optimal classifier for affective vocal bursts and stuttering predictions based on pre-trained acoustic embedding," in *Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2022, pp. 1690–1695, doi: [10.23919/APSIPAASC55919.2022.9980310](https://doi.org/10.23919/APSIPAASC55919.2022.9980310).
 
-## 2021  
+## 2021
 
-- Atmaja, B. T., & Akagi, M. (2021). Two-stage dimensional emotion recognition by fusing predictions of acoustic and text networks using SVM. Speech Communication, 126, 9–21. https://doi.org/10.1016/j.specom.2020.11.003  
+1. B. T. Atmaja and M. Akagi, "Two-stage dimensional emotion recognition by fusing predictions of acoustic and text networks using SVM," *Speech Commun.*, vol. 126, pp. 9–21, 2021, doi: [10.1016/j.specom.2020.11.003](https://doi.org/10.1016/j.specom.2020.11.003).
 
-- Atmaja, B. T., & Arifianto, D. (2021). A comparative study of sound sources separation by independent component analysis and binaural model. Journal of Physics: Conference Series, 1896(1), 012002. https://doi.org/10.1088/1742-6596/1896/1/012002  
+2. B. T. Atmaja and D. Arifianto, "A comparative study of sound sources separation by independent component analysis and binaural model," *J. Phys.: Conf. Ser.*, vol. 1896, no. 1, Art. no. 012002, 2021, doi: [10.1088/1742-6596/1896/1/012002](https://doi.org/10.1088/1742-6596/1896/1/012002).
 
-- Atmaja, B. T. (2021). Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information. Japan Advanced Institute of Science and Technology.  
+3. B. T. Atmaja, "Dimensional speech emotion recognition by fusing acoustic and linguistic information," Ph.D. dissertation, Japan Adv. Inst. Sci. Technol., 2021. [Online]. Available: [https://dspace.jaist.ac.jp/dspace/handle/10119/17391](https://dspace.jaist.ac.jp/dspace/handle/10119/17391)
 
-- Atmaja, B. T., & Sasou, A. (2021). Effect of different splitting criteria on the performance of speech emotion recognition. TENCON 2021 - 2021 IEEE Region 10 Conference (TENCON), 760–764. https://doi.org/10.1109/TENCON54134.2021.9707265  
+4. B. T. Atmaja and A. Sasou, "Effect of different splitting criteria on the performance of speech emotion recognition," in *Proc. IEEE Region 10 Conf. (TENCON)*, 2021, pp. 760–764, doi: [10.1109/TENCON54134.2021.9707265](https://doi.org/10.1109/TENCON54134.2021.9707265).
 
-- Atmaja, B. T., Sasou, A., & Akagi, M. (2021). Automatic Naturalness Recognition from Acted Speech Using Neural Networks. APSIPA Annual Summit and Conference, 731–736.  
+5. B. T. Atmaja, A. Sasou, and M. Akagi, "Automatic naturalness recognition from acted speech using neural networks," in *Proc. APSIPA Annu. Summit Conf.*, 2021, pp. 731–736.
 
-- Atmaja, B. T., & Akagi, M. (2021). Evaluation of error- And correlation-based loss functions for multitask learning dimensional speech emotion recognition. Journal of Physics: Conference Series, 1896(1), 012004. https://doi.org/10.1088/1742-6596/1896/1/012004  
+6. B. T. Atmaja and M. Akagi, "Evaluation of error- and correlation-based loss functions for multitask learning dimensional speech emotion recognition," *J. Phys.: Conf. Ser.*, vol. 1896, no. 1, Art. no. 012004, 2021, doi: [10.1088/1742-6596/1896/1/012004](https://doi.org/10.1088/1742-6596/1896/1/012004).
 
-## 2020  
+## 2020
 
-- Atmaja, B. T., & Akagi, M. (2020). Multitask Learning and Multistage Fusion for Dimensional Audiovisual Emotion Recognition. ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing - Proceedings, 2020-May, 4482–4486. https://doi.org/10.1109/ICASSP40776.2020.9052916  
+1. B. T. Atmaja and M. Akagi, "Multitask learning and multistage fusion for dimensional audiovisual emotion recognition," in *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, 2020, pp. 4482–4486, doi: [10.1109/ICASSP40776.2020.9052916](https://doi.org/10.1109/ICASSP40776.2020.9052916).
 
-- Atmaja, B. T., & Akagi, M. (2020). Dimensional speech emotion recognition from speech features and word embeddings by using multitask learning. APSIPA Transactions on Signal and Information Processing, 9(May), e17. https://doi.org/10.1017/ATSIP.2020.14  
+2. B. T. Atmaja and M. Akagi, "Dimensional speech emotion recognition from speech features and word embeddings by using multitask learning," *APSIPA Trans. Signal Inf. Process.*, vol. 9, Art. no. e17, 2020, doi: [10.1017/ATSIP.2020.14](https://doi.org/10.1017/ATSIP.2020.14).
 
-- Atmaja, B. T., Hamada, Y., & Akagi, M. (2020). Predicting Valence and Arousal by Aggregating Acoustic Features for Acoustic-Linguistic Information Fusion. 2020 IEEE REGION 10 CONFERENCE (TENCON), 1081–1085. https://doi.org/10.1109/TENCON50793.2020.9293899  
+3. B. T. Atmaja, Y. Hamada, and M. Akagi, "Predicting valence and arousal by aggregating acoustic features for acoustic-linguistic information fusion," in *Proc. IEEE Region 10 Conf. (TENCON)*, 2020, pp. 1081–1085, doi: [10.1109/TENCON50793.2020.9293899](https://doi.org/10.1109/TENCON50793.2020.9293899).
 
-- Atmaja, B. T., & Akagi, M. (2020). On The Differences Between Song and Speech Emotion Recognition: Effect of Feature Sets, Feature Types, and Classifiers. 2020 IEEE REGION 10 CONFERENCE (TENCON), 968–972. https://doi.org/10.1109/TENCON50793.2020.9293852  
+4. B. T. Atmaja and M. Akagi, "On the differences between song and speech emotion recognition: Effect of feature sets, feature types, and classifiers," in *Proc. IEEE Region 10 Conf. (TENCON)*, 2020, pp. 968–972, doi: [10.1109/TENCON50793.2020.9293852](https://doi.org/10.1109/TENCON50793.2020.9293852).
 
-- Atmaja, B. T., & Akagi, M. (2020). Deep Multilayer Perceptrons for Dimensional Speech Emotion Recognition. 2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2020 - Proceedings, 325–331.  
+5. B. T. Atmaja and M. Akagi, "Deep multilayer perceptrons for dimensional speech emotion recognition," in *Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2020, pp. 325–331. [Online]. Available: [http://www.apsipa.org/proceedings/2020/pdfs/0000325.pdf](http://www.apsipa.org/proceedings/2020/pdfs/0000325.pdf)
 
-- Atmaja, B. T., & Akagi, M. (2020). Improving Valence Prediction in Dimensional Speech Emotion Recognition Using Linguistic Information. Proceedings of 2020 23rd Conference of the Oriental COCOSDA International Committee for the Co-Ordination and Standardisation of Speech Databases and Assessment Techniques, O-COCOSDA 2020, 166–171. https://doi.org/10.1109/O-COCOSDA50338.2020.9295032  
+6. B. T. Atmaja and M. Akagi, "Improving valence prediction in dimensional speech emotion recognition using linguistic information," in *Proc. 23rd Conf. Oriental COCOSDA*, 2020, pp. 166–171, doi: [10.1109/O-COCOSDA50338.2020.9295032](https://doi.org/10.1109/O-COCOSDA50338.2020.9295032).
 
-- Atmaja, B. T., & Akagi, M. (2020). The Effect of Silence Feature in Dimensional Speech Emotion Recognition. 10th International Conference on Speech Prosody 2020, May, 26–30. https://doi.org/10.21437/SpeechProsody.2020-6  
+7. B. T. Atmaja and M. Akagi, "The effect of silence feature in dimensional speech emotion recognition," in *Proc. 10th Int. Conf. Speech Prosody*, 2020, pp. 26–30, doi: [10.21437/SpeechProsody.2020-6](https://doi.org/10.21437/SpeechProsody.2020-6).
 
-- Elbarougy, R., Atmaja, B. T., & Akagi, M. (2020). Continuous Audiovisual Emotion Recognition Using Feature Selection and LSTM. Journal of Signal Processing, 24(6), 229–235. https://doi.org/10.2299/jsp.24.229 
+8. R. Elbarougy, B. T. Atmaja, and M. Akagi, "Continuous audiovisual emotion recognition using feature selection and LSTM," *J. Signal Process.*, vol. 24, no. 6, pp. 229–235, 2020, doi: [10.2299/jsp.24.229](https://doi.org/10.2299/jsp.24.229). 
 
 ## 2019
 
-- Atmaja, B. T., Arifianto, D., & Akagi, M. (2019). Speech recognition on Indonesian language by using time delay neural network. ASJ Spring Meeting, 1291–1294.  
+1. B. T. Atmaja, D. Arifianto, and M. Akagi, "Speech recognition on Indonesian language by using time delay neural network," in *Proc. Acoust. Soc. Jpn. (ASJ) Spring Meeting*, 2019, pp. 1291–1294.
 
-- Atmaja, B. T., & Akagi, M. (2019). Speech Emotion Recognition Based on Speech Segment Using LSTM with Attention Model. 2019 IEEE International Conference on Signals and Systems (ICSigSys), 40–44. https://doi.org/10.1109/ICSIGSYS.2019.8811080  
+2. B. T. Atmaja and M. Akagi, "Speech emotion recognition based on speech segment using LSTM with attention model," in *Proc. IEEE Int. Conf. Signals Syst. (ICSigSys)*, 2019, pp. 40–44, doi: [10.1109/ICSIGSYS.2019.8811080](https://doi.org/10.1109/ICSIGSYS.2019.8811080).
 
-- Atmaja, B. T., Shirai, K., & Akagi, M. (2019). Speech Emotion Recognition Using Speech Feature and Word Embedding. 2019 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 519–523. https://doi.org/10.1109/APSIPAASC47483.2019.9023098  
+3. B. T. Atmaja, K. Shirai, and M. Akagi, "Speech emotion recognition using speech feature and word embedding," in *Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2019, pp. 519–523, doi: [10.1109/APSIPAASC47483.2019.9023098](https://doi.org/10.1109/APSIPAASC47483.2019.9023098).
 
-- Atmaja, B. T., Shirai, K., & Akagi, M. (2019). Deep Learning-based Categorical and Dimensional Emotion Recognition for Written and Spoken Text. IPTEK Journal of Proceedings Series.  
+4. B. T. Atmaja, K. Shirai, and M. Akagi, "Deep learning-based categorical and dimensional emotion recognition for written and spoken text," *IPTEK J. Proc. Ser.*, 2019.
 
-- Atmaja, B. T., Elbarougy, R., & Akagi, M. (2019). RNN-based Dimensional Speech Emotion Recognition. ASJ Autumn Meeting, 743–744.  
+5. B. T. Atmaja, R. Elbarougy, and M. Akagi, "RNN-based dimensional speech emotion recognition," in *Proc. Acoust. Soc. Jpn. (ASJ) Autumn Meeting*, 2019, pp. 743–744.
 
 ## 2018
 
-- Lestari, R. Y., Harsono, D., Cahyana, B. T., Atmaja, B. T., Asmoro, W. A., Perindustrian, K., Selatan, K., Fisika, D. T., & Timur, J. (2018). Tingkat redaman suara papan komposit dari tandan kosong kelapa sawit dan serbuk kayu akasia. Prosiding Seminar Nasional Teknologi Dan Inovasi Industri, 31–38.    
+1. R. Y. Lestari, D. Harsono, B. T. Cahyana, B. T. Atmaja, and W. A. Asmoro, "Tingkat redaman suara papan komposit dari tandan kosong kelapa sawit dan serbuk kayu akasia," in *Proc. Seminar Nasional Teknologi dan Inovasi Industri*, 2018, pp. 31–38.
 
-- Elbarougy, R., Atmaja, B. T., & Akagi, M. (2018). Continuous Tracking of Emotional State from Speech Based on Emotion Unit. ASJ Autumn Meeting, 1(1), 1231–1234.  
+2. R. Elbarougy, B. T. Atmaja, and M. Akagi, "Continuous tracking of emotional state from speech based on emotion unit," in *Proc. Acoust. Soc. Jpn. (ASJ) Autumn Meeting*, vol. 1, no. 1, 2018, pp. 1231–1234.
 
 ## 2017
 
-- Arifianto, D., Wirawan, W., Atmaja, B. T., Dhanardhono, T., & Rahman, S. A. (2017). Azimuth Tracking of Underwater Moving Sound Source Based on Time Delay Estimation Using Hydrophone Array. Procedia Engineering, 170. https://doi.org/10.1016/j.proeng.2017.03.039  
+1. D. Arifianto, W. Wirawan, B. T. Atmaja, T. Dhanardhono, and S. A. Rahman, "Azimuth tracking of underwater moving sound source based on time delay estimation using hydrophone array," *Procedia Eng.*, vol. 170, 2017, doi: [10.1016/j.proeng.2017.03.039](https://doi.org/10.1016/j.proeng.2017.03.039).
 
 ## 2016
 
-- Atmaja, B. T., Farid, M. N., & Arifianto, D. (2016). Speech enhancement on smartphone voice recording. Journal of Physics: Conference Series, 776(1). https://doi.org/10.1088/1742-6596/776/1/012072  
+1. B. T. Atmaja, M. N. Farid, and D. Arifianto, "Speech enhancement on smartphone voice recording," *J. Phys.: Conf. Ser.*, vol. 776, no. 1, Art. no. 012072, 2016, doi: [10.1088/1742-6596/776/1/012072](https://doi.org/10.1088/1742-6596/776/1/012072).
 
-- Atmaja, B. T., & Arifianto, D. (2016). Signal Enhancement by Single Channel Source Separation. IPTEK Journal of Proceedings Serie, 1(2), 2--3.
+2. B. T. Atmaja and D. Arifianto, "Signal enhancement by single channel source separation," *IPTEK J. Proc. Ser.*, vol. 1, no. 2, pp. 2–3, 2016.
 
-- Atmaja, B. T., Puabdillah, M. F., Farid, M. N., & Asmoro, W. A. (2016). Prediction and simulation of internal train noise resulted by different speed and air conditioning unit. Journal of Physics: Conference Series, 776(1). https://doi.org/10.1088/1742-6596/776/1/012072
+3. B. T. Atmaja, M. F. Puabdillah, M. N. Farid, and W. A. Asmoro, "Prediction and simulation of internal train noise resulted by different speed and air conditioning unit," *J. Phys.: Conf. Ser.*, vol. 776, no. 1, Art. no. 012073, 2016, doi: [10.1088/1742-6596/776/1/012073](https://doi.org/10.1088/1742-6596/776/1/012073).
 
 ## 2014
 
-- Tris Atmaja, B., & Arifianto, D. (2014). Pemisahan Sumber Suara Tercampur Berdasarkan Penelusuran Frekuensi Dasar Pada Sinyal Wicara dan Musik. Seminar Nasional Getaran Dan Akustik. https://drive.google.com/file/d/0B2cAmw9oV5cuTVkwa18yQ194Nnc/view?usp=sharing  
-
+1. B. T. Atmaja and D. Arifianto, "Pemisahan sumber suara tercampur berdasarkan penelusuran frekuensi dasar pada sinyal wicara dan musik," in *Proc. Seminar Nasional Getaran dan Akustik*, 2014. [Online]. Available: [https://drive.google.com/file/d/0B2cAmw9oV5cuTVkwa18yQ194Nnc/view](https://drive.google.com/file/d/0B2cAmw9oV5cuTVkwa18yQ194Nnc/view)
 
 ## 2012
 
-- Atmaja, B. T. (2012). On Source Signal Segregation Based On Binaural Inputs. Institut Teknologi Sepuluh Nopember.  
+1. B. T. Atmaja, "On source signal segregation based on binaural inputs," M.S. thesis, Inst. Teknol. Sepuluh Nopember, 2012.
 
-- Atmaja, B. T., Arifianto, D., Chisaki, Y., & Usagawa, T. (2012). Signal Enhancement by Using Sound Separation Methods Based On Binaural Inputs. Basic Science, 1(3).   
+2. B. T. Atmaja, D. Arifianto, Y. Chisaki, and T. Usagawa, "Signal enhancement by using sound separation methods based on binaural inputs," *Basic Sci.*, vol. 1, no. 3, 2012.
 
-- Putra, B., Atmaja, B. T., & Hidayat, S. (2012). Fusion of artificial neural network and fuzzy system for short term weather forecasting. International Journal of Information and Communication Technology, 4(2–4), 210–226. https://doi.org/10.1504/IJICT.2012.048765  
+3. B. Putra, B. T. Atmaja, and S. Hidayat, "Fusion of artificial neural network and fuzzy system for short term weather forecasting," *Int. J. Inf. Commun. Technol.*, vol. 4, no. 2–4, pp. 210–226, 2012, doi: [10.1504/IJICT.2012.048765](https://doi.org/10.1504/IJICT.2012.048765).
 
+4. B. Putra, B. Atmaja, and D. Prananto, “Developing Speech Recognition System for Quranic Verse Recitation Learning Software”, IJID, vol. 1, no. 2, pp. 14–21, Dec. 2012, doi: [https://doi.org/10.14421/ijid.2012.01203](https://doi.org/10.14421/ijid.2012.01203).
 
-## 2011  
+## 2011
 
-- Atmaja, B. T., Arifianto, D., Usagawa, T., Chisaki, Y., & Usagawa, T. (2011). On Performance of Two-Sensor Sound Separation Methods Including Binaural Processors. ASJ Kyushu Meeting, 8555(1), 2–5.  
+1. B. T. Atmaja, D. Arifianto, T. Usagawa, Y. Chisaki, and T. Usagawa, "On performance of two-sensor sound separation methods including binaural processors," in *Proc. Acoust. Soc. Jpn. (ASJ) Kyushu Meeting*, 2011, pp. 2–5.
 
-- Putra, B., Atmaja, B. T., & Prananto, D. (2011). Prototyping of Quranic Verse Recitation Learning Software Using Speech Recognition Techniques Based on Cepstral Feature. International Conference on Informatics for Development, 2011(Icid), 82–87.  
+2. B. Putra, B. T. Atmaja, and D. Prananto, "Prototyping of Quranic verse recitation learning software using speech recognition techniques based on cepstral feature," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 82–87.
 
-- Putra, B., Atmaja, B. T., & Hidayat, S. (2011). Short Term Weather Forecasting Using Fusion of Fuzzy-Artificial Neural Network. International Conference on Informatics for Development, 2011(Icid), 48–53.  
+3. B. Putra, B. T. Atmaja, and S. Hidayat, "Short term weather forecasting using fusion of fuzzy-artificial neural network," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 48–53.
 
-- Atmaja, B. T. (2011). Kebangkitan Sains Islam, Kebangkitan Peradaban Islam.  
+4. B. T. Atmaja, "Kebangkitan sains Islam, kebangkitan peradaban Islam," 2011.
 
-## 2010  
+## 2010
 
-- Atmaja, B. T., Putra, B., & Prananto, D. (2010). Developing Quranic Verse Recitation Learning Software Based On Speech Recognition Techniques. Prosiding Seminar Nasional Teknik Fisika (SNTF).  
+1. B. T. Atmaja, B. Putra, and D. Prananto, "Developing Quranic verse recitation learning software based on speech recognition techniques," in *Proc. Seminar Nasional Teknik Fisika (SNTF)*, 2010.
 
-- Atmaja, B. T. (2010). Rekonstruksi pendidikan pesantren dengan membangun budaya ilmiah dan islamisasi sains.  
+2. B. T. Atmaja, "Rekonstruksi pendidikan pesantren dengan membangun budaya ilmiah dan islamisasi sains," 2010, [Lomba karya tulis ilmiah pengembangan pendidikan pesantrentahun 2010 Badan Litbang dan Diklat Kementrian Agama RI](https://www.researchgate.net/publication/330312960_REKONSTRUKSI_PENDIDIKAN_PESANTREN_DENGAN_MEMBANGUN_BUDAYA_ILMIAH_DAN_ISLAMISASI_SAINS).
 
 ## 2009
 
-- Atmaja, B. T., & Arifianto, D. (2009). Blind Sound Separation Using Frequency-Domain And Time-Domain Independent Component Analysis For Machines Fault Detection. Proceeding of The International Conference on Advanced Computing and Information System (ICACSIS), 259–263.
+1. B. T. Atmaja and D. Arifianto, "[Blind sound separation using frequency-domain and time-domain independent component analysis for machines fault detection](https://www.researchgate.net/publication/235006893_Blind_Sound_Separation_Using_Frequency-Domain_And_Time-Domain_Independent_Component_Analysis_For_Machines_Fault_Detection)," in *Proc. Int. Conf. Adv. Comput. Inf. Syst. (ICACSIS)*, 2009, pp. 259–263.
 
-- Putra, B., & Atmaja, B. T. (2009). Integrasi Sistem Fuzzy-JST Untuk Prakiraan Cuaca Jangka Pendek (Studi Kasus di Surabaya).
+2. B. Putra and B. T. Atmaja, "Integrasi sistem fuzzy-JST untuk prakiraan cuaca jangka pendek (studi kasus di Surabaya)," 2009, [Karya Tulis Ilmiah](https://www.researchgate.net/publication/280591506_INTEGRASI_SISTEM_FUZZY-JARINGAN_SYARAF_TIRUAN_JST_UNTUK_PRAKIRAAN_CUACA_JANGKA_PENDEK), Inst. Teknol. Sepuluh Nopember.
 
-- Atmaja, B. T. (2009). Pemisahan Banyak Sumber Suara Mesin Dari Microphone Array Dengan Metode Independent Component Analysis (ICA) Untuk Deteksi Kerusakan. Institut Teknologi Sepuluh Nopember.
+3. B. T. Atmaja, "Pemisahan banyak sumber suara mesin dari microphone array dengan metode independent component analysis (ICA) untuk deteksi kerusakan," B.S. thesis, Inst. Teknol. Sepuluh Nopember, 2009.
 
-- Putra, B., & Atmaja, B. T. (2009). Implementasi Sistem Fuzzy Untuk Pengaturan Lampu Lalu Lintas. 
+4. B. Putra and B. T. Atmaja, "Implementasi sistem fuzzy untuk pengaturan lampu lalu lintas," 2009.
 
-- Atmaja, B. T. (2009). Integrasi Al-Quran dan Sains Untuk Memodelkan Ulang Konsep Perputaran Bumi dan Matahari.
+5. B. T. Atmaja, "Integrasi Al-Quran dan sains untuk memodelkan ulang konsep perputaran bumi dan matahari," 2009, PIMNAS XXII, 21-25 Augustus 2009, Universitas Brawijaya, Malang.
 
-- Atmaja, B. T., & Arifianto, D. (2009). Machinery Fault Diagnosis Using Independent Component Analyis and Instantaneous Frequency. Proceeding of International Conference on Instrumentation, Communications, Information Technology and Biomedical Engineering (ICICI-BME). https://doi.org/10.1109/ICICI-BME.2009.5417257 
+6. B. T. Atmaja and D. Arifianto, "Machinery fault diagnosis using independent component analysis and instantaneous frequency," in *Proc. Int. Conf. Instrum., Commun., Inf. Technol. Biomed. Eng. (ICICI-BME)*, 2009, doi: [10.1109/ICICI-BME.2009.5417257](https://doi.org/10.1109/ICICI-BME.2009.5417257).
 
-## 2007 
+## 2007
 
-- Atmaja, B. T., & Putra, B. (2007). Kajian Al-Quran Terhadap Absolutisme Kecepatan Cahaya Dalam Teori Fisika Relativistik.
+1. B. T. Atmaja and B. Putra, "Kajian Al-Quran terhadap absolutisme kecepatan cahaya dalam teori fisika relativistik," 2007. MTQ Mahasiswa Nasional X, 26 Juli – 2 Agustus 2007, Universitas Sriwijaya, Palembang, Sumatera Selatan.
 
 ---
