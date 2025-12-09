@@ -35,6 +35,9 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 9. B. T. Atmaja, T. Shirai, and S. Sakti, “Measuring Emotion Preservation In Expressive Speech-To-Speech Translation,” in Oriental COCOSDA, 2025, pp. 325–330. [PDF](/files/2025_9_ococosda1.pdf)
 
+10. W. Zhou, B. T. Atmaja, and S. Sakti, “Toward Natural Emotional Text-To-Speech System With Fine-Grained Non-Verbal Expression Control,” in Oriental COCOSDA, 2025, pp. 193–198.
+[PDF](/files/2025_10_ococosda2.pdf)
+
 ## 2024
 
 1. B. T. Atmaja, Zanjabila, Suyanto, and A. Sasou, "Comparing hysteresis comparator and RMS threshold methods for automatic single cough segmentations," *Int. J. Inf. Technol. (Singapore)*, vol. 16, no. 1, pp. 5–12, 2024, doi: [10.1007/s41870-023-01626-8](https://doi.org/10.1007/s41870-023-01626-8).
