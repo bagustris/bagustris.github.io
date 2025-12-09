@@ -81,7 +81,7 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 4. B. T. Atmaja and A. Sasou, "Effect of different splitting criteria on the performance of speech emotion recognition," in *Proc. IEEE Region 10 Conf. (TENCON)*, 2021, pp. 760–764, doi: [10.1109/TENCON54134.2021.9707265](https://doi.org/10.1109/TENCON54134.2021.9707265).
 
-5. B. T. Atmaja, A. Sasou, and M. Akagi, "Automatic naturalness recognition from acted speech using neural networks," in *Proc. APSIPA Annu. Summit Conf.*, 2021, pp. 731–736.
+5. B. T. Atmaja, A. Sasou, and M. Akagi, "[Automatic naturalness recognition from acted speech using neural networks](/files/Atmaja,%20Sasou,%20Akagi%20-%202021%20-%20Automatic%20Naturalness%20Recognition%20from%20Acted%20Speech%20Using%20Neural%20Networks.pdf)," in *Proc. APSIPA Annu. Summit Conf.*, 2021, pp. 731–736.
 
 6. B. T. Atmaja and M. Akagi, "Evaluation of error- and correlation-based loss functions for multitask learning dimensional speech emotion recognition," *J. Phys.: Conf. Ser.*, vol. 1896, no. 1, Art. no. 012004, 2021, doi: [10.1088/1742-6596/1896/1/012004](https://doi.org/10.1088/1742-6596/1896/1/012004).
 
@@ -105,21 +105,21 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 ## 2019
 
-1. B. T. Atmaja, D. Arifianto, and M. Akagi, "Speech recognition on Indonesian language by using time delay neural network," in *Proc. Acoust. Soc. Jpn. (ASJ) Spring Meeting*, 2019, pp. 1291–1294.
+1. B. T. Atmaja, D. Arifianto, and M. Akagi, "[Speech recognition on Indonesian language by using time delay neural network](/files/Atmaja%20et%20al.%20-%20Unknown%20-%20Speech%20recognition%20on%20Indonesian%20language%20by%20using%20time%20delay%20neural%20network.pdf)," in *Proc. Acoust. Soc. Jpn. (ASJ) Spring Meeting*, 2019, pp. 1291–1294.
 
 2. B. T. Atmaja and M. Akagi, "Speech emotion recognition based on speech segment using LSTM with attention model," in *Proc. IEEE Int. Conf. Signals Syst. (ICSigSys)*, 2019, pp. 40–44, doi: [10.1109/ICSIGSYS.2019.8811080](https://doi.org/10.1109/ICSIGSYS.2019.8811080).
 
 3. B. T. Atmaja, K. Shirai, and M. Akagi, "Speech emotion recognition using speech feature and word embedding," in *Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2019, pp. 519–523, doi: [10.1109/APSIPAASC47483.2019.9023098](https://doi.org/10.1109/APSIPAASC47483.2019.9023098).
 
-4. B. T. Atmaja, K. Shirai, and M. Akagi, "Deep learning-based categorical and dimensional emotion recognition for written and spoken text," *IPTEK J. Proc. Ser.*, 2019.
+4. B. T. Atmaja, K. Shirai, and M. Akagi, "Deep learning-based categorical and dimensional emotion recognition for written and spoken text," *IPTEK J. Proc. Ser.*, 2019. [PDF](/files/2019_4_iptek.pdf)
 
-5. B. T. Atmaja, R. Elbarougy, and M. Akagi, "RNN-based dimensional speech emotion recognition," in *Proc. Acoust. Soc. Jpn. (ASJ) Autumn Meeting*, 2019, pp. 743–744.
+5. B. T. Atmaja, R. Elbarougy, and M. Akagi, "RNN-based dimensional speech emotion recognition," in *Proc. Acoust. Soc. Jpn. (ASJ) Autumn Meeting*, 2019, pp. 743–744. [PDF](/files/2019_5_asj.pdf)
 
 ## 2018
 
-1. R. Y. Lestari, D. Harsono, B. T. Cahyana, B. T. Atmaja, and W. A. Asmoro, "Tingkat redaman suara papan komposit dari tandan kosong kelapa sawit dan serbuk kayu akasia," in *Proc. Seminar Nasional Teknologi dan Inovasi Industri*, 2018, pp. 31–38.
+1. R. Y. Lestari, D. Harsono, B. T. Cahyana, B. T. Atmaja, and W. A. Asmoro, "Tingkat redaman suara papan komposit dari tandan kosong kelapa sawit dan serbuk kayu akasia," in *Proc. Seminar Nasional Teknologi dan Inovasi Industri*, 2018, pp. 31–38.[PDF](/files/2018_1-Ratri.pdf)
 
-2. R. Elbarougy, B. T. Atmaja, and M. Akagi, "Continuous tracking of emotional state from speech based on emotion unit," in *Proc. Acoust. Soc. Jpn. (ASJ) Autumn Meeting*, vol. 1, no. 1, 2018, pp. 1231–1234.
+2. R. Elbarougy, B. T. Atmaja, and M. Akagi, "Continuous tracking of emotional state from speech based on emotion unit," in *Proc. Acoust. Soc. Jpn. (ASJ) Autumn Meeting*, vol. 1, no. 1, 2018, pp. 1231–1234.[PDF](/files/2018_2.pdf20)
 
 ## 2017
 
@@ -129,7 +129,7 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 1. B. T. Atmaja, M. N. Farid, and D. Arifianto, "Speech enhancement on smartphone voice recording," *J. Phys.: Conf. Ser.*, vol. 776, no. 1, Art. no. 012072, 2016, doi: [10.1088/1742-6596/776/1/012072](https://doi.org/10.1088/1742-6596/776/1/012072).
 
-2. B. T. Atmaja and D. Arifianto, "Signal enhancement by single channel source separation," *IPTEK J. Proc. Ser.*, vol. 1, no. 2, pp. 2–3, 2016.
+2. B. T. Atmaja and D. Arifianto, "[Signal enhancement by single channel source separation](/files/Atmaja,%20Arifianto%20-%202016%20-%20Signal%20Enhancement%20by%20Single%20Channel%20Source%20Separation.pdf)," *IPTEK J. Proc. Ser.*, vol. 1, no. 2, pp. 2–3, 2016.
 
 3. B. T. Atmaja, M. F. Puabdillah, M. N. Farid, and W. A. Asmoro, "Prediction and simulation of internal train noise resulted by different speed and air conditioning unit," *J. Phys.: Conf. Ser.*, vol. 776, no. 1, Art. no. 012073, 2016, doi: [10.1088/1742-6596/776/1/012073](https://doi.org/10.1088/1742-6596/776/1/012073).
 
@@ -139,9 +139,9 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 ## 2012
 
-1. B. T. Atmaja, "On source signal segregation based on binaural inputs," M.S. thesis, Inst. Teknol. Sepuluh Nopember, 2012.
+1. B. T. Atmaja, "[On source signal segregation based on binaural inputs](/files/Atmaja%20-%202012%20-%20On%20Source%20Signal%20Segregation%20Based%20On%20Binaural%20Inputs.pdf)," M.S. thesis, Inst. Teknol. Sepuluh Nopember, 2012.
 
-2. B. T. Atmaja, D. Arifianto, Y. Chisaki, and T. Usagawa, "Signal enhancement by using sound separation methods based on binaural inputs," *Basic Sci.*, vol. 1, no. 3, 2012.
+2. B. T. Atmaja, D. Arifianto, Y. Chisaki, and T. Usagawa, "Signal enhancement by using sound separation methods based on binaural inputs," *Basic Sci.*, vol. 1, no. 3, 2012. [PDF](/files/2012_2_Signal_Enhancement_by_Using_Sound_Separation_Metho.pdf)
 
 3. B. Putra, B. T. Atmaja, and S. Hidayat, "Fusion of artificial neural network and fuzzy system for short term weather forecasting," *Int. J. Inf. Commun. Technol.*, vol. 4, no. 2–4, pp. 210–226, 2012, doi: [10.1504/IJICT.2012.048765](https://doi.org/10.1504/IJICT.2012.048765).
 
@@ -149,17 +149,17 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 ## 2011
 
-1. B. T. Atmaja, D. Arifianto, T. Usagawa, Y. Chisaki, and T. Usagawa, "On performance of two-sensor sound separation methods including binaural processors," in *Proc. Acoust. Soc. Jpn. (ASJ) Kyushu Meeting*, 2011, pp. 2–5.
+1. B. T. Atmaja, D. Arifianto, T. Usagawa, Y. Chisaki, and T. Usagawa, "[On performance of two-sensor sound separation methods including binaural processors](/files/Atmaja%20et%20al.%20-%202011%20-%20On%20Performance%20of%20Two-Sensor%20Sound%20Separation%20Methods%20Including%20Binaural%20Processors.pdf)," in *Proc. Acoust. Soc. Jpn. (ASJ) Kyushu Meeting*, 2011, pp. 2–5.
 
-2. B. Putra, B. T. Atmaja, and D. Prananto, "Prototyping of Quranic verse recitation learning software using speech recognition techniques based on cepstral feature," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 82–87.
+2. B. Putra, B. T. Atmaja, and D. Prananto, "Prototyping of Quranic verse recitation learning software using speech recognition techniques based on cepstral feature," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 82–87.[PDF](/files/2011_2.pdf)
 
-3. B. Putra, B. T. Atmaja, and S. Hidayat, "Short term weather forecasting using fusion of fuzzy-artificial neural network," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 48–53.
+3. B. Putra, B. T. Atmaja, and S. Hidayat, "Short term weather forecasting using fusion of fuzzy-artificial neural network," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 48–53.[PDF](/files/2011_3.pdf)
 
-4. B. T. Atmaja, "Kebangkitan sains Islam, kebangkitan peradaban Islam," 2011.
+4. B. T. Atmaja, "[Kebangkitan sains Islam, kebangkitan peradaban Islam](/files/Atmaja%20-%202011%20-%20Kebangkitan%20Sains%20Islam%20,%20Kebangkitan%20Peradaban%20Islam.pdf)," 2011.
 
 ## 2010
 
-1. B. T. Atmaja, B. Putra, and D. Prananto, "Developing Quranic verse recitation learning software based on speech recognition techniques," in *Proc. Seminar Nasional Teknik Fisika (SNTF)*, 2010.
+1. B. T. Atmaja, B. Putra, and D. Prananto, "Developing Quranic verse recitation learning software based on speech recognition techniques," in *Proc. Seminar Nasional Teknik Fisika (SNTF)*, 2010.[PDF](/files/2010_1.pdf)
 
 2. B. T. Atmaja, "Rekonstruksi pendidikan pesantren dengan membangun budaya ilmiah dan islamisasi sains," 2010, [Lomba karya tulis ilmiah pengembangan pendidikan pesantrentahun 2010 Badan Litbang dan Diklat Kementrian Agama RI](https://www.researchgate.net/publication/330312960_REKONSTRUKSI_PENDIDIKAN_PESANTREN_DENGAN_MEMBANGUN_BUDAYA_ILMIAH_DAN_ISLAMISASI_SAINS).
 
@@ -169,16 +169,16 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 2. B. Putra and B. T. Atmaja, "Integrasi sistem fuzzy-JST untuk prakiraan cuaca jangka pendek (studi kasus di Surabaya)," 2009, [Karya Tulis Ilmiah](https://www.researchgate.net/publication/280591506_INTEGRASI_SISTEM_FUZZY-JARINGAN_SYARAF_TIRUAN_JST_UNTUK_PRAKIRAAN_CUACA_JANGKA_PENDEK), Inst. Teknol. Sepuluh Nopember.
 
-3. B. T. Atmaja, "Pemisahan banyak sumber suara mesin dari microphone array dengan metode independent component analysis (ICA) untuk deteksi kerusakan," B.S. thesis, Inst. Teknol. Sepuluh Nopember, 2009.
+3. B. T. Atmaja, "[Pemisahan banyak sumber suara mesin dari microphone array dengan metode independent component analysis (ICA) untuk deteksi kerusakan](/files/Atmaja%20-%202009%20-%20Pemisahan%20Banyak%20Sumber%20Suara%20Mesin%20Dari%20Microphone%20Array%20Dengan%20Metode%20Independent%20Component%20Analysis%20(ICA)%20Untuk%20Detek.pdf)," B.S. thesis, Inst. Teknol. Sepuluh Nopember, 2009.
 
-4. B. Putra and B. T. Atmaja, "Implementasi sistem fuzzy untuk pengaturan lampu lalu lintas," 2009.
+4. B. Putra and B. T. Atmaja, "Implementasi sistem fuzzy untuk pengaturan lampu lalu lintas," 2009.[PDF](/files/2009_4_Putra_Atmaja.pdf)
 
-5. B. T. Atmaja, "Integrasi Al-Quran dan sains untuk memodelkan ulang konsep perputaran bumi dan matahari," 2009, PIMNAS XXII, 21-25 Augustus 2009, Universitas Brawijaya, Malang.
+5. B. T. Atmaja, "[Integrasi Al-Quran dan sains untuk memodelkan ulang konsep perputaran bumi dan matahari](/files/Atmaja%20-%202009%20-%20Integrasi%20Al-Quran%20dan%20Sains%20Untuk%20Memodelkan%20Ulang%20Konsep%20Perputaran%20Bumi%20dan%20Matahari.pdf)," 2009, PIMNAS XXII, 21-25 Augustus 2009, Universitas Brawijaya, Malang.
 
 6. B. T. Atmaja and D. Arifianto, "Machinery fault diagnosis using independent component analysis and instantaneous frequency," in *Proc. Int. Conf. Instrum., Commun., Inf. Technol. Biomed. Eng. (ICICI-BME)*, 2009, doi: [10.1109/ICICI-BME.2009.5417257](https://doi.org/10.1109/ICICI-BME.2009.5417257).
 
 ## 2007
 
-1. B. T. Atmaja and B. Putra, "Kajian Al-Quran terhadap absolutisme kecepatan cahaya dalam teori fisika relativistik," 2007. MTQ Mahasiswa Nasional X, 26 Juli – 2 Agustus 2007, Universitas Sriwijaya, Palembang, Sumatera Selatan.
+1. B. T. Atmaja and B. Putra, "[Kajian Al-Quran terhadap absolutisme kecepatan cahaya dalam teori fisika relativistik](/files/Atmaja,%20Putra%20-%202007%20-%20Kajian%20Al-Quran%20Terhadap%20Absolutisme%20Kecepatan%20Cahaya%20Dalam%20Teori%20Fisika%20Relativistik.pdf)," 2007. MTQ Mahasiswa Nasional X, 26 Juli – 2 Agustus 2007, Universitas Sriwijaya, Palembang, Sumatera Selatan.
 
 ---
