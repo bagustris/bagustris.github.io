@@ -31,7 +31,9 @@ You can also find my articles on [my Google Scholar profile]({{site.author.googl
 
 7. M. B. Pratama Tjoa, B. Tris Atmaja and S. Sakti, "Indonesian Folklore Storytelling in Japanese Language with Text-to-Speech," 2025 IEEE International Conference on Signals and Systems (ICSigSys), Bali, Indonesia, 2025, pp. 113-117, [doi: 10.1109/ICSigSys67277.2025.11269173](https://doi.org/10.1109/ICSigSys67277.2025.11269173).
 
-8. A. D. Prasetyo, B. T. Atmaja, D. Arifianto and S. Sakti, "A Comparison of Solicited and Longitudinal Cough Sounds for Tuberculosis Detection," 2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), Singapore, Singapore, 2025, pp. 1657-1662, [doi: 10.1109/APSIPAASC65261.2025.11249364](https://doi.org/10.1109/APSIPAASC65261.2025.11249364).
+8. A. D. Prasetyo, B. T. Atmaja, D. Arifianto and S. Sakti, "A Comparison of Solicited and Longitudinal Cough Sounds for Tuberculosis Detection," 2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), Singapore, Singapore, 2025, pp. 1657-1662, [doi: 10.1109/APSIPAASC65261.2025.11249364](https://doi.org/10.1109/APSIPAASC65261.2025.11249364).  
+
+9. B. T. Atmaja, T. Shirai, and S. Sakti, “Measuring Emotion Preservation In Expressive Speech-To-Speech Translation,” in Oriental COCOSDA, 2025, pp. 325–330. [PDF](/files/2025_9_ococosda1.pdf)
 
 ## 2024
 
