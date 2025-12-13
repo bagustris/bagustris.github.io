@@ -13,6 +13,7 @@ This directory contains downloadable files such as PDFs of publications, slides,
 |------|-------------|
 | [Ph.D. Dissertation (2021)](/files/Atmaja%20-%202021%20-%20Dimensional%20Speech%20Emotion%20Recognition%20by%20Fusing%20Acoustic%20and%20Linguistic%20Information.pdf) | Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information |
 | [M.E. Thesis (2012)](/files/Atmaja%20-%202012%20-%20On%20Source%20Signal%20Segregation%20Based%20On%20Binaural%20Inputs.pdf) | On Source Signal Segregation Based On Binaural Inputs |
+| [B.E. Thesis (2009)](/files/Atmaja%20-%202009%20-%20Pemisahan%20Banyak%20Sumber%20Suara%20Mesin%20Dari%20Microphone%20Array%20Dengan%20Metode%20Independent%20Component%20Analysis%20Untuk%20Deteksi%20Kerusakan.pdf) | Pemisahan Banyak Sumber Suara Mesin Dari Microphone Array Dengan Metode Independent Component Analysis Untuk Deteksi Kerusakan |
 
 ## Selected Publications
 

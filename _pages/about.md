@@ -29,7 +29,7 @@ Research themes offered in areas of speech processing are available [here](/rese
 1. [Linear filter](https://github.com/bagustris/linear-filter)
 1. [Speech Recognition](https://bagustris.github.io/speech-recognition-course)
 
-# Lecture Notes  
+## Lecture Notes  
 
 1. [Scientific Discussion (in Indonesian)](https://bagustris.blogspot.com/2020/06/outline-logika-bahasa-ilmiah.html)
 
