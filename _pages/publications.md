@@ -6,7 +6,14 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-You can also find my articles on [my Google Scholar profile]({{site.author.googlescholar}}). If you don't have access to some of the papers, please feel free to contact me.
+You can also find my articles on third party pages below: 
+
+1. [Google Scholar](https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en)
+2. [Scopus](https://www.scopus.com/authid/detail.uri?authorId=36004642300)
+3. [WoS](https://www.webofscience.com/wos/author/record/AAI-5222-2020)
+
+
+If you don't have access to some of the papers, please feel free to contact me.
 {% endif %}
 
 {% include base_path %}

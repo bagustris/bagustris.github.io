@@ -29,6 +29,13 @@ Research themes offered in areas of speech processing are available [here](/rese
 1. [Linear filter](https://github.com/bagustris/linear-filter)
 1. [Speech Recognition](https://bagustris.github.io/speech-recognition-course)
 
+# Lecture Notes  
+
+1. [Scientific Discussion (in Indonesian)](https://bagustris.blogspot.com/2020/06/outline-logika-bahasa-ilmiah.html)
+
+2. [Human perceptual systems and its model (in Indonesian)](https://bagustris.blogspot.com/2020/07/outline-persepsi-pendengaran-manusia.html)
+
+
 ## Blogs
 
 1. [bagustris@/home: random notes](http://bagustris.blogspot.com), including my research notes.
@@ -47,16 +54,9 @@ My main research areas!
 3. Bagus' PhD thesis:  
    [Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information](https://dspace.jaist.ac.jp/dspace/bitstream/10119/17472/2/paper.pdf)
 
-## Publications
+## Japanese Language Learning Series
 
-1. [Google Scholar](https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en)
-2. [Scopus](https://www.scopus.com/authid/detail.uri?authorId=36004642300)
-3. [WoS](https://www.webofscience.com/wos/author/record/AAI-5222-2020)
-
-## Research
-
-1. [Style of repository for undergraduate final project](./repo_TA_style)
-2. [(Offered) research theme, feel free to adopt](/research/)
+1. [Ayo belajar bahasa Jepang](https://bagustris.github.io/bbj/) (in Indonesian)
 
 ## Islam
 
