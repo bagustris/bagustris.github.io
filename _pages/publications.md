@@ -13,7 +13,7 @@ You can also find my articles on third party pages below:
 3. [WoS](https://www.webofscience.com/wos/author/record/AAI-5222-2020)
 
 
-If you don't have access to some of the papers, please feel free to contact me.
+If you don't have access to some of the papers below, please feel free to contact me.
 {% endif %}
 
 {% include base_path %}
@@ -57,7 +57,9 @@ If you don't have access to some of the papers, please feel free to contact me.
 
 5. B. T. Atmaja and A. Sasou, "Multi-label emotion share regression from speech using pre-trained self-supervised learning models," in *Proc. IEEE Region 10 Conf. (TENCON)*, 2024, pp. 339–342, doi: [10.1109/TENCON61640.2024.10903112](https://doi.org/10.1109/TENCON61640.2024.10903112).
 
-6. B. T. Atmaja, A. Sasou, and F. Burkhardt, "Uncertainty-based ensemble learning for speech classification," in *Proc. 27th Conf. Oriental COCOSDA*, 2024, pp. 1–6, doi: [10.1109/O-COCOSDA64382.2024.10800111](https://doi.org/10.1109/O-COCOSDA64382.2024.10800111).
+6. B. T. Atmaja, A. Sasou, and F. Burkhardt, "Uncertainty-based ensemble learning for speech classification," in *Proc. 27th Conf. Oriental COCOSDA*, 2024, pp. 1–6, doi: [10.1109/O-COCOSDA64382.2024.10800111](https://doi.org/10.1109/O-COCOSDA64382.2024.10800111).  
+
+7. B. T. Atmaja and B. Tris Atmaja, “Feature-wise Optimization and Performance-weighted Multimodal Fusion for Social Perception Recognition,” Proc. 5th Multimodal Sentim. Anal. Chall. Work. Soc. Percept. Humor, pp. 28–35, Oct. 2024, doi: [10.1145/3689062.3689082](https://doi.org/10.1145/3689062.3689082).
 
 ## 2023
 
