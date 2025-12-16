@@ -65,7 +65,9 @@ If you don't have access to some of the papers below, please feel free to contac
 
 1. B. T. Atmaja and A. Sasou, "Ensembling multilingual pre-trained models for predicting multi-label regression emotion share from speech," in *Proc. Asia Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2023, pp. 1026–1029, doi: [10.1109/APSIPAASC58517.2023.10317109](https://doi.org/10.1109/APSIPAASC58517.2023.10317109).
 
-2. B. T. Atmaja and A. Sasou, "Multilingual, cross-lingual, and monolingual speech emotion recognition on EmoFilm dataset," in *Proc. Asia Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2023, pp. 1019–1025, doi: [10.1109/APSIPAASC58517.2023.10317223](https://doi.org/10.1109/APSIPAASC58517.2023.10317223).
+2. B. T. Atmaja and A. Sasou, "Multilingual, cross-lingual, and monolingual speech emotion recognition on EmoFilm dataset," in *Proc. Asia Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2023, pp. 1019–1025, doi: [10.1109/APSIPAASC58517.2023.10317223](https://doi.org/10.1109/APSIPAASC58517.2023.10317223).  
+
+3. B. T. Atmaja and A. Sasou, “Evaluating Variants of wav2vec 2.0 on Affective Vocal Burst Tasks,” in ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), IEEE, Jun. 2023, pp. 1–5. doi: 10.1109/icassp49357.2023.10096552. [PDF](/files/2023_3_evaluating.pdf)
 
 ## 2022
 
