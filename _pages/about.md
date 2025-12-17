@@ -56,7 +56,8 @@ My main research areas!
 
 ## Japanese Language Learning Series
 
-1. [Ayo belajar bahasa Jepang](https://bagustris.github.io/bbj/) (in Indonesian)
+1. [Ayo belajar bahasa Jepang](https://bagustris.github.io/bbj/) (in Indonesian)  
+2. [Resume of Minna no Nihongo (Grammar and Vocab)](https://bagustris.github.io/minna-no-nihongo/)  
 
 ## Islam
 
