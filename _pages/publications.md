@@ -13,7 +13,7 @@ You can also find my articles on third party pages below:
 3. [WoS](https://www.webofscience.com/wos/author/record/AAI-5222-2020)
 
 
-If you don't have access to some of the papers, please feel free to contact me.
+If you don't have access to some of the papers below, please feel free to contact me.
 {% endif %}
 
 {% include base_path %}
@@ -43,7 +43,8 @@ If you don't have access to some of the papers, please feel free to contact me.
 9. B. T. Atmaja, T. Shirai, and S. Sakti, “Measuring Emotion Preservation In Expressive Speech-To-Speech Translation,” in Oriental COCOSDA, 2025, pp. 325–330. [PDF](/files/2025_9_ococosda1.pdf)
 
 10. W. Zhou, B. T. Atmaja, and S. Sakti, “Toward Natural Emotional Text-To-Speech System With Fine-Grained Non-Verbal Expression Control,” in Oriental COCOSDA, 2025, pp. 193–198.
-[PDF](/files/2025_10_ococosda2.pdf)
+[PDF](/files/2025_10_ococosda2.pdf) 
+
 
 ## 2024
 
@@ -57,13 +58,17 @@ If you don't have access to some of the papers, please feel free to contact me.
 
 5. B. T. Atmaja and A. Sasou, "Multi-label emotion share regression from speech using pre-trained self-supervised learning models," in *Proc. IEEE Region 10 Conf. (TENCON)*, 2024, pp. 339–342, doi: [10.1109/TENCON61640.2024.10903112](https://doi.org/10.1109/TENCON61640.2024.10903112).
 
-6. B. T. Atmaja, A. Sasou, and F. Burkhardt, "Uncertainty-based ensemble learning for speech classification," in *Proc. 27th Conf. Oriental COCOSDA*, 2024, pp. 1–6, doi: [10.1109/O-COCOSDA64382.2024.10800111](https://doi.org/10.1109/O-COCOSDA64382.2024.10800111).
+6. B. T. Atmaja, A. Sasou, and F. Burkhardt, "Uncertainty-based ensemble learning for speech classification," in *Proc. 27th Conf. Oriental COCOSDA*, 2024, pp. 1–6, doi: [10.1109/O-COCOSDA64382.2024.10800111](https://doi.org/10.1109/O-COCOSDA64382.2024.10800111).  
+
+7. B. T. Atmaja, “Feature-wise Optimization and Performance-weighted Multimodal Fusion for Social Perception Recognition,” Proc. 5th Multimodal Sentim. Anal. Chall. Work. Soc. Percept. Humor, pp. 28–35, Oct. 2024, doi: [10.1145/3689062.3689082](https://doi.org/10.1145/3689062.3689082).
 
 ## 2023
 
 1. B. T. Atmaja and A. Sasou, "Ensembling multilingual pre-trained models for predicting multi-label regression emotion share from speech," in *Proc. Asia Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2023, pp. 1026–1029, doi: [10.1109/APSIPAASC58517.2023.10317109](https://doi.org/10.1109/APSIPAASC58517.2023.10317109).
 
-2. B. T. Atmaja and A. Sasou, "Multilingual, cross-lingual, and monolingual speech emotion recognition on EmoFilm dataset," in *Proc. Asia Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2023, pp. 1019–1025, doi: [10.1109/APSIPAASC58517.2023.10317223](https://doi.org/10.1109/APSIPAASC58517.2023.10317223).
+2. B. T. Atmaja and A. Sasou, "Multilingual, cross-lingual, and monolingual speech emotion recognition on EmoFilm dataset," in *Proc. Asia Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2023, pp. 1019–1025, doi: [10.1109/APSIPAASC58517.2023.10317223](https://doi.org/10.1109/APSIPAASC58517.2023.10317223).  
+
+3. B. T. Atmaja and A. Sasou, “Evaluating Variants of wav2vec 2.0 on Affective Vocal Burst Tasks,” in ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), IEEE, Jun. 2023, pp. 1–5. doi: 10.1109/icassp49357.2023.10096552. [PDF](/files/2023_3_evaluating.pdf)
 
 ## 2022
 
