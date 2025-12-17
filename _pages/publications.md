@@ -45,8 +45,6 @@ If you don't have access to some of the papers below, please feel free to contac
 10. W. Zhou, B. T. Atmaja, and S. Sakti, “Toward Natural Emotional Text-To-Speech System With Fine-Grained Non-Verbal Expression Control,” in Oriental COCOSDA, 2025, pp. 193–198.
 [PDF](/files/2025_10_ococosda2.pdf) 
 
-11. Burkhardt, & Atmaja. (2025). Nkululeko 1.0: A Python package to predict speaker characteristics with a high-level interface. Journal of Open Source Software, 10(115), 8049. doi: [10.21105/joss.08049](https://doi.org/10.21105/joss.08049).
-
 
 ## 2024
 
@@ -62,7 +60,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 6. B. T. Atmaja, A. Sasou, and F. Burkhardt, "Uncertainty-based ensemble learning for speech classification," in *Proc. 27th Conf. Oriental COCOSDA*, 2024, pp. 1–6, doi: [10.1109/O-COCOSDA64382.2024.10800111](https://doi.org/10.1109/O-COCOSDA64382.2024.10800111).  
 
-7. B. T. Atmaja and B. Tris Atmaja, “Feature-wise Optimization and Performance-weighted Multimodal Fusion for Social Perception Recognition,” Proc. 5th Multimodal Sentim. Anal. Chall. Work. Soc. Percept. Humor, pp. 28–35, Oct. 2024, doi: [10.1145/3689062.3689082](https://doi.org/10.1145/3689062.3689082).
+7. B. T. Atmaja, “Feature-wise Optimization and Performance-weighted Multimodal Fusion for Social Perception Recognition,” Proc. 5th Multimodal Sentim. Anal. Chall. Work. Soc. Percept. Humor, pp. 28–35, Oct. 2024, doi: [10.1145/3689062.3689082](https://doi.org/10.1145/3689062.3689082).
 
 ## 2023
 
