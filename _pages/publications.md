@@ -43,7 +43,10 @@ If you don't have access to some of the papers below, please feel free to contac
 9. B. T. Atmaja, T. Shirai, and S. Sakti, “Measuring Emotion Preservation In Expressive Speech-To-Speech Translation,” in Oriental COCOSDA, 2025, pp. 325–330. [PDF](/files/2025_9_ococosda1.pdf)
 
 10. W. Zhou, B. T. Atmaja, and S. Sakti, “Toward Natural Emotional Text-To-Speech System With Fine-Grained Non-Verbal Expression Control,” in Oriental COCOSDA, 2025, pp. 193–198.
-[PDF](/files/2025_10_ococosda2.pdf)
+[PDF](/files/2025_10_ococosda2.pdf) 
+
+11. Burkhardt, & Atmaja. (2025). Nkululeko 1.0: A Python package to predict speaker characteristics with a high-level interface. Journal of Open Source Software, 10(115), 8049. doi: [10.21105/joss.08049](https://doi.org/10.21105/joss.08049).
+
 
 ## 2024
 
