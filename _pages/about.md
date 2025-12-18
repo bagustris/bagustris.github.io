@@ -26,7 +26,7 @@ Research themes offered in areas of speech processing are available [here](/rese
 1. [Tutorial Latex](https://github.com/bagustris/tutorial-latex)
 1. [Tutorial Git](https://bagustris.github.io/tutorial-git)
 1. [Python for signal processing](https://bagustris.github.io/python-for-signal-processing)
-1. [Linear filter](https://github.com/bagustris/linear-filter)
+1. [Basic Mathematics (in Bahasa)](https://bagustris.github.io/matematika)
 1. [Speech Recognition](https://bagustris.github.io/speech-recognition-course)
 
 ## Lecture Notes  
