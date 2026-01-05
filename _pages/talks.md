@@ -6,13 +6,13 @@ author_profile: true
 ---
 
 ## Talks, Presentations, Updates  
-* **29/11/2025**: Attending The62 KJSS at Ritsumeikan OIC  
+* **29/11/2025**: Attending The62 KJSS at Ritsumeikan OIC.  
 * **12/11/2025**: Presenting a paper at OCOCOSDA 2025, Yogyakarta. Two papers are accepted.  
 * **10/11/2025**: Give a workshop about AI for medical domain at ITS Surabaya  
-* **06/11/2025**: Presenting a paper at ICSygSis 2025, Bali. Two papers are accepted.
+* **06/11/2025**: Presenting a paper at ICSygSis 2025, Bali. Two papers are accepted. Another paper was presented online by a student.
 * **27/10/2025**: Give a guest lecture at PENS Surabaya. The topic is the potential use of AI in medical domain (case study: voice technology).  
 * **22/10/2025**: Attending APSIPA 2025 at Singapore, presenting two papers.
-* **16/09/2025**: Organizing Voice Wellness workshop at NAIST   (16-19)  
+* **16/09/2025**: Organizing Voice Wellness workshop at NAIST (16-19).  
 * **06/04/2025**: Presenting a paper at ICASSP workshop  
 * **01/04/2025**: Start working as an assistant professor at somewhere on earth
 * **14/01/2025**: [A paper was accepted in ICASSP workshop 2025](https://bagustris.blogspot.com/2025/01/a-paper-was-accepted-at-2025-icassp.html) (SPADE Workshop). A first paper in ICASSP Workshop.
@@ -34,6 +34,6 @@ author_profile: true
 * **17/10/2022**: Presented one paper in [ACII 2022](https://acii-conf.net/2022/). First in-person conference after COVID-19.
 * **01/04/2022**: My postdoc position in signal processing group, AIRC, AIST Japan will be extended for one year to 30 March 2022.
 * **23/03/2022**: Create this news page
-* **01/04/2021**: Starting posdoct position at NAIST
+* **01/04/2021**: Starting posdoct position at AIST
 
 ---
