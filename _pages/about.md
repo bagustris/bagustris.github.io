@@ -58,6 +58,7 @@ My main research areas!
 
 1. [Ayo belajar bahasa Jepang](https://bagustris.github.io/bbj/) (in Indonesian)  
 2. [Resume of Minna no Nihongo (Grammar and Vocab)](https://bagustris.github.io/minna-no-nihongo/)  
+3. [Japanese for Work (based on NHK Easy Japanese for Work)](https://bagustris.github.io/japanese-for-work/)
 
 ## Islam
 
