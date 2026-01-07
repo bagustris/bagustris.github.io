@@ -54,10 +54,10 @@ The timeline is in a yearly basis; it can be adapted for undergraduate students 
 
 ## Style Guide
 
-For repository style guidelines for undergraduate final projects, see [this guide](./repo_TA_style).
+An example repository for ~~undergraduate~~ final projects can be seen [in this guide](./repo_TA_style).
 
 ## Teaching Policy
-I currently only accepts master's (S2) and doctoral (S3) students for supervision. There is no specific requirements for master; however, for doctoral students, I required them to have minimum a publication, at least one that hosted in IEEE Explore. For both, a strong background in signal processing and machine learning is plus. I prefer to supervise students who are highly motivated and passionate about research and previously (or willingly) have use either Nkululeko or Speechain toolkits. Master students may work on my given research themes but PhD students should be independent. Both must be proactive in conducting research. I will provide guidance and support. Regular discussions and meetings are keys to discuss progress, challenges, and next steps. Students are encouraged to **read relevant literature** and **do experiment** with different approaches, and **critically analyze** their results. Collaboration with peers is also encouraged to foster a productive research environment. Ultimately, I aim to help students develop their research skills and contribute meaningfully to their field of study.
+There is no specific requirements for master; however, for doctoral students, I required them to have minimum a publication, at least one that hosted in IEEE Xplore or equivalent. A strong background in signal processing and machine learning is plus for student candidates. I prefer to supervise students who are highly motivated and passionate about research and previously (or willingly) have use either Nkululeko or Speechain toolkits. Master students may work on my given research themes but PhD students should proposed their theme independently. I will provide guidance and support. Regular discussions and meetings are keys to discuss progress, challenges, and next steps. Students are encouraged to actively **read** relevant literature, **do** experiment with different approaches, and critically **analyze** their results. While research is important, health is also a priority, both physically and mentally. Ultimately, I aim to help students develop their research skills and contribute meaningfully to their field of study.
 ---
 
 **Contact email**: bagustris[at]outlook.com
