@@ -46,8 +46,8 @@ For master's level, you can also propose your research theme. Contact me by emai
 
 ![Timeline for undergraduate](/images/timeline.drawio.png)
 <!-- (/images/pengerjaan-ta.png) -->  
-Green:  work hardest, play hard phases
-Blue: work harder phases, play hard phases
+Green:  work hardest, play hard phases;
+Blue: work harder phases, play hard phases;
 Yellow: work hard, play harder phases
 
 The timeline is in a yearly basis; it can be adapted for undergraduate students (S1, last year); master (S2, 2 years) and PhD levels (S3, three years of research from the beginning).
