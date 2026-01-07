@@ -13,9 +13,7 @@ My research goals are aimed at extracting knowledge from acoustic information (a
 
 ## Offered Research Themes
 
-The following are research themes that I offer, particularly (but NOT limited to) Engineering Physics students at ITS.
-
-For undergraduate level, I will try to provide the baseline method, and you will improve the results using your proposed method.
+The following are past research themes that I offer: 
 
 1. Speech emotion recognition using multilayer perceptron with CCC loss, dataset: IEMOCAP
 2. Indonesian speech recognition using Wav2Vec2/Hubert/WavLM/UniSpeech-SAT, etc.
@@ -35,6 +33,9 @@ For undergraduate level, I will try to provide the baseline method, and you will
 16. Multimodal learning (audio+video+text) to capture 10 dimensions of emotions reliably perceived in distinct vocal bursts: Awe, Excitement, Amusement, Awkwardness, Fear, Horror, Distress, Triumph, Sadness, and Surprise
 17. Inferring self-reported emotions from multimodal expression, using multi-output regression to predict fine-grained self-report annotations of seven 'in-the-wild' emotional experiences
 
+For undergraduate level, I will try to provide the baseline method, and you will improve the results using your proposed method.  
+
+
 ## Other Topics/Themes
 
 Read my [papers](https://scholar.google.co.jp/citations?user=xuiLAewAAAAJ&hl=en). Usually, I write down the remaining tasks for future work in that topic.
@@ -44,9 +45,12 @@ For master's level, you can also propose your research theme. Contact me by emai
 ## Typical Timeline
 
 ![Timeline for undergraduate](/images/timeline.drawio.png)
-<!-- (/images/pengerjaan-ta.png) -->
+<!-- (/images/pengerjaan-ta.png) -->  
+Green:  work hardest, play hard phases
+Blue: work harder phases, play hard phases
+Yellow: work hard, play harder phases
 
-The timeline is ideal for undergraduate (S1) students; it can be adapted for master's (S2) and PhD (S3, three years of research from the beginning) levels.
+The timeline is in a yearly basis; it can be adapted for undergraduate students (S1, last year); master (S2, 2 years) and PhD levels (S3, three years of research from the beginning).
 
 ## Style Guide
 
