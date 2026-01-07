@@ -43,7 +43,8 @@ For master's level, you can also propose your research theme. Contact me by emai
 
 ## Typical Timeline
 
-![Timeline for undergraduate](/images/pengerjaan-ta.png)
+![Timeline for undergraduate](/images/timeline.drawio.png)
+<!-- (/images/pengerjaan-ta.png) -->
 
 The timeline is ideal for undergraduate (S1) students; it can be adapted for master's (S2) and PhD (S3, three years of research from the beginning) levels.
 
@@ -51,6 +52,8 @@ The timeline is ideal for undergraduate (S1) students; it can be adapted for mas
 
 For repository style guidelines for undergraduate final projects, see [this guide](./repo_TA_style).
 
+## Teaching Policy
+I currently only accepts master's (S2) and doctoral (S3) students for supervision. There is no specific requirements for master; however, for doctoral students, I required them to have minimum a publication, at least one that hosted in IEEE Explore. For both, a strong background in signal processing and machine learning is plus. I prefer to supervise students who are highly motivated and passionate about research and previously (or willingly) have use either Nkululeko or Speechain toolkits. Master students may work on my given research themes but PhD students should be independent. Both must be proactive in conducting research. I will provide guidance and support. Regular discussions and meetings are keys to discuss progress, challenges, and next steps. Students are encouraged to **read relevant literature** and **do experiment** with different approaches, and **critically analyze** their results. Collaboration with peers is also encouraged to foster a productive research environment. Ultimately, I aim to help students develop their research skills and contribute meaningfully to their field of study.
 ---
 
 **Contact email**: bagustris[at]outlook.com
