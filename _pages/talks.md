@@ -5,7 +5,8 @@ permalink: /talks/
 author_profile: true
 ---
 
-## Talks, Presentations, Updates  
+## Talks, Presentations, News, Updates  
+* **07/01/2026**: Published health report related to [steps, sleeps, and heart rate in 2025](../blogs/health_report_2023_2025.html)
 * **29/11/2025**: Attending The62 KJSS at Ritsumeikan OIC.  
 * **12/11/2025**: Presenting a paper at OCOCOSDA 2025, Yogyakarta. Two papers are accepted.  
 * **10/11/2025**: Give a workshop about AI for medical domain at ITS Surabaya  

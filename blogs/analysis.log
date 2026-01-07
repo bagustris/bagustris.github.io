@@ -1,0 +1,78 @@
+nohup: ignoring input
+================================================================================
+ANALISIS DATA KESEHATAN AMAZFIT BAND 3
+Health Data Analysis - Walking Steps, Sleep, and Heart Rate
+================================================================================
+
+1. Loading Activity Data...
+   → Loaded 120 days of activity data
+   → Date range: 2023-05-11 to 2025-09-29
+✓ Saved: activity_monthly_stats.png
+
+================================================================================
+STATISTIK BULANAN LANGKAH KAKI (Monthly Activity Statistics)
+================================================================================
+Bulan/Month     Steps (avg)     Distance (m)    Calories (kcal)
+--------------------------------------------------------------------------------
+2023-05         4221            2804            148            
+2023-06         7067            4879            225            
+2023-07         3767            2525            161            
+2023-08         3064            2019            123            
+2025-07         6091            4293            97             
+2025-08         5972            4231            112            
+2025-09         10088           7165            320            
+================================================================================
+
+2. Loading Sleep Data...
+   → Loaded 95 nights of sleep data
+   → Date range: 2023-05-11 to 2025-09-30
+✓ Saved: sleep_duration_monthly.png
+✓ Saved: sleep_wake_times.png
+
+====================================================================================================
+STATISTIK BULANAN WAKTU TIDUR (Monthly Sleep Statistics)
+====================================================================================================
+Bulan        Deep (min)   Shallow (min)   Total (min)  Total (jam)  Bed Time     Wake Time   
+----------------------------------------------------------------------------------------------------
+2023-05      102          285             414          6.9          14:01        22:17       
+2023-06      57           329             431          7.2          15:22        15:40       
+2023-07      63           274             378          6.3          14:47        21:27       
+2023-08      66           320             422          7.0          14:23        21:09       
+2025-07      61           303             440          7.3          13:59        21:56       
+2025-08      69           272             441          7.4          13:42        21:37       
+2025-09      116          272             511          8.5          12:52        21:24       
+====================================================================================================
+
+3. Loading Heart Rate Data...
+   → Loaded 17 heart rate measurements
+   → Date range: 2023-05-11 to 2025-07-19
+✓ Saved: heartrate_analysis.png
+
+================================================================================
+STATISTIK DETAK JANTUNG (Heart Rate Statistics)
+================================================================================
+Mean:              80.8235 BPM
+Standard Error:    3.4665 BPM
+Mode:              63 BPM
+Median:            82.00 BPM
+First Quartile:    70.00 BPM
+Third Quartile:    93.00 BPM
+Variance:          204.2794
+Standard Deviation:14.2926 BPM
+Kurtosis:          -1.4123
+Skewness:          -0.0776
+Range:             44 BPM
+Minimum:           58 BPM
+Maximum:           102 BPM
+Sum:               1374
+Count:             17
+================================================================================
+
+================================================================================
+ANALISIS SELESAI! (Analysis Complete!)
+Generated files:
+  - activity_monthly_stats.png
+  - sleep_duration_monthly.png
+  - sleep_wake_times.png
+  - heartrate_analysis.png
+================================================================================
