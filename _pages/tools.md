@@ -12,6 +12,9 @@ A comprehensive framework for speech emotion recognition and related tasks.
 ### 2. [Speechain](https://bagustris.github.io/speechain)
 Tools and utilities for speech processing and analysis.
 
+### 3. [PaperRAG](https://bagustris.github.io/paperrag).  
+Local-first and CPU friendly retrieval-augmented generation (RAG) framework for research papers.
+
 ## Additional Resources
 
 For more information about available tools and projects, please visit my [GitHub profile](https://github.com/bagustris).
