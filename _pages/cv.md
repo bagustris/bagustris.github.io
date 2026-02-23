@@ -39,7 +39,7 @@ Skills
 ======
 * Speech Processing
   * Speech emotion recognition
-  * Multimodal recognition
+  * Multimodal information fusion  
   * Multitask learning
 * Machine Learning
   * Deep learning

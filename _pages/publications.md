@@ -20,7 +20,9 @@ If you don't have access to some of the papers below, please feel free to contac
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %}   
+
+## 2026  
 
 ## 2025
 

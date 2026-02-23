@@ -7,7 +7,7 @@ author_profile: true
 ## Main Tools
 
 ### 1. [Nkululeko](https://nkululeko.readthedocs.io)
-A comprehensive framework for speech emotion recognition and related tasks.
+A comprehensive AI framework for speech related tasks.
 
 ### 2. [Speechain](https://bagustris.github.io/speechain)
 Tools and utilities for speech processing and analysis.
