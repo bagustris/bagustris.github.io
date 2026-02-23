@@ -6,19 +6,26 @@
 
 main:
   - title: "Publications"
+    title_ja: "論文"
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    title_ja: "講演"
+    url: /talks/
 
   - title: "Teaching"
-    url: /teaching/    
-    
+    title_ja: "教育"
+    url: /teaching/
+
   - title: "CV"
+    title_ja: "履歴書"
     url: /cv/
-    
+
   - title: "Research"
+    title_ja: "研究"
     url: /research/
-    
+    url_ja: /ja/research/
+
   - title: "Tools"
+    title_ja: "ツール"
     url: /tools/

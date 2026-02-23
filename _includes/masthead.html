@@ -13,7 +13,17 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if page.lang == 'ja' and link.url_ja %}
+              {% assign nav_url = link.url_ja %}
+            {% else %}
+              {% assign nav_url = link.url %}
+            {% endif %}
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ nav_url }}">
+                <span class="nav-title-en">{{ link.title }}</span>
+                {% if link.title_ja %}<span class="nav-title-ja">{{ link.title_ja }}</span>{% endif %}
+              </a>
+            </li>
           {% endfor %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
