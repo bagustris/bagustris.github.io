@@ -1,8 +1,10 @@
 ---
 permalink: /
 title: "About"
+lang: en
+lang_ref: about
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---

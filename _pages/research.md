@@ -1,6 +1,8 @@
 ---
 permalink: /research/
 title: "Research"
+lang: en
+lang_ref: research
 author_profile: true
 ---
 

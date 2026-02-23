@@ -152,12 +152,13 @@ social:
 analytics:
   provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          : "G-FTJQFF2DZL."
+    tracking_id          : "G-FTJQFF2DZL"
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - _pages/ja
   - files
 exclude:
   - "*.sublime-project"

@@ -18,6 +18,13 @@
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
+          <li class="masthead__menu-item persist">
+            {% if page.lang == 'ja' %}
+              <a href="/" title="Switch to English" aria-label="Switch to English">EN</a>
+            {% else %}
+              <a href="/ja/" title="日本語に切り替え" aria-label="日本語に切り替え" hreflang="ja">日本語</a>
+            {% endif %}
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

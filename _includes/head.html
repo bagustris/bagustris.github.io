@@ -14,3 +14,11 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+<!-- Preload LCP image -->
+{% assign author = site.author %}
+{% if author.avatar %}
+  {% unless author.avatar contains "://" %}
+  <link rel="preload" as="image" href="{{ author.avatar | prepend: '/images/' | prepend: base_path }}">
+  {% endunless %}
+{% endif %}
