@@ -65,13 +65,16 @@
     font-weight: 700;
   }
 
+  a {
+    display: flex;
+    flex-direction: column;
+  }
+
   .nav-title-en {
-    display: block;
     line-height: 1.2;
   }
 
   .nav-title-ja {
-    display: block;
     font-size: 0.65em;
     line-height: 1.1;
     opacity: 0.7;
