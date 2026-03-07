@@ -1,35 +1,44 @@
-# Base image: Ruby with necessary dependencies for Jekyll
-FROM ruby:3.2
+# Use Ruby 3.2 with Ubuntu base for better compatibility
+FROM ruby:3.2-slim
 
-# Install dependencies
+# Set environment variables
+ENV LANG=en_US.UTF-8 \
+    LANGUAGE=en_US.UTF-8 \
+    LC_ALL=en_US.UTF-8 \
+    DEBIAN_FRONTEND=noninteractive
+
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
+    git \
     build-essential \
+    locales \
+    curl \
     nodejs \
-    && rm -rf /var/lib/apt/lists/*
-
-
-# Create a non-root user with UID 1000
-RUN groupadd -g 1000 vscode && \
-    useradd -m -u 1000 -g vscode vscode
+    npm \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* \
+    && locale-gen en_US.UTF-8
 
 # Set the working directory
-WORKDIR /usr/src/app
+WORKDIR /srv/jekyll
 
-# Set permissions for the working directory
-RUN chown -R vscode:vscode /usr/src/app
+# Copy Gemfile first to leverage Docker cache
+COPY Gemfile* ./
 
-# Switch to the non-root user
-USER vscode
+# Install bundler and gems
+RUN gem install bundler && \
+    bundle config set --local deployment 'false' && \
+    bundle config set --local path 'vendor/bundle' && \
+    bundle install
 
-# Copy Gemfile into the container (necessary for `bundle install`)
-COPY Gemfile ./
+# Copy the rest of the site
+COPY . .
 
+# Create the Jekyll site directory if it doesn't exist
+RUN mkdir -p _site
 
+# Expose ports for Jekyll server and LiveReload
+EXPOSE 4000 35729
 
-# Install bundler and dependencies
-RUN gem install connection_pool:2.5.0
-RUN gem install bundler:2.3.26
-RUN bundle install
-
-# Command to serve the Jekyll site
-CMD ["jekyll", "serve", "-H", "0.0.0.0", "-w", "--config", "_config.yml,_config_docker.yml"]
+# Default command to serve the site
+CMD ["bundle", "exec", "jekyll", "serve", "--host=0.0.0.0", "--port=4000", "--livereload", "--force_polling"]

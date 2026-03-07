@@ -279,6 +279,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-redirect-from
+  jekyll-remote-theme
   jekyll-sitemap
   jemoji
   webrick (= 1.9.1)

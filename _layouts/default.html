@@ -11,21 +11,69 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body class="book-layout">
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+    <!-- Mobile header -->
+    <div class="mobile-header">
+      <button class="sidebar-toggle" aria-label="Toggle sidebar">
+        <span class="navicon"></span>
+      </button>
+      <span class="mobile-site-title">{{ site.title }}</span>
     </div>
 
+    <!-- Sidebar overlay (mobile) -->
+    <div class="sidebar-overlay"></div>
+
+    <!-- Left sidebar -->
+    <aside class="book-sidebar">
+      {% include sidebar.html %}
+    </aside>
+
+    <!-- Main content -->
+    <main class="book-content">
+      {{ content }}
+
+      <div class="page__footer">
+        <footer>
+          {% include footer/custom.html %}
+          {% include footer.html %}
+        </footer>
+      </div>
+    </main>
+
     {% include scripts.html %}
+
+    <script>
+      // Sidebar toggle for mobile
+      (function() {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('.book-sidebar');
+        var overlay = document.querySelector('.sidebar-overlay');
+
+        function openSidebar() {
+          sidebar.classList.add('open');
+          overlay.classList.add('active');
+        }
+        function closeSidebar() {
+          sidebar.classList.remove('open');
+          overlay.classList.remove('active');
+        }
+
+        if (toggle) {
+          toggle.addEventListener('click', function() {
+            sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
+          });
+        }
+        if (overlay) {
+          overlay.addEventListener('click', closeSidebar);
+        }
+        window.addEventListener('resize', function() {
+          if (window.innerWidth > 768) closeSidebar();
+        });
+      })();
+    </script>
 
   </body>
 </html>

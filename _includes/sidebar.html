@@ -1,9 +1,78 @@
 {% include base_path %}
 
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% if page.sidebar %}
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+<div class="book-sidebar-header">
+  <a href="{{ base_path }}/">{{ site.title }}</a>
+</div>
+
+<!-- Avatar -->
+{% if author.avatar %}
+<div class="sidebar-avatar">
+  {% if author.avatar contains "://" %}
+    <img src="{{ author.avatar }}" alt="{{ author.name }}" />
+  {% else %}
+    <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ author.name }}" />
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- Social links (icon-only, compact) -->
+<div class="sidebar-social-icons">
+  {% if author.uri %}<a href="{{ author.uri }}" title="Website"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>{% endif %}
+  {% if author.email %}<a href="mailto:{{ author.email }}" title="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>{% endif %}
+  {% if author.googlescholar %}<a href="{{ author.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i></a>{% endif %}
+  {% if author.orcid %}<a href="{{ author.orcid }}" title="ORCID"><i class="ai ai-orcid ai-fw" aria-hidden="true"></i></a>{% endif %}
+  {% if author.scopus %}<a href="{{ author.scopus }}" title="Scopus"><i class="ai ai-scopus ai-fw" aria-hidden="true"></i></a>{% endif %}
+  {% if author.researchgate %}<a href="{{ author.researchgate }}" title="ResearchGate"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i></a>{% endif %}
+  {% if author.github %}<a href="https://github.com/{{ author.github }}" title="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>{% endif %}
+  {% if author.twitter %}<a href="https://twitter.com/{{ author.twitter }}" title="X (Twitter)"><i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i></a>{% endif %}
+  {% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" title="LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a>{% endif %}
+  {% if author.instagram %}<a href="https://instagram.com/{{ author.instagram }}" title="Instagram"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i></a>{% endif %}
+  {% if author.tumblr %}<a href="https://{{ author.tumblr }}.tumblr.com" title="Tumblr"><i class="fab fa-fw fa-tumblr" aria-hidden="true"></i></a>{% endif %}
+</div>
+
+<!-- Navigation -->
+<nav class="book-nav" aria-label="Main navigation">
+  <ul>
+    {% for link in site.data.navigation.main %}
+      {% if link.url contains 'http' %}
+        {% assign domain = '' %}
+      {% else %}
+        {% assign domain = base_path %}
+      {% endif %}
+      {% if page.lang == 'ja' and link.url_ja %}
+        {% assign nav_url = link.url_ja %}
+      {% else %}
+        {% assign nav_url = link.url %}
+      {% endif %}
+      <li>
+        <a href="{{ domain }}{{ nav_url }}"{% if page.url == nav_url %} class="active"{% endif %}>
+          <span class="nav-title-en">{{ link.title }}</span>
+          {% if link.title_ja %}<span class="nav-title-ja">{{ link.title_ja }}</span>{% endif %}
+        </a>
+      </li>
+    {% endfor %}
+
+    <li class="sidebar-controls">
+      <span id="theme-toggle" role="button" aria-label="Toggle theme">
+        <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
+      </span>
+      {% if page.lang == 'ja' %}
+        <a href="/" title="Switch to English" aria-label="Switch to English" class="lang-switch">EN / 英語</a>
+      {% else %}
+        <a href="/ja/" title="日本語に切り替え" aria-label="日本語に切り替え" hreflang="ja" class="lang-switch">日本語</a>
+      {% endif %}
+    </li>
+  </ul>
+</nav>
+
+{% if page.sidebar %}
+  <div class="sidebar-custom">
     {% for s in page.sidebar %}
       {% if s.image %}
         <img src=
@@ -20,6 +89,5 @@
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
-  {% endif %}
   </div>
 {% endif %}

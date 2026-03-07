@@ -262,3 +262,146 @@
     }
   }
 }
+
+/* ==========================================================================
+   BOOK LAYOUT INTEGRATION
+   Overrides for primer2-theme two-column layout
+   ========================================================================== */
+
+// Reset the Susy grid offsets for .page inside book-content
+// (sidebar is now in .book-sidebar, not inside #main)
+.book-content {
+  .page {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #main {
+    margin-top: 1em;
+    padding-top: 0;
+  }
+
+  .archive {
+    float: none;
+    width: 100%;
+  }
+}
+
+// Sidebar header (site title link)
+.book-sidebar-header {
+  padding: 1em 1.2em 0.5em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  a {
+    font-size: $type-size-4;
+    font-weight: bold;
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-link-color);
+    }
+  }
+}
+
+// Sidebar navigation list
+.book-nav {
+  padding: 0.5em 0;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li a {
+    display: block;
+    padding: 0.4em 1.2em;
+    color: var(--global-text-color);
+    text-decoration: none;
+    font-size: $type-size-5;
+
+    &:hover,
+    &.active {
+      color: var(--global-link-color);
+      background: var(--global-border-color);
+    }
+  }
+
+  .nav-title-ja {
+    display: block;
+    font-size: $type-size-7;
+    color: var(--global-text-color-light);
+  }
+}
+
+// Theme toggle + language switcher (as nav list item)
+li.sidebar-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 6px 20px;
+  margin-top: 4px;
+  border-top: 1px solid var(--global-border-color);
+  font-size: 14px;
+
+  #theme-toggle {
+    cursor: pointer;
+    color: var(--global-text-color-light);
+    line-height: 1;
+
+    &:hover { color: var(--global-link-color); }
+  }
+
+  .lang-switch {
+    color: var(--global-text-color);
+    text-decoration: none;
+    font-size: 14px;
+
+    &:hover { color: var(--global-link-color); }
+  }
+}
+
+// Avatar in sidebar
+.sidebar-avatar {
+  padding: 1em 1.2em 0.6em;
+  text-align: center;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--global-border-color);
+  }
+}
+
+// Compact icon-only social links
+.sidebar-social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  padding: 0 1.2em 0.8em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    color: var(--global-text-color-light);
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 4px;
+
+    &:hover {
+      color: var(--global-link-color);
+      background: var(--global-border-color);
+    }
+  }
+}
