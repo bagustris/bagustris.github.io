@@ -63,11 +63,20 @@ layout: compress
 
         if (toggle) {
           toggle.addEventListener('click', function() {
-            sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
+            if (sidebar.classList.contains('open')) {
+              closeSidebar();
+              toggle.classList.remove('close');
+            } else {
+              openSidebar();
+              toggle.classList.add('close');
+            }
           });
         }
         if (overlay) {
-          overlay.addEventListener('click', closeSidebar);
+          overlay.addEventListener('click', function() {
+            closeSidebar();
+            if (toggle) toggle.classList.remove('close');
+          });
         }
         window.addEventListener('resize', function() {
           if (window.innerWidth > 768) closeSidebar();

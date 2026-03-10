@@ -2,6 +2,8 @@
    Various functions that we want to use within the template
    ========================================================================== */
 
+import { plotlyDarkLayout, plotlyLightLayout } from './theme.js';
+
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
@@ -50,13 +52,100 @@ var toggleTheme = () => {
 };
 
 /* ==========================================================================
+   Greedy Navigation
+   ========================================================================== */
+
+var $nav = $("#site-nav");
+if ($nav.length > 0) {
+  var $btn = $("#site-nav button");
+  var $vlinks = $("#site-nav .visible-links");
+  var $vlinks_persist_tail = $vlinks.children("*.persist.tail");
+  var $hlinks = $("#site-nav .hidden-links");
+
+  var breaks = [];
+
+  function updateNav() {
+    var availableSpace = $btn.hasClass("hidden") ? $nav.width() : $nav.width() - $btn.width() - 30;
+
+    // The visible list is bigger than the available space
+    if ($vlinks.width() > availableSpace) {
+      // Record the width of the list
+      breaks.push($vlinks.width());
+
+      // Move item to the hidden list
+      $vlinks.children("*:not(.persist)").last().prependTo($hlinks);
+
+      // Show the dropdown btn
+      if ($btn.hasClass("hidden")) {
+        $btn.removeClass("hidden");
+      }
+
+      // The visible list is still bigger than the available space
+      if ($vlinks.width() > availableSpace) {
+        updateNav();
+      }
+
+      // The visible list is smaller than the available space
+    } else {
+      // Check if there is space for another item in the nav
+      if (availableSpace > breaks[breaks.length - 1]) {
+        // Move the item to the visible list
+        if ($vlinks_persist_tail.length > 0) {
+          $hlinks.children().first().insertBefore($vlinks_persist_tail);
+        } else {
+          $hlinks.children().first().appendTo($vlinks);
+        }
+        breaks.pop();
+      }
+
+      // Hide the dropdown btn if hidden list is empty
+      if (breaks.length < 1) {
+        $btn.addClass("hidden");
+        $hlinks.addClass("hidden");
+        $btn.removeClass("close");
+      }
+    }
+
+    // Keep focus on dropdown btn
+    $btn.attr("count", breaks.length);
+
+    // Update the padding on the body so that the content is not hidden by the masthead
+    var mastheadHeight = $(".masthead").height();
+    $("body").css("padding-top", mastheadHeight + "px");
+
+    // For the side-bar on large screens, add some padding
+    if ($(".author__urls-wrapper button").is(":visible")) {
+      $(".sidebar").css("padding-top", "");
+    } else {
+      $(".sidebar").css("padding-top", mastheadHeight + "px");
+    }
+  }
+
+  $(window).on("resize", function () {
+    updateNav();
+  });
+
+  if (screen.orientation) {
+    screen.orientation.addEventListener("change", function () {
+      updateNav();
+    });
+  }
+
+  $btn.on("click", function () {
+    $hlinks.toggleClass("hidden");
+    $(this).toggleClass("close");
+  });
+
+  updateNav();
+}
+
+/* ==========================================================================
    Plotly integration script so that Markdown codeblocks will be rendered
    ========================================================================== */
 
 // Read the Plotly data from the code block, hide it, and render the chart as new node. This allows for the 
 // JSON data to be retrieve when the theme is switched. The listener should only be added if the data is 
 // actually present on the page.
-import { plotlyDarkLayout, plotlyLightLayout } from './theme.js';
 let plotlyElements = document.querySelectorAll("pre>code.language-plotly");
 if (plotlyElements.length > 0) {
   document.addEventListener("readystatechange", () => {
@@ -106,7 +195,9 @@ $(document).ready(function () {
 
   // Enable the sticky footer
   var bumpIt = function () {
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+    if ($(".page__footer").length > 0) {
+      $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+    }
   }
   $(window).resize(function () {
     didResize = true;
@@ -120,7 +211,7 @@ $(document).ready(function () {
   bumpIt();
 
   // FitVids init
-  fitvids();
+  if (typeof fitvids === 'function') fitvids();
 
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function () {
@@ -136,9 +227,11 @@ $(document).ready(function () {
   });
 
   // Init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({
-    offset: -scssMastheadHeight,
-    preventDefault: false,
-  });
+  if ($.fn.smoothScroll) {
+    $("a").smoothScroll({
+      offset: -scssMastheadHeight,
+      preventDefault: false,
+    });
+  }
 
 });

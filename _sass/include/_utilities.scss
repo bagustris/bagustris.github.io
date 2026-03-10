@@ -329,7 +329,7 @@ body:hover .visually-hidden button {
   vertical-align: middle;
   width: $navicon-width;
   height: $navicon-height;
-  background: var(--global-masthead-link-color);
+  background: currentColor;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -341,7 +341,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: var(--global-masthead-link-color);
+    background: currentColor;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -357,7 +357,7 @@ body:hover .visually-hidden button {
 
 .close .navicon {
   /* hide the middle line*/
-  background: transparent;
+  background: transparent !important;
 
   /* overlay the lines by setting both their top values to 0*/
   &:before, &:after{
@@ -376,6 +376,7 @@ body:hover .visually-hidden button {
   &:after{
     -webkit-transform: rotate3d(0,0,1,-45deg);
             transform: rotate3d(0,0,1,-45deg);
+    bottom: auto;
   }
 }
 
