@@ -1,8 +1,23 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{site.analytics.google.tracking_id}}');
+  (function() {
+    var loaded = false;
+    function loadGA() {
+      if (loaded) return;
+      loaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}';
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', '{{site.analytics.google.tracking_id}}');
+    }
+    // Load after 3 seconds or on first user interaction
+    setTimeout(loadGA, 3000);
+    ['click', 'scroll', 'touchstart', 'keydown'].forEach(function(ev) {
+      window.addEventListener(ev, loadGA, {once: true, passive: true});
+    });
+  })();
 </script>
