@@ -17,7 +17,7 @@ layout: compress
 
     <!-- Mobile header -->
     <div class="mobile-header">
-      <button class="sidebar-toggle" aria-label="Toggle sidebar">
+      <button class="sidebar-toggle" type="button" aria-label="Toggle sidebar">
         <span class="navicon"></span>
       </button>
       <span class="mobile-site-title">{{ site.title }}</span>
@@ -46,38 +46,44 @@ layout: compress
     {% include scripts.html %}
 
     <script>
-      // Sidebar toggle for mobile
       (function() {
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('.book-sidebar');
         var overlay = document.querySelector('.sidebar-overlay');
 
+        if (!toggle || !sidebar || !overlay) return;
+
         function openSidebar() {
           sidebar.classList.add('open');
           overlay.classList.add('active');
+          toggle.classList.add('close');
         }
         function closeSidebar() {
           sidebar.classList.remove('open');
           overlay.classList.remove('active');
+          toggle.classList.remove('close');
+        }
+        function toggleSidebar(e) {
+          e.preventDefault();
+          if (sidebar.classList.contains('open')) {
+            closeSidebar();
+          } else {
+            openSidebar();
+          }
         }
 
-        if (toggle) {
-          toggle.addEventListener('click', function() {
-            if (sidebar.classList.contains('open')) {
-              closeSidebar();
-              toggle.classList.remove('close');
-            } else {
-              openSidebar();
-              toggle.classList.add('close');
-            }
-          });
-        }
-        if (overlay) {
-          overlay.addEventListener('click', function() {
-            closeSidebar();
-            if (toggle) toggle.classList.remove('close');
-          });
-        }
+        toggle.addEventListener('click', toggleSidebar);
+        toggle.addEventListener('touchend', function(e) {
+          e.preventDefault();
+          toggleSidebar(e);
+        });
+
+        overlay.addEventListener('click', closeSidebar);
+        overlay.addEventListener('touchend', function(e) {
+          e.preventDefault();
+          closeSidebar();
+        });
+
         window.addEventListener('resize', function() {
           if (window.innerWidth > 768) closeSidebar();
         });
