@@ -24,6 +24,10 @@ If you don't have access to some of the papers below, please feel free to contac
 
 ## 2026  
 
+1. F. Burkhardt, B. T. Atmaja, and B. Schuller, "Nkululeko: A Python Package to Predict Speaker Characteristics With a High-level Interface", * ICASSP 2026 (Show and Tell Demos)*, Barcelona, Spain, 2026.  
+
+2. F. Burkhardt, B. T. Atmaja, and B. Schuller, "Nkululeko: fully automised processing of speech databases", 3rd Interdisciplinary Conference on Voice Communication (VoiceID) 2026, September 2-4, 2026 in Jena, Germany.  
+
 ## 2025
 
 1. B. T. Atmaja, Zanjabila, Suyanto, W. A. Asmoro, and A. Sasou, "Cross-dataset COVID-19 transfer learning with data augmentation," *Int. J. Inf. Technol.*, 2025, doi: [10.1007/s41870-025-02433-z](https://doi.org/10.1007/s41870-025-02433-z).
