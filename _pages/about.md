@@ -71,6 +71,7 @@ My main research areas!
 
 1. [Nkululeko](https://nkululeko.readthedocs.io)
 2. [Speechain](https://bagustris.github.io/speechain)
+3. [PaperRAG](https://github.com/bagustirs/paperrag)
 
 ## Contact
 
