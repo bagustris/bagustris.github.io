@@ -4,9 +4,11 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-## At NAIST  
+# At NAIST  
+## Spring 2026/2027  
+- Human-AI Interaction (sub-course: [Multisensory AI](https://bagustris.github.io/multisensory))
 
-## At  ITS (Sepuluh Nopember Institute of Technology)
+# At  ITS (Sepuluh Nopember Institute of Technology)
 ## Semester Ganjil 2022/2023:
 - Getaran
 - Fisika Bangunan
@@ -17,8 +19,8 @@ author_profile: true
 - Kontrol Vibrasi
 
 ## Semester Genap 2020/2021:
-- Komputasi Vibrasi aka Finite Element (S1)
-- Signal Processing S2
+- Komputasi Vibrasi (*Finite Element*) S1
+- *Signal Processing S2*
 
 ## Semester Genap 2016/2017
 - Pemrograman Komputer S1 Teknik Fisika & D3 Teknik Instrumentasi
@@ -49,7 +51,7 @@ author_profile: true
 - Pemrograman Komputer S1
 - Pemrograman Komputer D3
 - Elektronika S1
-- Microprocessor & Interfacing
+- *Microprocessor & Interfacing D3*
 
 ## Semester Ganjil 2014/2015
 - Optika S1
