@@ -35,10 +35,15 @@ Work experience
   * Vibrastic Laboratory
   * Teaching and research in signal processing, acoustics, building physics, and vibration
 
+* 2012-2014: Engineer  
+  * Shimizu Seisakusho 
+  * Conducting production, measurement, and inspection on metal parts for automotive industries  
+
 Skills
 ======
-* Speech Processing
-  * Speech emotion recognition
+* Speech Processing  
+  * General speech processing  
+  * Speech-based classification (e.g., emotion recognition)  
   * Multimodal information fusion  
   * Multitask learning
 * Machine Learning
