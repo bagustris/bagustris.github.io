@@ -1,6 +1,6 @@
 ---
 permalink: /
-# title: "About"
+title: "BORN TO MOVE"
 lang: en
 lang_ref: about
 author_profile: true
