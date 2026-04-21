@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+# title: "About"
 lang: en
 lang_ref: about
 author_profile: true
@@ -17,6 +17,10 @@ BAGUS TRIS ATMAJA is a researcher and lecturer in speech and audio processing. H
 
 Research themes offered in areas of speech processing are available [here](/research/).
 
+## Courses  
+1. [Basic Mathematics (in Bahasa)](https://bagustris.github.io/matematika)
+1. [Multisensory Communicative AI](https://github.com/bagustris/multisensory)  
+
 ## Tutorials
 
 1. [Python Tutorial](http://bagustris.github.io/python-tutorial)
@@ -28,7 +32,6 @@ Research themes offered in areas of speech processing are available [here](/rese
 1. [Tutorial Latex](https://github.com/bagustris/tutorial-latex)
 1. [Tutorial Git](https://bagustris.github.io/tutorial-git)
 1. [Python for signal processing](https://bagustris.github.io/python-for-signal-processing)
-1. [Basic Mathematics (in Bahasa)](https://bagustris.github.io/matematika)
 1. [Speech Recognition](https://bagustris.github.io/speech-recognition-course)
 
 ## Lecture Notes  
