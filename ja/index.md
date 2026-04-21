@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /ja/
-title: "自己紹介"
+title: "BORN TO MOVE"
 lang: ja
 lang_ref: about
 author_profile: true
@@ -17,6 +17,11 @@ redirect_from:
 ## 研究テーマ
 
 音声処理に関する研究テーマは[こちら](/ja/research/)をご参照ください。
+
+## コース
+
+1. [基礎数学（インドネシア語）](https://bagustris.github.io/matematika)
+1. [多感覚コミュニケーティブAI](https://github.com/bagustris/multisensory)
 
 ## チュートリアル
 
@@ -49,6 +54,7 @@ redirect_from:
 
 1. [Nkululeko](https://nkululeko.readthedocs.io)
 2. [Speechain](https://bagustris.github.io/speechain)
+3. [PaperRAG](https://github.com/bagustris/paperrag)
 
 ## お問い合わせ
 
