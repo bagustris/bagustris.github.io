@@ -170,6 +170,8 @@ If you don't have access to some of the papers below, please feel free to contac
 
 4. B. Putra, B. Atmaja, and D. Prananto, “Developing Speech Recognition System for Quranic Verse Recitation Learning Software”, IJID, vol. 1, no. 2, pp. 14–21, Dec. 2012, doi: [https://doi.org/10.14421/ijid.2012.01203](https://doi.org/10.14421/ijid.2012.01203).
 
+5. B. Atmaja, A. S. Aisyah, and D. Arifianto, “PEMISAHAN BANYAK SUMBER SUARA MESIN MENGGUNAKAN INDEPENDENT COMPONENT ANALYSIS (ICA) UNTUK DETEKSI KERUSAKAN”, Jurnal Ilmu Komputer dan Informasi, vol. 3, no. 1, pp. 30–37, May 2012. [PDF](../files/jiki_Journal_manager_139-319-1-PB.pdf)
+
 ## 2011
 
 1. B. T. Atmaja, D. Arifianto, T. Usagawa, Y. Chisaki, and T. Usagawa, "[On performance of two-sensor sound separation methods including binaural processors](/files/Atmaja%20et%20al.%20-%202011%20-%20On%20Performance%20of%20Two-Sensor%20Sound%20Separation%20Methods%20Including%20Binaural%20Processors.pdf)," in *Proc. Acoust. Soc. Jpn. (ASJ) Kyushu Meeting*, 2011, pp. 2–5.
