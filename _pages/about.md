@@ -12,7 +12,7 @@ redirect_from:
 
 > Speech AI researcher and educator at NAIST. I build open-source tools,
 > tutorials, and demos in speech processing — from speech classification
-> (e.g., emotion recognition) to ASR and TTS — to multimodal information fusion.
+> (e.g., emotion recognition) to ASR and TTS — and multimodal information fusion.
 
 <pre class="mermaid">
 mindmap
