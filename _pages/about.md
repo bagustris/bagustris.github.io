@@ -49,8 +49,8 @@ Git, and LaTeX. Browse the [tutorials index](/tutorials/).
 speech and audio processing. He received the B.E. and M.E. degrees from the
 Sepuluh Nopember Institute of Technology in 2009 and 2012, respectively, and
 the Ph.D. degree in information science with a focus on speech emotion
-recognition from the Japan Advanced Institute of Science and Technology in
-2021. He was a Docent with the Vibrastic Laboratory, Sepuluh Nopember
+recognition from the Japan Advanced Institute of Science and Technology in 2021. 
+He was a Docent with the Vibrastic Laboratory, Sepuluh Nopember
 Institute of Technology since 2014, and a Researcher with the Artificial
 Intelligence Research Center, National Institute of Advanced Industrial
 Science and Technology (AIST). He is currently an Assistant Professor at NAIST.
