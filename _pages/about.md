@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Bagus Tris Atmaja"
-description: "Speech AI researcher and educator at NAIST building open-source tools (Nkululeko, Speechain), tutorials, and demos in speech processing, emotion recognition, and Indonesian TTS."
+title: "Practical Speech AI Research and Education"
+description: "Speech AI researcher and educator at NAIST building open-source tools (Nkululeko, Speechain), tutorials, and demos in speech processing and multimodal processing."
 lang: en
 lang_ref: about
 author_profile: true
@@ -11,8 +11,8 @@ redirect_from:
 ---
 
 > Speech AI researcher and educator at NAIST. I build open-source tools,
-> tutorials, and demos in speech processing — from emotion recognition to
-> Indonesian TTS.
+> tutorials, and demos in speech processing — from speech classification (e.g., emotion recognition) to
+> ASR and TTS.
 
 ## What I work on
 
