@@ -5,9 +5,27 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "Home"
+    title_ja: "ホーム"
+    url: /
+    url_ja: /ja/
+
+  - title: "Research"
+    title_ja: "研究"
+    url: /research/
+    url_ja: /ja/research/
+
   - title: "Publications"
     title_ja: "論文"
     url: /publications/
+
+  - title: "Tutorials"
+    title_ja: "チュートリアル"
+    url: /tutorials/
+
+  - title: "Tools"
+    title_ja: "ツール"
+    url: /tools/
 
   - title: "Talks"
     title_ja: "講演"
@@ -20,12 +38,3 @@ main:
   - title: "CV"
     title_ja: "履歴書"
     url: /cv/
-
-  - title: "Research"
-    title_ja: "研究"
-    url: /research/
-    url_ja: /ja/research/
-
-  - title: "Tools"
-    title_ja: "ツール"
-    url: /tools/

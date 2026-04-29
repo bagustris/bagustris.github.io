@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Teaching"
+description: "Courses, lectures, and supervised projects taught by Bagus Tris Atmaja at NAIST and ITS, covering speech AI, multisensory AI, and machine learning."
 permalink: /teaching/
 author_profile: true
 ---

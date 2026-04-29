@@ -1,6 +1,7 @@
 ---
 permalink: /research/
 title: "Research"
+description: "Research themes offered by Bagus Tris Atmaja: speech emotion recognition, abnormal sound detection, pathological voice analysis, and multimodal speech processing."
 lang: en
 lang_ref: research
 author_profile: true

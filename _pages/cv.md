@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "CV"
+description: "Curriculum vitae of Bagus Tris Atmaja: education, positions, publications, and research projects in speech and audio processing."
 permalink: /cv/
 author_profile: true
 redirect_from:

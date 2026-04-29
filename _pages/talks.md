@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Talks"
+description: "Talks, presentations, conference appearances, and recent updates from Bagus Tris Atmaja's speech processing research."
 permalink: /talks/
 author_profile: true
 ---

@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+description: "Peer-reviewed publications by Bagus Tris Atmaja in speech emotion recognition, pathological voice detection, multimodal fusion, and speech processing."
 permalink: /publications/
 author_profile: true
 ---
