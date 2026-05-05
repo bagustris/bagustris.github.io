@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Practical Speech AI Research and Education"
+title: "Bagus Tris Atmaja | Speech and Multimodal AI Researcher and Educator"
 description: "Speech AI researcher and educator at NAIST building open-source tools (Nkululeko, Speechain), tutorials, and demos in speech processing and multimodal processing."
 lang: en
 lang_ref: about
@@ -10,7 +10,7 @@ redirect_from:
   - /about.html
 ---
 
-> Speech AI researcher and educator at NAIST. I build open-source tools,
+> Speech AI researcher and educator at NAIST. I do research, teaching, 
 > tutorials, and demos in speech processing — from speech classification
 > (e.g., emotion recognition) to ASR and TTS — and multimodal information fusion.
 
