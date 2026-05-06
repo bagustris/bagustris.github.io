@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Bagus Tris Atmaja | Speech and Multimodal AI Researcher and Educator"
+title: "Speech and Multimodal AI Researcher and Educator"
 description: "Speech AI researcher and educator at NAIST building open-source tools (Nkululeko, Speechain), tutorials, and demos in speech processing and multimodal processing."
 lang: en
 lang_ref: about
