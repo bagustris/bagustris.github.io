@@ -21,7 +21,7 @@ mindmap
       Speech Emotion Recognition
       Multimodal Fusion
       Multitask Learning
-      Pathological Voice
+      Speech/Audio Classification  
     Tools
       Nkululeko
       Speechain
@@ -33,9 +33,9 @@ mindmap
       Speech and Audio
       Git and LaTeX
     Publications
-      Nkululeko ICASSP 2026
-      COVID-19 Transfer 2025
-      Dementia APSIPA 2025
+      ICASSP
+      O-COCOSDA  
+      APSIPA
       All Publications
     Contact
       Email
