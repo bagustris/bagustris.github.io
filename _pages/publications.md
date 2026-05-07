@@ -25,7 +25,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 ## 2026  
 
-1. F. Burkhardt, B. T. Atmaja, and B. Schuller, "Nkululeko: A Python Package to Predict Speaker Characteristics With a High-level Interface", *ICASSP 2026 (Show and Tell Demos)*, Barcelona, Spain, 2026. [POSTER](../files/nkululeko_poster.pdf)
+1. F. Burkhardt, B. T. Atmaja, F. Eyben, and B. Schuller, "Nkululeko: A Python Package to Predict Speaker Characteristics With a High-level Interface", *ICASSP 2026 (Show and Tell Demos)*, Barcelona, Spain, 2026. [POSTER](../files/nkululeko_poster.pdf)
 
 2. F. Burkhardt, B. T. Atmaja, and B. Schuller, "Nkululeko: fully automised processing of speech databases", *3rd Interdisciplinary Conference on Voice Communication (VoiceID) 2026*, September 2-4, 2026, Jena, Germany.  
 
