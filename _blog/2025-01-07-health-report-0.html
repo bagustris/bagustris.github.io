@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Data Kesehatan Amazfit Band 3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-card h4 {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+        
+        .stat-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card .unit {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        
+        .image-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        
+        .image-container h4 {
+            margin-top: 15px;
+            color: #555;
+            font-size: 1.2em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        table tr:hover {
+            background: #e9ecef;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .info-box ul {
+            margin-left: 20px;
+        }
+        
+        .info-box li {
+            margin: 5px 0;
+        }
+        
+        .recommendations {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .recommendations h3 {
+            color: #2c5f2d;
+            margin-bottom: 15px;
+        }
+        
+        .recommendations ul {
+            list-style: none;
+        }
+        
+        .recommendations li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .recommendations li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2c5f2d;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Analisis Data Kesehatan</h1>
+            <p>Amazfit Band 3 - Data Langkah Kaki, Tidur, dan Detak Jantung</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Periode: Mei 2023 - September 2025</p>
+        </header>
+        
+        <div class="content">
+            <!-- Summary Statistics -->
+            <div class="section">
+                <h2>📈 Ringkasan Data</h2>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h4>Total Hari Aktif</h4>
+                        <div class="value">130</div>
+                        <div class="unit">hari</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Rata-rata Langkah</h4>
+                        <div class="value">4,819</div>
+                        <div class="unit">langkah/hari</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Total Malam Tidur</h4>
+                        <div class="value">110</div>
+                        <div class="unit">malam</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Rata-rata Tidur</h4>
+                        <div class="value">6.4</div>
+                        <div class="unit">jam/malam</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Activity Data -->
+            <div class="section">
+                <h2>🚶 Data Langkah Kaki (Activity)</h2>
+                
+                <div class="image-container">
+                    <img src="activity_monthly_stats.png" alt="Activity Monthly Statistics">
+                    <h4>Statistik Bulanan Langkah Kaki</h4>
+                </div>
+                
+                <h3>Statistik Bulanan</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bulan</th>
+                            <th>Langkah (rata-rata)</th>
+                            <th>Jarak (meter)</th>
+                            <th>Kalori (kcal)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023-05</td>
+                            <td>3,624</td>
+                            <td>2,407</td>
+                            <td>128</td>
+                        </tr>
+                        <tr>
+                            <td>2023-06</td>
+                            <td><strong>7,067</strong></td>
+                            <td>4,879</td>
+                            <td>225</td>
+                        </tr>
+                        <tr>
+                            <td>2023-07</td>
+                            <td>3,648</td>
+                            <td>2,445</td>
+                            <td>156</td>
+                        </tr>
+                        <tr>
+                            <td>2023-08</td>
+                            <td>2,779</td>
+                            <td>1,832</td>
+                            <td>112</td>
+                        </tr>
+                        <tr>
+                            <td>2025-07</td>
+                            <td>6,091</td>
+                            <td>4,293</td>
+                            <td>97</td>
+                        </tr>
+                        <tr>
+                            <td>2025-08</td>
+                            <td>5,247</td>
+                            <td>3,716</td>
+                            <td>98</td>
+                        </tr>
+                        <tr>
+                            <td>2025-09</td>
+                            <td>5,276</td>
+                            <td>3,739</td>
+                            <td>170</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="info-box">
+                    <h4>💡 Temuan Utama:</h4>
+                    <ul>
+                        <li><strong>Bulan terbaik:</strong> Juni 2023 dengan rata-rata 7,067 langkah/hari</li>
+                        <li><strong>Bulan terendah:</strong> Agustus 2023 dengan rata-rata 2,779 langkah/hari</li>
+                        <li><strong>Target WHO:</strong> 8,000 langkah/hari belum tercapai secara konsisten</li>
+                        <li><strong>Trend:</strong> Aktivitas fisik menunjukkan variasi musiman</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Sleep Data -->
+            <div class="section">
+                <h2>😴 Data Waktu Tidur (Sleep)</h2>
+                
+                <div class="image-container">
+                    <img src="sleep_duration_monthly.png" alt="Sleep Duration Monthly">
+                    <h4>Durasi Tidur Bulanan</h4>
+                </div>
+                
+                <div class="image-container">
+                    <img src="sleep_wake_times.png" alt="Sleep and Wake Times">
+                    <h4>Waktu Tidur dan Bangun</h4>
+                </div>
+                
+                <h3>Statistik Tidur Bulanan</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bulan</th>
+                            <th>Deep Sleep (min)</th>
+                            <th>Shallow Sleep (min)</th>
+                            <th>Total (jam)</th>
+                            <th>Bed Time</th>
+                            <th>Wake Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023-05</td>
+                            <td>102</td>
+                            <td>285</td>
+                            <td>6.9</td>
+                            <td>14:01</td>
+                            <td>22:17</td>
+                        </tr>
+                        <tr>
+                            <td>2023-06</td>
+                            <td>52</td>
+                            <td>300</td>
+                            <td>6.5</td>
+                            <td>15:54</td>
+                            <td>14:46</td>
+                        </tr>
+                        <tr>
+                            <td>2023-07</td>
+                            <td>58</td>
+                            <td>256</td>
+                            <td>5.9</td>
+                            <td>14:57</td>
+                            <td>21:10</td>
+                        </tr>
+                        <tr>
+                            <td>2023-08</td>
+                            <td>64</td>
+                            <td>313</td>
+                            <td>6.9</td>
+                            <td>14:29</td>
+                            <td>21:06</td>
+                        </tr>
+                        <tr>
+                            <td>2025-07</td>
+                            <td>61</td>
+                            <td>303</td>
+                            <td><strong>7.3</strong></td>
+                            <td>13:59</td>
+                            <td>21:56</td>
+                        </tr>
+                        <tr>
+                            <td>2025-08</td>
+                            <td>46</td>
+                            <td>217</td>
+                            <td>5.5</td>
+                            <td>14:28</td>
+                            <td>20:26</td>
+                        </tr>
+                        <tr>
+                            <td>2025-09</td>
+                            <td>77</td>
+                            <td>207</td>
+                            <td>6.1</td>
+                            <td>15:55</td>
+                            <td>22:03</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="info-box">
+                    <h4>💡 Temuan Utama:</h4>
+                    <ul>
+                        <li><strong>Durasi tidur:</strong> Berkisar antara 5.5 - 7.3 jam per malam</li>
+                        <li><strong>Target tidur:</strong> Mayoritas malam memenuhi target 6-9 jam</li>
+                        <li><strong>Deep sleep:</strong> Perlu ditingkatkan untuk kualitas tidur yang lebih baik</li>
+                        <li><strong>Konsistensi:</strong> Waktu tidur dan bangun cukup stabil</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Heart Rate Data -->
+            <div class="section">
+                <h2>❤️ Data Detak Jantung (Heart Rate)</h2>
+                
+                <div class="image-container">
+                    <img src="heartrate_analysis.png" alt="Heart Rate Analysis">
+                    <h4>Analisis Detak Jantung</h4>
+                </div>
+                
+                <h3>Statistik Detak Jantung</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Statistik</th>
+                            <th>Nilai</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Mean (Rata-rata)</strong></td>
+                            <td>80.82 BPM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Standard Deviation</strong></td>
+                            <td>14.29 BPM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Median</strong></td>
+                            <td>82 BPM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mode</strong></td>
+                            <td>63 BPM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Minimum</strong></td>
+                            <td>58 BPM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Maximum</strong></td>
+                            <td>102 BPM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Q1 (25%)</strong></td>
+                            <td>70 BPM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Q3 (75%)</strong></td>
+                            <td>93 BPM</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="info-box">
+                    <h4>💡 Temuan Utama:</h4>
+                    <ul>
+                        <li><strong>Status:</strong> Detak jantung dalam rentang normal (60-100 BPM saat istirahat)</li>
+                        <li><strong>Variasi:</strong> Variasi detak jantung menunjukkan beragam tingkat aktivitas</li>
+                        <li><strong>Rata-rata:</strong> 80.82 BPM menunjukkan kondisi kardiovaskular yang sehat</li>
+                        <li><strong>Range:</strong> 58-102 BPM menunjukkan tidak ada anomali signifikan</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Recommendations -->
+            <div class="section">
+                <h2>💡 Rekomendasi</h2>
+                
+                <div class="recommendations">
+                    <h3>🚶 Aktivitas Fisik</h3>
+                    <ul>
+                        <li>Tingkatkan konsistensi untuk mencapai minimal 8,000 langkah per hari</li>
+                        <li>Pertahankan momentum bulan Juni 2023 yang menunjukkan performa terbaik</li>
+                        <li>Jadwalkan aktivitas rutin seperti jalan pagi atau sore hari</li>
+                        <li>Gunakan tangga lebih sering untuk menambah jumlah langkah</li>
+                    </ul>
+                </div>
+                
+                <div class="recommendations">
+                    <h3>😴 Kualitas Tidur</h3>
+                    <ul>
+                        <li>Pertahankan durasi tidur 6-9 jam per malam</li>
+                        <li>Tingkatkan kualitas deep sleep dengan mengurangi gangguan sebelum tidur</li>
+                        <li>Hindari penggunaan gadget 1 jam sebelum tidur</li>
+                        <li>Jaga konsistensi waktu tidur dan bangun</li>
+                        <li>Ciptakan lingkungan tidur yang nyaman (gelap, sejuk, tenang)</li>
+                    </ul>
+                </div>
+                
+                <div class="recommendations">
+                    <h3>❤️ Kesehatan Jantung</h3>
+                    <ul>
+                        <li>Lanjutkan monitoring detak jantung secara rutin</li>
+                        <li>Perhatikan perubahan signifikan dalam pola detak jantung</li>
+                        <li>Kombinasikan aktivitas kardio dengan latihan kekuatan</li>
+                        <li>Konsultasi dengan dokter jika ada perubahan drastis</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Methodology -->
+            <div class="section">
+                <h2>🔬 Metodologi</h2>
+                
+                <div class="info-box">
+                    <h4>Data Processing</h4>
+                    <ul>
+                        <li><strong>Device:</strong> Amazfit Band 3</li>
+                        <li><strong>Export:</strong> Zepp App CSV format</li>
+                        <li><strong>Analysis Tool:</strong> Python 3 (pandas, matplotlib, seaborn)</li>
+                        <li><strong>Time Zone:</strong> UTC+0000</li>
+                        <li><strong>Data Cleaning:</strong>
+                            <ul>
+                                <li>Hari dengan langkah = 0 dianggap tidak valid (excluded)</li>
+                                <li>Malam dengan tidur = 0 dianggap tidak valid (excluded)</li>
+                                <li>Detak jantung di luar 40-200 BPM dianggap outlier (excluded)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Reference -->
+            <div class="section">
+                <h2>🔗 Referensi</h2>
+                <div class="info-box">
+                    <ul>
+                        <li><strong>Inspirasi:</strong> <a href="https://bagustris.blogspot.com/2021/05/data-jalan-kaki-tidur-dan-detak-jantung.html" target="_blank">Blog Post - Data Jalan Kaki, Tidur, dan Detak Jantung</a></li>
+                        <li><strong>WHO Guidelines:</strong> <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank">Physical Activity Recommendations</a></li>
+                        <li><strong>Sleep Foundation:</strong> <a href="https://www.sleepfoundation.org/" target="_blank">Sleep Duration Recommendations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p><strong>Analisis Data Kesehatan Amazfit Band 3</strong></p>
+            <p>Generated: 7 Januari 2026</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                Source Code: <a href="analyze_health_data.py">analyze_health_data.py</a> | 
+                Documentation: <a href="README.md">README.md</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
