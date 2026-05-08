@@ -14,12 +14,7 @@
 {% assign sorted_pages = ordered | concat: unordered %}
 
 <ul>
-  <!-- Blog link -->
-  {% if page.url != "/blog/" %}
-    <li><a href="{{ "/blog/" | relative_url }}">Blog</a></li>
-  {% else %}
-    <li><a href="{{ "/blog/" | relative_url }}" class="active">Blog</a></li>
-  {% endif %}
+  <li><a href="/blog/">Blog</a></li>
 
   {% for nav_page in sorted_pages %}
     {% assign ext = nav_page.url | split: "." | last %}
