@@ -2,6 +2,7 @@
 permalink: /blog/
 title: "Blog"
 description: "Blog posts and articles"
+layout: single
 lang: en
 author_profile: true
 ---
