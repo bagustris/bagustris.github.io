@@ -6,6 +6,8 @@ lang: en
 lang_ref: research
 author_profile: true
 ---
+> Today's research defines tomorrow's world.  
+> Research makes differences.
 
 ## Research Theme
 
