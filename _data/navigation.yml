@@ -23,6 +23,10 @@ main:
     title_ja: "チュートリアル"
     url: /tutorials/
 
+  - title: "Blog"
+    title_ja: "ブログ"
+    url: /blog/
+
   - title: "Tools"
     title_ja: "ツール"
     url: /tools/
