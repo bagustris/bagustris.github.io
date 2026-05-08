@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: "Blog"
 description: "Blog posts and articles"
 permalink: /blog/
@@ -7,6 +7,8 @@ author_profile: true
 order: 1
 ---
 
-## Blog Posts
+{% include base_path %}
 
-{% include blog-list.html %}
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}
