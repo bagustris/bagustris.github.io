@@ -7,6 +7,7 @@ author_profile: true
 ---
 
 ## Talks, Presentations, News, Updates  
+* **17/04/2026**: A paper was accepted at [VoiceID 2026](https://www.fsv.uni-jena.de/en/66561/voiceid-2026).
 * **19/03/2026**: Attending ASJ Spring at Nihon University, Tokyo.
 * **19/02/2026**: Nkululeko has been accepted at ICASSP 2026 Show & Tell Demonstration
 * **07/01/2026**: Published health report related to [steps, sleeps, and heart rate in 2025](../blogs/health_report_2023_2025.html)
@@ -36,7 +37,7 @@ author_profile: true
 * **20/11/2022**: Our paper entitled "Evaluating SSLs for Speech Emotion Recognition" has been accepted on IEEE Access. This is the fifth journal of this year.
 * **07/11/2022**: Presented two papers in APSIPA-ASC 2022 in Chiang Mai, Thailand.
 * **17/10/2022**: Presented one paper in [ACII 2022](https://acii-conf.net/2022/). First in-person conference after COVID-19.
-* **01/04/2022**: My postdoc position in signal processing group, AIRC, AIST Japan will be extended for one year to 30 March 2022.
+* **01/04/2022**: My postdoc position in signal processing group, AIRC, AIST Japan will be extended for one year to 30 March 2023.
 * **23/03/2022**: Create this news page
 * **01/04/2021**: Starting posdoct position at AIST
 
