@@ -1,8 +1,8 @@
 ---
-permalink: /blog/
+layout: single
 title: "Blog"
 description: "Blog posts and articles"
-layout: single
+permalink: /blog/
 author_profile: true
 ---
 
