@@ -18,7 +18,7 @@ redirect_from:
 mindmap
   root((BTA))
     Research
-      Speech Emotion Recognition
+      Speech AI
       Multimodal Fusion
       Multitask Learning
       Speech/Audio Classification  
@@ -37,17 +37,13 @@ mindmap
       O-COCOSDA  
       APSIPA
       All Publications
-    Contact
-      Email
-      GitHub Profile
-      Google Scholar
-      CV
-    More
-      Courses
-      Theses
-      Japanese Learning
-      Islamic Studies
-      Blogs
+    Japanese
+      Ayo Belajar Bahasa Jepang
+      Minna no Nihongo
+      Japanese for work
+    Islam
+      Kisah Nabi 
+      Arbain Nawawi
 </pre>
 
 <script type="module">
@@ -71,7 +67,9 @@ const LINKS = {
   'GitHub Profile':         'https://github.com/bagustris',
   'Google Scholar':         'https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en',
   'CV':                     '/cv/',
-  'Japanese Learning':      'https://bagustris.github.io/bbj/',
+  'Ayo Belajar Bahasa Jepang':      'https://bagustris.github.io/bbj/',
+  'Kisah Nabi':             'https://bagustris.github.io/kisah-nabi',
+  'Arbain Nawawi':          'https://bagustris.github.io/arbain-nawai',
   'Blogs':                  'https://bagustris.blogspot.com',
   'Theses':                 'https://dspace.jaist.ac.jp/dspace/bitstream/10119/17472/2/paper.pdf',
 };
