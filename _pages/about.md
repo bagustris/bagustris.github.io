@@ -40,7 +40,7 @@ mindmap
     Japanese
       Ayo Belajar Bahasa Jepang
       Minna no Nihongo
-      Japanese for work
+      Japanese for Work
     Islam
       Kisah Nabi 
       Arbain Nawawi
@@ -68,8 +68,10 @@ const LINKS = {
   'Google Scholar':         'https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en',
   'CV':                     '/cv/',
   'Ayo Belajar Bahasa Jepang':      'https://bagustris.github.io/bbj/',
+  'Minna no Nihongo':       'https://bagustris.github.io/minna-no-nihongo/',
+  'Japanese for Work':      'https://bagustris.github.io/japanese-for-work/',
   'Kisah Nabi':             'https://bagustris.github.io/kisah-nabi',
-  'Arbain Nawawi':          'https://bagustris.github.io/arbain-nawai',
+  'Arbain Nawawi':          'https://bagustris.github.io/arbain-nawawi',
   'Blogs':                  'https://bagustris.blogspot.com',
   'Theses':                 'https://dspace.jaist.ac.jp/dspace/bitstream/10119/17472/2/paper.pdf',
 };
