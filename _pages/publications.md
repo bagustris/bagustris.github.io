@@ -5,8 +5,9 @@ description: "Peer-reviewed publications by Bagus Tris Atmaja in speech emotion 
 permalink: /publications/
 author_profile: true
 ---
-
 {% if site.author.googlescholar %}
+> Talk is cheap, show me your works.
+
 You can also find my articles on third party pages below: 
 
 1. [Google Scholar](https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en)

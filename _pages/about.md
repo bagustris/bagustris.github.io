@@ -9,10 +9,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+> Do! Don’t just read.
 
-> Speech AI researcher and educator at NAIST. I do research, teaching, 
-> tutorials, and demos in speech processing — from speech classification
-> (e.g., emotion recognition) to ASR and TTS — and multimodal information fusion.
+BTA is a speech AI researcher and educator at NAIST. I do research, teaching, 
+tutorials, and demos in speech processing — from speech classification
+(e.g., emotion recognition) to ASR and TTS — and multimodal information fusion.
 
 <pre class="mermaid">
 mindmap

@@ -4,6 +4,7 @@ title: "Tools and Projects"
 description: "Open-source toolkits maintained by Bagus Tris Atmaja: Nkululeko, Speechain, and PaperRAG — for speech AI, speaker characteristics prediction, and research-paper RAG."
 author_profile: true
 ---
+> Talks are cheap, show me your code (Linus Torvalds).
 
 Open-source toolkits I build and maintain. Issues and pull requests are
 welcome — feel free to ⭐ on GitHub if you find them useful.

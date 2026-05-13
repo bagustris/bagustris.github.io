@@ -5,6 +5,8 @@ description: "Courses, lectures, and supervised projects taught by Bagus Tris At
 permalink: /teaching/
 author_profile: true
 ---
+> When one teaches, two learn (Robert Heinlein). 
+
 # At NAIST  
 ## Spring 2026/2027  
 - Human-AI Interaction (sub-course: [Multisensory AI](https://bagustris.github.io/multisensory))
