@@ -8,6 +8,8 @@ author_profile: true
 A curated set of hands-on tutorials I've written or maintain. Each one is open
 source — pull requests and issues welcome on the linked repos.
 
+> Tells me and I forget, teach me and I may remember, involve me and I learn (Benjamin Franklin).
+
 ## Shell &amp; Linux
 
 - [**Tutorial Shell**](https://bagustris.github.io/tutorial-shell) — Beginner · English
