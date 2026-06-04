@@ -23,7 +23,7 @@ author_profile: true
 
 ## Semester Genap 2020/2021:
 - [Komputasi Vibrasi (*Finite Element*) S1](https://github.com/bagustris/compvib)
-- [Pemrosesan Sinyal S2]((https://github.com/bagustris/sigpro-s2)
+- [Pemrosesan Sinyal S2](https://github.com/bagustris/sigpro-s2)
 
 ## Semester Genap 2016/2017
 - [Pemrograman Komputer S1 Teknik Fisika & D3 Teknik Instrumentasi](https://github.com/bagustris/prokom-tf)
