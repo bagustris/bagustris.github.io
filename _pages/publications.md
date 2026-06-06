@@ -28,7 +28,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 1. F. Burkhardt, B. T. Atmaja, F. Eyben, and B. Schuller, "Nkululeko: A Python Package to Predict Speaker Characteristics With a High-level Interface", *ICASSP 2026 (Show and Tell Demos)*, Barcelona, Spain, 2026. [POSTER](../files/nkululeko_poster.pdf)
 
-2. F. Burkhardt, B. T. Atmaja, and B. Schuller, "Nkululeko: fully automised processing of speech databases", *3rd Interdisciplinary Conference on Voice Communication (VoiceID) 2026*, September 2-4, 2026, Jena, Germany.  
+2. F. Burkhardt, B. T. Atmaja, and B. Schuller, "Nkululeko: fully automated processing of speech databases", *3rd Interdisciplinary Conference on Voice Communication (VoiceID) 2026*, September 2-4, 2026, Jena, Germany.
 
 ## 2025
 
@@ -144,7 +144,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 1. R. Y. Lestari, D. Harsono, B. T. Cahyana, B. T. Atmaja, and W. A. Asmoro, "Tingkat redaman suara papan komposit dari tandan kosong kelapa sawit dan serbuk kayu akasia," in *Proc. Seminar Nasional Teknologi dan Inovasi Industri*, 2018, pp. 31–38.[PDF](/files/2018_1-Ratri.pdf)
 
-2. R. Elbarougy, B. T. Atmaja, and M. Akagi, "Continuous tracking of emotional state from speech based on emotion unit," in *Proc. Acoust. Soc. Jpn. (ASJ) Autumn Meeting*, vol. 1, no. 1, 2018, pp. 1231–1234.[PDF](/files/2018_2.pdf20)
+2. R. Elbarougy, B. T. Atmaja, and M. Akagi, "Continuous tracking of emotional state from speech based on emotion unit," in *Proc. Acoust. Soc. Jpn. (ASJ) Autumn Meeting*, vol. 1, no. 1, 2018, pp. 1231–1234.[PDF](/files/2018_2.pdf)
 
 ## 2017
 
@@ -188,7 +188,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 1. B. T. Atmaja, B. Putra, and D. Prananto, "Developing Quranic verse recitation learning software based on speech recognition techniques," in *Proc. Seminar Nasional Teknik Fisika (SNTF)*, 2010.[PDF](/files/2010_1.pdf)
 
-2. B. T. Atmaja, "Rekonstruksi pendidikan pesantren dengan membangun budaya ilmiah dan islamisasi sains," 2010, [Lomba karya tulis ilmiah pengembangan pendidikan pesantrentahun 2010 Badan Litbang dan Diklat Kementrian Agama RI](https://www.researchgate.net/publication/330312960_REKONSTRUKSI_PENDIDIKAN_PESANTREN_DENGAN_MEMBANGUN_BUDAYA_ILMIAH_DAN_ISLAMISASI_SAINS).
+2. B. T. Atmaja, "Rekonstruksi pendidikan pesantren dengan membangun budaya ilmiah dan islamisasi sains," 2010, [Lomba karya tulis ilmiah pengembangan pendidikan pesantren tahun 2010 Badan Litbang dan Diklat Kementerian Agama RI](https://www.researchgate.net/publication/330312960_REKONSTRUKSI_PENDIDIKAN_PESANTREN_DENGAN_MEMBANGUN_BUDAYA_ILMIAH_DAN_ISLAMISASI_SAINS).
 
 ## 2009
 
@@ -196,7 +196,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 2. B. Putra and B. T. Atmaja, "Integrasi sistem fuzzy-JST untuk prakiraan cuaca jangka pendek (studi kasus di Surabaya)," 2009, [Karya Tulis Ilmiah](https://www.researchgate.net/publication/280591506_INTEGRASI_SISTEM_FUZZY-JARINGAN_SYARAF_TIRUAN_JST_UNTUK_PRAKIRAAN_CUACA_JANGKA_PENDEK), Inst. Teknol. Sepuluh Nopember.
 
-3. B. T. Atmaja, "[Pemisahan banyak sumber suara mesin dari microphone array dengan metode independent component analysis (ICA) untuk deteksi kerusakan](/files/Atmaja%20-%202009%20-%20Pemisahan%20Banyak%20Sumber%20Suara%20Mesin%20Dari%20Microphone%20Array%20Dengan%20Metode%20Independent%20Component%20Analysis%20(ICA)%20Untuk%20Detek.pdf)," B.S. thesis, Inst. Teknol. Sepuluh Nopember, 2009.
+3. B. T. Atmaja, "[Pemisahan banyak sumber suara mesin dari microphone array dengan metode independent component analysis (ICA) untuk deteksi kerusakan](/files/Atmaja%20-%202009%20-%20Pemisahan%20Banyak%20Sumber%20Suara%20Mesin%20Dari%20Microphone%20Array%20Dengan%20Metode%20Independent%20Component%20Analysis%20%28ICA%29%20Untuk%20Detek.pdf)," B.S. thesis, Inst. Teknol. Sepuluh Nopember, 2009.
 
 4. B. Putra and B. T. Atmaja, "Implementasi sistem fuzzy untuk pengaturan lampu lalu lintas," 2009.[PDF](/files/2009_4_Putra_Atmaja.pdf)
 

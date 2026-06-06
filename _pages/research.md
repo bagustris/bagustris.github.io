@@ -52,14 +52,14 @@ Green:  work hardest, play hard phases;
 Blue: work harder phases, play hard phases;  
 Yellow: work hard, play harder phases  
 
-The timeline is in a yearly basis; it can be adapted for undergraduate students (S1, last year); master (S2, 2 years) and PhD levels (S3, three years of research from the beginning).
+The timeline is on a yearly basis; it can be adapted for undergraduate students (S1, last year), master's students (S2, 2 years), and PhD students (S3, three years of research from the beginning).
 
 ## Style Guide
 
 An example repository for ~~undergraduate~~ final projects can be seen [in this guide](https://github.com/bagustris/tugas-akhir).
 
 ## Teaching Policy
-There is no specific requirements for master; however, doctoral students require **a publication** before enrollment, minimum that hosted in IEEE Xplore or equivalent. A strong background in signal processing and machine learning is a plus for student candidates. I prefer to supervise students who are highly motivated and passionate about research and previously have used either Nkululeko or Speechain toolkits. Master students may work on my given research themes but PhD students should proposed their themes independently. I choose practicability over novelty of research topics (but still, there should be contribution/novelty in research). Regular meetings (lab study, seminar, meeting) are keys to discuss progress, challenges, and next steps. Students are encouraged to actively **read** relevant literature, **do** experiments, and critically **analyze** the results. While research is important, health is also a priority, both physically and mentally. Ultimately, I aim to help students develop their research skills and contribute meaningfully to their field of study.  
+There are no specific requirements for master's students; however, doctoral students require **a publication** before enrollment, at minimum hosted in IEEE Xplore or equivalent. A strong background in signal processing and machine learning is a plus for student candidates. I prefer to supervise students who are highly motivated and passionate about research and previously have used either Nkululeko or Speechain toolkits. Master's students may work on my given research themes but PhD students should propose their themes independently. I choose practicability over novelty of research topics (but still, there should be contribution/novelty in research). Regular meetings (lab study, seminar, meeting) are keys to discuss progress, challenges, and next steps. Students are encouraged to actively **read** relevant literature, **do** experiments, and critically **analyze** the results. While research is important, health is also a priority, both physically and mentally. Ultimately, I aim to help students develop their research skills and contribute meaningfully to their field of study.
 
 ## Funded Research Project  
 1. SIMULASI DAN PREDIKSI KEBISINGAN KERETA BANDARA SOEKARNO-HATTA (Penelitian Dosen Pemula, Dana Lokal ITS 2017)
