@@ -23,17 +23,17 @@ Work experience
 ======
 * 2025-Present: Assistant Professor
   * National Institute of Advanced Industrial Science and Technology (AIST)
-  * Human-AI Interaction Lab, SpeechAI Group
-  * Research and teaching on speech processing and multisensory AI  
+  * Human AI Interaction Lab., Division of Information Science
+  * Research, supervising and teaching on speech processing and multisensory AI  
 
 * 2021-2025: Researcher
   * National Institute of Advanced Industrial Science and Technology (AIST)
-  * Artificial Intelligence Research Center
+  * Signal Processing Research Team, Artificial Intelligence Research Center
   * Research on speech processing and affective computing
 
 * 2014-2024: Lecturer (Docent)
   * Sepuluh Nopember Institute of Technology
-  * Vibrastic Laboratory
+  * Vibrastic Laboratory, Department of Engineering Physics  
   * Teaching and research in signal processing, acoustics, building physics, and vibration
 
 * 2012-2014: Engineer  

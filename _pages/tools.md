@@ -28,6 +28,21 @@ extraction, and training helpers reused across my speech experiments.
 - 🌐 Site: [bagustris.github.io/speechain](https://bagustris.github.io/speechain)
 - 💻 Source: [github.com/bagustris/speechain](https://github.com/bagustris/speechain)
 
+### [Sherox](https://github.com/bagustris/sherox)
+A CLI tool for speech AI inference. Run trained models on new audio files, realtime and offline, local-first, with support for batch processing and output formatting.  
+ - Supported tasks: ASR, TTS, speaker verification, segmentation, language identification, and more.  
+ - Source: [github.com/bagustris/sherox](https://github.com/bagustris/sherox)  
+
+### [Coughkit](https://github.com/bagustris/coughkit)
+A Python package for cough sound analysis and classification with main focus on cough detection, segmentation, and counting.  
+- Source: [github.com/bagustris/coughkit](https://github.com/bagustris/coughkit)
+
+
+### [Multibench](https://human-ai-lab.github.io/multibench) 
+A benchmarking framework for evaluating and comparing multimodal models across various tasks and datasets, with a focus on human-AI interaction and real-world applications.  
+- 🌐 Site: [human-ai-lab.github.io/multibench](https://human-ai-lab.github.io/multibench)
+- Source: [github.com/human-ai-lab/multibench](https://github.com/human-ai-lab/multibench)
+
 ### [PaperRAG](https://bagustris.github.io/paperrag)
 
 Local-first, CPU-friendly retrieval-augmented generation (RAG) over research
