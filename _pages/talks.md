@@ -7,6 +7,10 @@ author_profile: true
 ---
 
 ## Talks, Presentations, News, Updates  
+* **11/07/2026**: Attending [Kansai Joint Speech Seminar at Osaka Institute of Technology](https://www.oit.ac.jp/personal/splab/kansai-sp/63.html), Osaka, Japan 
+* **01/07/2026**: Giving a talk about "Voice and Multimodal AI for Healthcare" at [ITS MedTech Summer Course 2026](https://www.its.ac.id/medtech/2026/05/24/nternational-summer-school-on-artificial-intelligence/), Surabaya, Indonesia.
+* **25/06/2026**: Attending Undergaduate Final Project Symposium at UTM KL, Malaysia.
+* **23/06/2026**: Attending UMC 2.0 at UTM Johor Bahru, Malaysia. 
 * **17/04/2026**: A paper was accepted at [VoiceID 2026](https://www.fsv.uni-jena.de/en/66561/voiceid-2026).
 * **19/03/2026**: Attending ASJ Spring at Nihon University, Tokyo.
 * **19/02/2026**: Nkululeko has been accepted at ICASSP 2026 Show & Tell Demonstration

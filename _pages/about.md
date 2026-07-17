@@ -40,6 +40,7 @@ mindmap
       Ayo Belajar Bahasa Jepang
       Minna no Nihongo
       Japanese for Work
+      Kanji Drills
     Islam
       Kisah Nabi 
       Arbain Nawawi
@@ -69,6 +70,7 @@ const LINKS = {
   'Ayo Belajar Bahasa Jepang':      'https://bagustris.github.io/bbj/',
   'Minna no Nihongo':       'https://bagustris.github.io/minna-no-nihongo/',
   'Japanese for Work':      'https://bagustris.github.io/japanese-for-work/',
+  'Kanji Drills':           'https://bagustris.github.io/kanji-drill/',
   'Kisah Nabi':             'https://bagustris.github.io/kisah-nabi',
   'Arbain Nawawi':          'https://bagustris.github.io/arbain-nawawi',
   'Blogs':                  'https://bagustris.blogspot.com',
