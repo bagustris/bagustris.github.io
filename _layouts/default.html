@@ -23,6 +23,22 @@ layout: compress
       <span class="mobile-site-title">{{ site.title }}</span>
     </div>
 
+    <!-- Floating top-right controls: language + theme switchers, pinned over main content -->
+    <div class="top-controls">
+      {% if page.lang == 'ja' %}
+        <a href="{{ base_path }}/" title="Switch to English" aria-label="Switch to English" class="top-control">
+          <i class="fas fa-fw fa-language" aria-hidden="true"></i><span class="top-control-label">English</span>
+        </a>
+      {% else %}
+        <a href="{{ base_path }}/ja/" title="日本語に切り替え" aria-label="日本語に切り替え" hreflang="ja" class="top-control">
+          <i class="fas fa-fw fa-language" aria-hidden="true"></i><span class="top-control-label">日本語</span>
+        </a>
+      {% endif %}
+      <button id="theme-toggle" type="button" class="top-control top-control--icon" aria-label="Toggle theme">
+        <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true"></i>
+      </button>
+    </div>
+
     <!-- Sidebar overlay (mobile) -->
     <div class="sidebar-overlay"></div>
 
@@ -46,18 +62,50 @@ layout: compress
     {% include scripts.html %}
 
     <script>
+      /* Self-contained controls: no jQuery dependency, so these keep working even if
+         the main bundle fails to run. Block comments only — this page uses layout: compress. */
       (function() {
+        /* ---- Theme toggle ---- */
+        var root = document.documentElement;
+        function applyTheme(theme) {
+          if (theme === 'dark') {
+            root.setAttribute('data-theme', 'dark');
+          } else {
+            root.removeAttribute('data-theme');
+          }
+          var icon = document.getElementById('theme-icon');
+          if (icon) {
+            icon.classList.toggle('fa-moon', theme === 'dark');
+            icon.classList.toggle('fa-sun', theme !== 'dark');
+          }
+        }
+        function currentTheme() {
+          var saved = null;
+          try { saved = localStorage.getItem('theme'); } catch (e) {}
+          if (saved) return saved;
+          return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+        }
+        applyTheme(currentTheme());
+        var themeBtn = document.getElementById('theme-toggle');
+        if (themeBtn) {
+          themeBtn.addEventListener('click', function() {
+            var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            try { localStorage.setItem('theme', next); } catch (e) {}
+            applyTheme(next);
+          });
+        }
+
+        /* ---- Mobile sidebar toggle ---- */
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('.book-sidebar');
         var overlay = document.querySelector('.sidebar-overlay');
-
         if (!toggle || !sidebar || !overlay) return;
 
         function openSidebar() {
           sidebar.classList.add('open');
           overlay.classList.add('active');
           toggle.classList.add('close');
-          toggle.setAttribute('aria-expanded', 'true'); // keep a11y state in sync (Primer)
+          toggle.setAttribute('aria-expanded', 'true');
         }
         function closeSidebar() {
           sidebar.classList.remove('open');

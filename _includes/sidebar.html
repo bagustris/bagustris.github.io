@@ -10,23 +10,6 @@
   <a href="{{ base_path }}/">{{ site.title }}</a>
 </div>
 
-<!-- Top-left control bar: language + theme switchers, grouped as a matched pair -->
-<div class="sidebar-controls-top">
-  {% if page.lang == 'ja' %}
-    <a href="{{ base_path }}/" title="Switch to English" aria-label="Switch to English" class="sidebar-control">
-      <i class="fas fa-fw fa-language" aria-hidden="true"></i><span>English</span>
-    </a>
-  {% else %}
-    <a href="{{ base_path }}/ja/" title="日本語に切り替え" aria-label="日本語に切り替え" hreflang="ja" class="sidebar-control">
-      <i class="fas fa-fw fa-language" aria-hidden="true"></i><span>日本語</span>
-    </a>
-  {% endif %}
-
-  <button id="theme-toggle" type="button" class="sidebar-control sidebar-control--icon" aria-label="Toggle theme">
-    <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true"></i>
-  </button>
-</div>
-
 <!-- Avatar -->
 {% if author.avatar %}
 <div class="sidebar-avatar">
@@ -40,7 +23,7 @@
 
 <!-- Social links (icon-only, compact) -->
 <!-- Primer a11y: icon-only links need an accessible name (aria-label); `title` alone
-     is an unreliable fallback and isn't exposed on touch. Mirrors the .sidebar-control pattern above. -->
+     is an unreliable fallback and isn't exposed on touch. -->
 <div class="sidebar-social-icons">
   {% if author.uri %}<a href="{{ author.uri }}" title="Website" aria-label="Website"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>{% endif %}
   {% if author.email %}<a href="mailto:{{ author.email }}" title="Email" aria-label="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>{% endif %}

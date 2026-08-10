@@ -190,8 +190,8 @@ $(document).ready(function () {
           }
         });
 
-  // Enable the theme toggle
-  $('#theme-toggle').on('click', toggleTheme);
+  // Theme toggle is handled by a self-contained inline script in _layouts/default.html
+  // (no jQuery dependency). Binding it here too would double-fire and cancel the toggle.
 
   // Enable the sticky footer
   var bumpIt = function () {
