@@ -216,7 +216,10 @@ $(document).ready(function () {
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function () {
     $(".author__urls").fadeToggle("fast", function () { });
-    $(".author__urls-wrapper button").toggleClass("open");
+    // Primer a11y: keep the disclosure's aria-expanded in sync with the .open state
+    $(".author__urls-wrapper button").toggleClass("open").attr("aria-expanded", function (i, v) {
+      return v === "true" ? "false" : "true";
+    });
   });
 
   // Restore the follow menu if toggled on a window resize

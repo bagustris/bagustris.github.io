@@ -45,27 +45,6 @@ body { margin: 0; }
   }
 }
 
-// Language switcher (top-left, just under the site title)
-.sidebar-lang {
-  padding: 10px 20px 8px;
-  border-bottom: 1px solid var(--global-border-color);
-
-  .lang-switch {
-    display: inline-block;
-    padding: 4px 12px;
-    border: 1px solid var(--global-border-color);
-    border-radius: 4px;
-    color: var(--global-text-color);
-    text-decoration: none;
-    font-size: 13px;
-
-    &:hover {
-      color: var(--global-link-color);
-      border-color: var(--global-link-color);
-    }
-  }
-}
-
 // Nav links
 .book-nav {
   padding: 8px 0;
@@ -174,6 +153,10 @@ body { margin: 0; }
   .mobile-header { display: flex; }
 
   .book-sidebar-header { display: none; }
+
+  // Header is hidden on mobile, so give the top control bar breathing room
+  // against the drawer's top edge.
+  .sidebar-controls-top { padding-top: 16px; }
 
   .book-sidebar {
     transform: translateX(-100%);

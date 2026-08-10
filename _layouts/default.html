@@ -17,7 +17,7 @@ layout: compress
 
     <!-- Mobile header -->
     <div class="mobile-header">
-      <button class="sidebar-toggle" type="button" aria-label="Toggle sidebar">
+      <button class="sidebar-toggle" type="button" aria-label="Toggle sidebar" aria-expanded="false" aria-controls="book-sidebar">
         <span class="navicon"></span>
       </button>
       <span class="mobile-site-title">{{ site.title }}</span>
@@ -27,7 +27,7 @@ layout: compress
     <div class="sidebar-overlay"></div>
 
     <!-- Left sidebar -->
-    <aside class="book-sidebar">
+    <aside id="book-sidebar" class="book-sidebar">
       {% include sidebar.html %}
     </aside>
 
@@ -57,11 +57,13 @@ layout: compress
           sidebar.classList.add('open');
           overlay.classList.add('active');
           toggle.classList.add('close');
+          toggle.setAttribute('aria-expanded', 'true'); // keep a11y state in sync (Primer)
         }
         function closeSidebar() {
           sidebar.classList.remove('open');
           overlay.classList.remove('active');
           toggle.classList.remove('close');
+          toggle.setAttribute('aria-expanded', 'false');
         }
         function toggleSidebar(e) {
           e.preventDefault();
