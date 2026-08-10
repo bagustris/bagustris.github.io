@@ -1,3 +1,9 @@
-<script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+{% comment %}
+  jQuery bundle (assets/js/main.min.js, ~90KB) removed. All live behavior — theme
+  toggle, theme init, OS-preference sync, and the mobile sidebar — is now handled by
+  the self-contained vanilla script in _layouts/default.html. The old bundle only
+  otherwise held dead code (greedy-nav for a #site-nav that doesn't exist, an
+  always-hidden Follow menu, unused fitvids/smoothScroll/plotly).
+{% endcomment %}
 
 {% include analytics.html %}

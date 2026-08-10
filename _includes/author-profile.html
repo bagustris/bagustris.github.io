@@ -21,10 +21,10 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <!-- Primer a11y: this button is the mobile disclosure toggle for the link list
-         (see .author__urls-wrapper handler in assets/js/_main.js). Declare the
-         disclosure relationship with aria-controls + aria-expanded. -->
-    <button class="btn btn--inverse" type="button" aria-controls="author-urls" aria-expanded="false">Follow</button>
+    <!-- Legacy Follow toggle. In this layout the link list is always shown, so CSS keeps
+         this button hidden (.author__urls-wrapper button { display: none }) and it has no
+         JS handler. aria-hidden keeps assistive tech from announcing an inert control. -->
+    <button class="btn btn--inverse" type="button" hidden aria-hidden="true" tabindex="-1">Follow</button>
     <ul id="author-urls" class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}

@@ -36,6 +36,8 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
+    color-scheme                        : dark;
+    --top-control-shadow                : 0 1px 3px rgba(0, 0, 0, 0.5);
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$background-sidebar};

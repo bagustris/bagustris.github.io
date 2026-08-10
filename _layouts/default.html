@@ -24,16 +24,25 @@ layout: compress
     </div>
 
     <!-- Floating top-right controls: language + theme switchers, pinned over main content -->
+    {%- comment -%}
+      Language switcher: map to the SAME page in the other language when a translation
+      exists (e.g. /research/ <-> /ja/research/), otherwise fall back to that language's home.
+    {%- endcomment -%}
+    {%- if page.lang == 'ja' -%}
+      {%- assign alt_target = page.url | remove_first: '/ja' -%}
+      {%- assign alt_home = '/' -%}
+      {%- assign alt_label = 'English' -%}{%- assign alt_msg = 'Switch to English' -%}{%- assign alt_hreflang = 'en' -%}
+    {%- else -%}
+      {%- assign alt_target = '/ja' | append: page.url -%}
+      {%- assign alt_home = '/ja/' -%}
+      {%- assign alt_label = '日本語' -%}{%- assign alt_msg = '日本語に切り替え' -%}{%- assign alt_hreflang = 'ja' -%}
+    {%- endif -%}
+    {%- assign alt_match = site.pages | where: 'url', alt_target -%}
+    {%- if alt_match.size > 0 -%}{%- assign alt_url = alt_target -%}{%- else -%}{%- assign alt_url = alt_home -%}{%- endif -%}
     <div class="top-controls">
-      {% if page.lang == 'ja' %}
-        <a href="{{ base_path }}/" title="Switch to English" aria-label="Switch to English" class="top-control">
-          <i class="fas fa-fw fa-language" aria-hidden="true"></i><span class="top-control-label">English</span>
-        </a>
-      {% else %}
-        <a href="{{ base_path }}/ja/" title="日本語に切り替え" aria-label="日本語に切り替え" hreflang="ja" class="top-control">
-          <i class="fas fa-fw fa-language" aria-hidden="true"></i><span class="top-control-label">日本語</span>
-        </a>
-      {% endif %}
+      <a href="{{ base_path }}{{ alt_url }}" title="{{ alt_msg }}" aria-label="{{ alt_msg }}" hreflang="{{ alt_hreflang }}" class="top-control">
+        <i class="fas fa-fw fa-language" aria-hidden="true"></i><span class="top-control-label">{{ alt_label }}</span>
+      </a>
       <button id="theme-toggle" type="button" class="top-control top-control--icon" aria-label="Toggle theme">
         <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true"></i>
       </button>
@@ -92,6 +101,14 @@ layout: compress
             var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             try { localStorage.setItem('theme', next); } catch (e) {}
             applyTheme(next);
+          });
+        }
+        /* Follow the OS theme live when the user hasn't explicitly chosen one. */
+        if (window.matchMedia) {
+          window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+            var saved = null;
+            try { saved = localStorage.getItem('theme'); } catch (err) {}
+            if (!saved) applyTheme(e.matches ? 'dark' : 'light');
           });
         }
 

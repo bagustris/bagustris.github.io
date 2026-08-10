@@ -10,6 +10,14 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  /* Apply the saved/OS theme before first paint so dark-theme users don't see a light flash (FOUC). */
+  (function() {
+    try {
+      var t = localStorage.getItem('theme');
+      if (!t) t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+      if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    } catch (e) {}
+  })();
 </script>
 
 <!-- Preload critical fonts to avoid render-blocking font chain -->

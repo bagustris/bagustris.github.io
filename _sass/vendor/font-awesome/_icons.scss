@@ -4,7 +4,24 @@
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
 
+/* SUBSET: only emit rules for icons actually used on this site (brands.scss reuses this
+   list), shrinking main.css from ~2000 icon rules to ~50. Add a name here when you use a
+   new icon anywhere in a template. Names are Font Awesome map keys (no `fa-` prefix).
+   `fa-moon` is here because the theme toggle swaps it in via JS, not in static markup. */
+$fa-used-icons: (
+  "envelope", "link", "location-dot", "building-columns", "language", "sun", "moon",
+  "clock", "calendar", "folder-open", "tags", "globe", "phone", "map-marker-alt",
+  "rss-square", "spinner", "key",
+  "github", "linkedin", "x-twitter", "instagram", "tumblr", "researchgate",
+  "facebook", "facebook-f", "bluesky", "mastodon", "medium", "pinterest", "soundcloud",
+  "steam", "telegram", "vine", "weibo", "wikipedia-w", "xing", "youtube", "zhihu",
+  "artstation", "bitbucket", "codepen", "dribbble", "flickr", "foursquare", "goodreads",
+  "google-plus-g", "kaggle", "lastfm", "stack-overflow"
+) !default;
+
 @each $name, $icon in $fa-icons {
-  .#{$fa-css-prefix}-#{$name}::before { content: unquote("\"#{ $icon }\""); }
+  @if index($fa-used-icons, $name) {
+    .#{$fa-css-prefix}-#{$name}::before { content: unquote("\"#{ $icon }\""); }
+  }
 }
 
