@@ -10,6 +10,15 @@
   <a href="{{ base_path }}/">{{ site.title }}</a>
 </div>
 
+<!-- Language switcher (top-left) -->
+<div class="sidebar-lang">
+  {% if page.lang == 'ja' %}
+    <a href="{{ base_path }}/" title="Switch to English" aria-label="Switch to English" class="lang-switch">EN / 英語</a>
+  {% else %}
+    <a href="{{ base_path }}/ja/" title="日本語に切り替え" aria-label="日本語に切り替え" hreflang="ja" class="lang-switch">日本語</a>
+  {% endif %}
+</div>
+
 <!-- Avatar -->
 {% if author.avatar %}
 <div class="sidebar-avatar">
@@ -62,11 +71,6 @@
       <span id="theme-toggle" role="button" aria-label="Toggle theme">
         <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
       </span>
-      {% if page.lang == 'ja' %}
-        <a href="/" title="Switch to English" aria-label="Switch to English" class="lang-switch">EN / 英語</a>
-      {% else %}
-        <a href="/ja/" title="日本語に切り替え" aria-label="日本語に切り替え" hreflang="ja" class="lang-switch">日本語</a>
-      {% endif %}
     </li>
   </ul>
 </nav>

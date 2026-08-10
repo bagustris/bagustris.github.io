@@ -19,13 +19,12 @@ mindmap
     Research
       Speech AI
       Multimodal Fusion
-      Multitask Learning
-      Speech/Audio Classification  
     Tools
       Nkululeko
       Speechain
       PaperRAG
-      GitHub
+      Audiokit
+      Sherox
     Tutorials
       Shell and Linux
       Python and DSP
@@ -35,12 +34,13 @@ mindmap
       ICASSP
       O-COCOSDA  
       APSIPA
-      All Publications
     Japanese
       Ayo Belajar Bahasa Jepang
       Minna no Nihongo
       Japanese for Work
       Kanji Drills
+      Kotoba  
+      JLPT  
     Islam
       Kisah Nabi 
       Arbain Nawawi
@@ -54,11 +54,13 @@ const LINKS = {
   'Tools':                  '/tools/',
   'Tutorials':              '/tutorials/',
   'Publications':           '/publications/',
-  'All Publications':       '/publications/',
-  'Nkululeko':              'https://nkululeko.readthedocs.io',
+  'Speech AI':              'https://nkululeko.readthedocs.io/en/latest/',
+  'Multimodal Fusion':      'https://human-ai-lab.github.io/multibench/',
+  'Nkululeko':              'https://github.com/felixbur/nkululeko',
   'Speechain':              'https://bagustris.github.io/speechain',
   'PaperRAG':               'https://bagustris.github.io/paperrag',
-  'GitHub':                 'https://github.com/bagustris',
+  'Audiokit':               'https://github.com/bagustris/audiokit',
+  'Sherox':                 'https://github.com/bagustris/sherox',
   'Shell and Linux':        'https://bagustris.github.io/tutorial-shell',
   'Python and DSP':         'https://bagustris.github.io/python-for-signal-processing',
   'Speech and Audio':       'https://bagustris.github.io/speech-recognition-course',
@@ -71,6 +73,8 @@ const LINKS = {
   'Minna no Nihongo':       'https://bagustris.github.io/minna-no-nihongo/',
   'Japanese for Work':      'https://bagustris.github.io/japanese-for-work/',
   'Kanji Drills':           'https://bagustris.github.io/kanji-drill/',
+  'Kotoba':                 'https://bagustris.github.io/kotoba/',
+  'JLPT':                   'https://bagustris.github.io/jlpt/',
   'Kisah Nabi':             'https://bagustris.github.io/kisah-nabi',
   'Arbain Nawawi':          'https://bagustris.github.io/arbain-nawawi',
   'Blogs':                  'https://bagustris.blogspot.com',
