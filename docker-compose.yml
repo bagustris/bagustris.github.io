@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+      - "35729:35729"  # LiveReload port
+    volumes:
+      - .:/srv/jekyll
+      - /srv/jekyll/vendor/bundle  # Persist gems
+      - /srv/jekyll/_site          # Persist generated site
+    environment:
+      - JEKYLL_ENV=development
+    command: bundle exec jekyll serve --host=0.0.0.0 --port=4000 --livereload --force_polling
+    stdin_open: true
+    tty: true
+
+  # Service for building the site only
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/srv/jekyll
+      - /srv/jekyll/vendor/bundle
+    environment:
+      - JEKYLL_ENV=production
+    command: bundle exec jekyll build
+    profiles:
+      - build

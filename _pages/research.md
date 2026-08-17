@@ -61,7 +61,17 @@ An example repository for ~~undergraduate~~ final projects can be seen [in this 
 ## Teaching Policy
 There are no specific requirements for master's students; however, doctoral students require **a publication** before enrollment, at minimum hosted in IEEE Xplore or equivalent. A strong background in signal processing and machine learning is a plus for student candidates. I prefer to supervise students who are highly motivated and passionate about research and previously have used either Nkululeko or Speechain toolkits. Master's students may work on my given research themes but PhD students should propose their themes independently. I choose practicability over novelty of research topics (but still, there should be contribution/novelty in research). Regular meetings (lab study, seminar, meeting) are keys to discuss progress, challenges, and next steps. Students are encouraged to actively **read** relevant literature, **do** experiments, and critically **analyze** the results. While research is important, health is also a priority, both physically and mentally. Ultimately, I aim to help students develop their research skills and contribute meaningfully to their field of study.
 
-## Funded Research Project  
+## Funded Research Project/Grants  
 1. SIMULASI DAN PREDIKSI KEBISINGAN KERETA BANDARA SOEKARNO-HATTA (Penelitian Dosen Pemula, Dana Lokal ITS 2017)
 2. DETEKSI COVID-19 LINTAS DATA BERDASARKAN SUARA BATUK DENGAN DEEP LEARNING (TM/DRPM-ITS/PN.01.003, Funded by ITS 2022)
 3. 音声の音源-調音分解を用いた自己教師あり表現学習 (Kakenhi B, 2024-2027)  
+
+## Travel Grants
+1.NEC International Travel Grant 2019   
+
+## Scholarships 
+1. Beasiswa PPA/BBM 2005-2008  
+1. Beasiswa Bank BRI 2008/2009  
+1. JASSO Scholarship 2011/10-2012/3 (Kumamoto University)  
+1. MEXT Scholarship  2017/10-2021/3 (JAIST)  
+
