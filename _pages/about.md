@@ -11,7 +11,7 @@ redirect_from:
 ---
 > Do! Don’t just read.
 
-BTA is a speech AI researcher and educator at NAIST. He does research, teaching, and supervising in speech processing — from speech classification to ASR and TTS —, to acoustics and multimodal information fusion. Diagram below shows the connection between multimodal, acoustics, and speech, in which each concept is part of larger concept. Multimodal fusion combines information from multiple modalities, such as audio, visual, and text. Acoustics focuses on the physical properties of sound and how it is produced, transmitted, and perceived, including music, speech, and noise. Speech processing involves analyzing and understanding human speech signals for various applications.
+BTA is a speech AI researcher and educator at NAIST. He does research, teaching, and supervising in speech processing — from speech classification to ASR and TTS — to acoustics and multimodal information fusion. Diagram below shows the connection between speech, acoustics, and multimodal, in which each concept is part of a larger concept. Multimodal fusion combines information from multiple modalities, such as audio, visual, and text. Acoustics focuses on the physical properties of sound and how it is produced, transmitted, and perceived, including music, speech, and noise. Speech processing involves analyzing and understanding human speech signals for various applications.
 
 <p align="center">
  <img src="../images/research_bta_en.png" alt="Research areas: speech, acoustics, multimodal">
