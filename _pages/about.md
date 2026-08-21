@@ -28,21 +28,21 @@ mindmap
       PaperRAG
       Audiokit
       Sherox
+    Publications
+      Speech Communication
+      ICASSP
+      Interspeech
+      O-COCOSDA
+      APSIPA
     Tutorials
       Shell and Linux
-      Python Tutorial 
+      Python Tutorial
       Shell extras
     Courses
       Speech Recognition Course
       Python for Signal Processing
       Multimodal Processing
       Basic Mathematics
-    Publications
-      Speech Communication  
-      ICASSP
-      Interspeech 
-      O-COCOSDA  
-      APSIPA
     Japanese
       Ayo Belajar Bahasa Jepang
       Minna no Nihongo
@@ -51,9 +51,9 @@ mindmap
       Kotoba  
       JLPT  
       JED
-      Wani Kanji 
+      Wani Kanji
     Islam
-      Kisah Nabi 
+      Kisah Nabi
       Arbain Nawawi
 </pre>
 
