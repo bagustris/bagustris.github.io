@@ -18,6 +18,7 @@ BTA is a speech AI researcher and educator at NAIST. He does research, teaching,
 </p>
 
 Below is a mindmap of BTA's research, tools, tutorials, courses, publications, and other interests. Click on the nodes to explore more.  
+
 <pre class="mermaid">
 mindmap
   root((BTA))
@@ -72,7 +73,7 @@ const LINKS = {
   'Audiokit':               'https://github.com/bagustris/audiokit',
   'Sherox':                 'https://github.com/bagustris/sherox',
   'Shell and Linux':        'https://bagustris.github.io/tutorial-shell',
-  'Python and DSP':         'https://bagustris.github.io/python-tutorial',
+  'Python tutorial':        'https://bagustris.github.io/python-tutorial',
   'Shell extras':           'https://bagustris.github.io/shell-extras',
   'Speech Recognition Course': 'https://bagustris.github.io/speech-recognition-course',
   'Python for Signal Processing': 'https://bagustris.github.io/python-for-signal-processing',
