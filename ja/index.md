@@ -14,6 +14,8 @@ redirect_from:
 
 BTA は NAIST の音声 AI 研究者・教育者です。音声分類から ASR、TTS までの音声処理、そしてマルチモーダル情報融合に関する研究、教育、学生指導を行っています。
 
+![研究領域: 音声、音響、マルチモーダル](/images/research_bta_jp.png)
+
 <pre class="mermaid">
 mindmap
   root((BTA))

@@ -11,13 +11,16 @@ redirect_from:
 ---
 > Do! Don’t just read.
 
-BTA is a speech AI researcher and educator at NAIST. He does research, teaching, and supervising in speech processing — from speech classification to ASR and TTS — and multimodal information fusion.
+BTA is a speech AI researcher and educator at NAIST. He does research, teaching, and supervising in speech processing — from speech classification to ASR and TTS —, to acoustics and multimodal information fusion.
+
+![Research areas: speech, acoustics, multimodal](/images/research_bta_en.png)
 
 <pre class="mermaid">
 mindmap
   root((BTA))
     Research
       Speech AI
+      Acoustics 
       Multimodal Fusion
     Tools
       Nkululeko
@@ -27,11 +30,17 @@ mindmap
       Sherox
     Tutorials
       Shell and Linux
-      Python and DSP
-      Speech and Audio
-      Git and LaTeX
+      Python Tutorial 
+      Shell extras
+    Courses
+      Speech Recognition Course
+      Python for Signal Processing
+      Multimodal Processing
+      Basic Mathematics
     Publications
+      Speech Communication  
       ICASSP
+      Interspeech 
       O-COCOSDA  
       APSIPA
     Japanese
@@ -41,6 +50,8 @@ mindmap
       Kanji Drills
       Kotoba  
       JLPT  
+      JED
+      Wani Kanji 
     Islam
       Kisah Nabi 
       Arbain Nawawi
@@ -62,9 +73,12 @@ const LINKS = {
   'Audiokit':               'https://github.com/bagustris/audiokit',
   'Sherox':                 'https://github.com/bagustris/sherox',
   'Shell and Linux':        'https://bagustris.github.io/tutorial-shell',
-  'Python and DSP':         'https://bagustris.github.io/python-for-signal-processing',
-  'Speech and Audio':       'https://bagustris.github.io/speech-recognition-course',
-  'Git and LaTeX':          'https://bagustris.github.io/tutorial-git',
+  'Python and DSP':         'https://bagustris.github.io/python-tutorial',
+  'Shell extras':           'https://bagustris.github.io/shell-extras',
+  'Speech Recognition Course': 'https://bagustris.github.io/speech-recognition-course',
+  'Python for Signal Processing': 'https://bagustris.github.io/python-for-signal-processing',
+  'Multimodal Processing':  'https://bagustris.github.io/multisensory',
+  'Basic Mathematics':      'https://bagustris.github.io/matematika/',
   'Email':                  'mailto:bagustris@outlook.com',
   'GitHub Profile':         'https://github.com/bagustris',
   'Google Scholar':         'https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en',
@@ -75,6 +89,8 @@ const LINKS = {
   'Kanji Drills':           'https://bagustris.github.io/kanji-drill/',
   'Kotoba':                 'https://bagustris.github.io/kotoba/',
   'JLPT':                   'https://bagustris.github.io/jlpt/',
+  'JED':                    'https://bagustris.github.io/jed/',
+  'Wani Kanji':             'https://bagustris.github.io/wanikanji/', 
   'Kisah Nabi':             'https://bagustris.github.io/kisah-nabi',
   'Arbain Nawawi':          'https://bagustris.github.io/arbain-nawawi',
   'Blogs':                  'https://bagustris.blogspot.com',
