@@ -30,6 +30,23 @@ If you don't have access to some of the papers below, please feel free to contac
 
 2. F. Burkhardt, B. T. Atmaja, and B. Schuller, "Nkululeko: fully automated processing of speech databases", *3rd Interdisciplinary Conference on Voice Communication (VoiceID) 2026*, September 2-4, 2026, Jena, Germany.
 
+3. W. Zhou, B. T. Atmaja, and S. Sakti, "Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces", *INTERSPEECH 2026* (Accepted).
+
+4. B T. Atmaja and A. Sasou, “Evaluating multilingual self-supervised learning models for multilingual speech emotion recognition,” Journal of Signal Processing, vol. 30, no. 5, 2026.
+
+5. B.T. Atmaja and S. Sakti, "A Cascaded Speaker Diarization and Transcription System for Japanese Conversational Speech", *APSIPA-ASC 2026* (Accepted).
+
+6. H. Wu, W. Zhou, B.T. Atmaja, and S. Sakti, "Talking Face Generation by Tri-Flow: A Streaming Method", *APSIPA-ASC 2026* (Accepted).  
+
+7. A. D. Prasetyo, D. Arifianto, K. Indriawati, B.T. Atmaja, S. Sakti, "Weakly Supervised Noisy Label Cleaning for Cough-Based TB Screening", *APSIPA-ASC 2026* (Accepted). 
+
+8. T. Q. Chung, B.T. Atmaja, and S. Sakti, " Speak Better via Simultaneous Listening and Speaking in Unified Decoder-Only LLMs", *APSIPA-ASC 2026* (Accepted).  
+
+9. D.R.N. Pramono, B.T. Atmaja, and S. Sakti, "Multi-Stream Artifact Detection for Audio Deepfake Detection via Temporal, Spectral, and Phase Cues", *APSIPA-ASC 2026* (Accepted).  
+
+
+
+
 ## 2025
 
 1. B. T. Atmaja, Zanjabila, Suyanto, W. A. Asmoro, and A. Sasou, "Cross-dataset COVID-19 transfer learning with data augmentation," *Int. J. Inf. Technol.*, 2025, doi: [10.1007/s41870-025-02433-z](https://doi.org/10.1007/s41870-025-02433-z).

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Speech and Multimodal AI Researcher and Educator"
+title: "Speech and Multimodal AI Researcher"
 description: "Speech AI researcher and educator at NAIST building open-source tools (Nkululeko, Speechain), tutorials, and demos in speech processing and multimodal processing."
 lang: en
 lang_ref: about
@@ -11,17 +11,16 @@ redirect_from:
 ---
 > Do! Don’t just read.
 
-BTA is a speech AI researcher and educator at NAIST. He does research, teaching, and supervising in speech processing — from speech classification to ASR and TTS —, to acoustics and multimodal information fusion.
+BTA is a speech AI researcher and educator at NAIST. He does research, teaching, and supervising in speech processing — from speech classification to ASR and TTS —, to acoustics and multimodal information fusion. Diagram below shows the connection between multimodal, acoustics, and speech, in which each concept is part of larger concept.  Multimodal combines information from multiple modalities, such as audio, visual, and text. Acoustics focuses on the physical properties of sound and how it is produced, transmitted, and perceived, including, music, speech, and noise. Speech processing involves analyzing and understanding human speech signals for various applications.
 
-![Research areas: speech, acoustics, multimodal](/images/research_bta_en.png)
+<p align="center">
+ <img src="https://images/research_bta_en.png" alt="Research areas: speech, acoustics, multimodal">
+</p>
 
+Below is a mindmap of BTA's research, tools, tutorials, courses, publications, and other interests. Click on the nodes to explore more.  
 <pre class="mermaid">
 mindmap
   root((BTA))
-    Research
-      Speech AI
-      Acoustics 
-      Multimodal Fusion
     Tools
       Nkululeko
       Speechain
