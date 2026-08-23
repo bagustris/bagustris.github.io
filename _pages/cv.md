@@ -7,6 +7,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+> Work for your worldly life as if you will live forever, and strive for your hereafter as if you will die tomorrow.
 
 {% include base_path %}
 
@@ -17,34 +18,34 @@ Education
 * M.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2012
   * Thesis: On Source Signal Segregation Based On Binaural Inputs
 * B.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2009
-  * Thesis: Pemisahan Banyak Sumber Suara Mesin Dari Microphone Array Dengan Metode Independent Component Analysis Untuk Deteksi Kerusakan
+  * Thesis: Machine Sounds Separation From Microphone Array Using Independent Component Analysis For Fault Detection
 
 Work experience
 ======
 * 2025-Present: Assistant Professor
-  * National Institute of Advanced Industrial Science and Technology (AIST)
+  * Nara Institute of Science and Technology (NAIST), Nara, Japan 
   * Human AI Interaction Lab., Division of Information Science
-  * Research, supervising and teaching on speech processing and multisensory AI  
+  * Conducting research, supervising and teaching on speech processing and multisensory AI  
 
 * 2021-2025: Researcher
-  * National Institute of Advanced Industrial Science and Technology (AIST)
+  * National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Japan 
   * Signal Processing Research Team, Artificial Intelligence Research Center
-  * Research on speech processing and affective computing
+  * Conducting research on speech processing and affective computing
 
 * 2014-2024: Lecturer (Docent)
-  * Sepuluh Nopember Institute of Technology
+  * Sepuluh Nopember Institute of Technology, Surabaya, Indonesia  
   * Vibrastic Laboratory, Department of Engineering Physics  
-  * Teaching and research in signal processing, acoustics, building physics, and vibration
+  * Teaching and conducting research in signal processing, acoustics, building physics, and vibration
 
 * 2012-2014: Engineer  
-  * Shimizu Seisakusho 
+  * Shimizu Seisakusho, Kameyama, Japan 
   * Conducting production, measurement, and inspection on metal parts for automotive industries  
 
 Skills
 ======
-* Speech Processing  
-  * General speech processing  
-  * Speech-based classification (e.g., emotion recognition)  
+* Acoustic/Speech Processing  
+  * General speech processing and analysis (e.g., ASR, TTS, voice conversion)
+  * Speech-based classification (e.g., emotion, age, gender, disease recognition)  
   * Multimodal information fusion  
   * Multitask learning
 * Machine Learning

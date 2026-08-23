@@ -6,7 +6,8 @@ permalink: /publications/
 author_profile: true
 ---
 {% if site.author.googlescholar %}
-> Talk is cheap, show me your works.
+> Talk is cheap, show me your paper.
+> Writing is a way to think, to learn, and to share
 
 You can also find my articles on third party pages below: 
 

@@ -5,9 +5,12 @@ description: "Talks, presentations, conference appearances, and recent updates f
 permalink: /talks/
 author_profile: true
 ---
+> Convey from me, even if it is one verse. (Prophet Muhammad ﷺ, Sahih al-Bukhari)
 
 ## Talks, Presentations, News, Updates  
+* **31/07/2026**: FOUR papers were accepted at APSIPA-ASC 2026. See you in Bangkok, Thailand!
 * **11/07/2026**: Attending [Kansai Joint Speech Seminar at Osaka Institute of Technology](https://www.oit.ac.jp/personal/splab/kansai-sp/63.html), Osaka, Japan 
+* **04/07/2026**: A paper was accepted at [INTERSPEECH 2026](https://www.interspeech2026.org/)!
 * **01/07/2026**: Giving a talk about "Voice and Multimodal AI for Healthcare" at [ITS MedTech Summer Course 2026](https://www.its.ac.id/medtech/2026/05/24/nternational-summer-school-on-artificial-intelligence/), Surabaya, Indonesia.
 * **25/06/2026**: Attending Undergraduate Final Project Symposium at UTM KL, Malaysia.
 * **23/06/2026**: Attending UMC 2.0 at UTM Johor Bahru, Malaysia. 
@@ -43,6 +46,6 @@ author_profile: true
 * **17/10/2022**: Presented one paper in [ACII 2022](https://acii-conf.net/2022/). First in-person conference after COVID-19.
 * **01/04/2022**: My postdoc position in signal processing group, AIRC, AIST Japan will be extended for one year to 30 March 2023.
 * **23/03/2022**: Create this news page
-* **01/04/2021**: Starting postdoc position at AIST
+* **01/04/2021**: Starting a postdoc position at AIST
 
 ---
