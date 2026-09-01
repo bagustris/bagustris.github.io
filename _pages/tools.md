@@ -51,6 +51,17 @@ papers — chat with your literature without sending it to a remote API.
 - 🌐 Site: [bagustris.github.io/paperrag](https://bagustris.github.io/paperrag)
 - 💻 Source: [github.com/bagustris/paperrag](https://github.com/bagustris/paperrag)
 
+### Yomitan-PDF-Viewer 
+An offline installable PDF viewer to support Yomitan, a Japanese reading practice tool, and other plugins. Fully offline, with support for annotations, bookmarks, and text search.
+- 🌐 Site: [bagustris.github.io/yomitan-pdf-viewer](https://bagustris.github.io/yomitan-pdf-viewer)
+- Source: [github.com/bagustris/yomitan-pdf-viewer](https://github.com/bagustris/yomitan-pdf-viewer)
+
+### Primer2-theme 
+Jekyll theme with two columns, a static site generator for academic and research websites. It provides a clean and modern design, with support for publications, projects, and blog posts.
+- 🌐 Site: [bagustris.github.io/primer2](https://bagustris.github.io/primer2)
+- Source: [github.com/bagustris/primer2-theme](https://github.com/bagustris/primer2-theme)
+
+
 ## More
 
 For other repositories, demos, and experiments, see my
