@@ -9,7 +9,7 @@ author_profile: true
 Open-source toolkits I build and maintain. Issues and pull requests are
 welcome — feel free to ⭐ on GitHub if you find them useful.
 
-## Main Tools
+## Tools/toolkits 
 
 ### [Nkululeko](https://nkululeko.readthedocs.io)
 
@@ -61,8 +61,29 @@ Jekyll theme with two columns, a static site generator for academic and research
 - 🌐 Site: [bagustris.github.io/primer2](https://bagustris.github.io/primer2)
 - Source: [github.com/bagustris/primer2-theme](https://github.com/bagustris/primer2-theme)
 
+## Apps (PWA)  
 
-## More
+### Kanji Drills
+A Progressive Web App (PWA) for learning Japanese kanji, with spaced repetition and quizzes by mimicking how Japanese elementary school learn kanji (no on/kunyomi, simple words and sentences).  
+- 🌐 Site: [bagustris.github.io/kanji-drills](bagustris.github.io/kanji-drills)  
+
+### Kotoba
+A Progressive Web App (PWA) for learning Japanese vocabulary with philosophy that *language is a collection of words*. Contains more than 5,000 words with spaced repetition and sentence example. 
+- 🌐 Site: [bagustris.github.io/kotoba](https://bagustris.github.io/kotoba)  
+
+### JLPT
+A Progressive Web App (PWA) for learning Japanese **kanji** and **compound words** for the Japanese Language Proficiency Test (JLPT). This app is similar to kanji drills, but for adult learners (not mimic elementary school).  
+- 🌐 Site: [bagustris.github.io/jlpt](https://bagustris.github.io/jlpt)  
+
+### JED
+A Progressive Web App (PWA) for Japanese-English dictionary with more than 100,000 words. It contains kanji, stroke order, word and example sentences.  
+- 🌐 Site: [bagustris.github.io/jed](https://bagustris.github.io/jed)  
+
+### Wani Kanji
+A Progressive Web App (PWA) for learning Japanese kanji with spaced repetition using **lesson** and **review** *by typing*.  
+- 🌐 Site: [bagustris.github.io/wani-kanji](https://bagustris.github.io/wanikanji)  
+
+### More
 
 For other repositories, demos, and experiments, see my
 [GitHub profile](https://github.com/bagustris).
