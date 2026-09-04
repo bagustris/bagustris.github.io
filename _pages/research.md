@@ -65,6 +65,7 @@ There are no specific requirements for master's students; however, doctoral stud
 1. Simulation and prediction of Soekarno-Hatta Airport train noises (Funded by LPPM ITS 2017)
 2. COVID-19 cross-dataset detection based on cough data with deep learning methods (TM/DRPM-ITS/PN.01.003, Funded by ITS 2022)
 3. 音声の音源-調音分解を用いた自己教師あり表現学習 (Kakenhi B, 2024-2027)  
+4. Leveraging ASR Technology for Japanese Language Learning and Paralinguistic Analysis ( NAIST Senju Monju project: Phase 1 Early-career Researcher Support Program))
 
 ## Travel Grants
 1. Travel grant for attending Hands-on School on Complex Systems and Data Science, ICTP (UNESCO/IAEA), Trieste, Italy, 2015.
