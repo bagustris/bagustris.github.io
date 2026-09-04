@@ -31,7 +31,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 2. F. Burkhardt, B. T. Atmaja, and B. Schuller, "Nkululeko: fully automated processing of speech databases", *3rd Interdisciplinary Conference on Voice Communication (VoiceID) 2026*, September 2-4, 2026, Jena, Germany.
 
-3. W. Zhou, B. T. Atmaja, and S. Sakti, "Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces", *INTERSPEECH 2026* (Accepted).
+3. W. Zhou, B. T. Atmaja, and S. Sakti, "Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces", *INTERSPEECH 2026*, Sidney, Australia.
 
 4. B T. Atmaja and A. Sasou, “Evaluating multilingual self-supervised learning models for multilingual speech emotion recognition,” Journal of Signal Processing, vol. 30, no. 5, 2026. [PDF](../files/30_161.pdf)
 
