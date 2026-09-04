@@ -33,7 +33,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 3. W. Zhou, B. T. Atmaja, and S. Sakti, "Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces", *INTERSPEECH 2026* (Accepted).
 
-4. B T. Atmaja and A. Sasou, “Evaluating multilingual self-supervised learning models for multilingual speech emotion recognition,” Journal of Signal Processing, vol. 30, no. 5, 2026.
+4. B T. Atmaja and A. Sasou, “Evaluating multilingual self-supervised learning models for multilingual speech emotion recognition,” Journal of Signal Processing, vol. 30, no. 5, 2026. [PDF](../files/30_161.pdf)
 
 5. B.T. Atmaja and S. Sakti, "A Cascaded Speaker Diarization and Transcription System for Japanese Conversational Speech", *APSIPA-ASC 2026* (Accepted).
 
@@ -44,8 +44,6 @@ If you don't have access to some of the papers below, please feel free to contac
 8. T. Q. Chung, B.T. Atmaja, and S. Sakti, " Speak Better via Simultaneous Listening and Speaking in Unified Decoder-Only LLMs", *APSIPA-ASC 2026* (Accepted).  
 
 9. D.R.N. Pramono, B.T. Atmaja, and S. Sakti, "Multi-Stream Artifact Detection for Audio Deepfake Detection via Temporal, Spectral, and Phase Cues", *APSIPA-ASC 2026* (Accepted).  
-
-
 
 
 ## 2025
