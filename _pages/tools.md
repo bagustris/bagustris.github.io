@@ -83,6 +83,10 @@ A Progressive Web App (PWA) for Japanese-English dictionary with more than 100,0
 A Progressive Web App (PWA) for learning Japanese kanji with spaced repetition using **lesson** and **review** *by typing*.  
 - 🌐 Site: [bagustris.github.io/wani-kanji](https://bagustris.github.io/wanikanji)  
 
+### Onchou  
+A Progressive Web App (PWA) for learning Japanese pitch accent based on learner voice recording (no data sent to server).  
+- 🌐 Site: [bagustris.github.io/onchou](https://bagustris.github.io/onchou)  
+
 ### More
 
 For other repositories, demos, and experiments, see my
