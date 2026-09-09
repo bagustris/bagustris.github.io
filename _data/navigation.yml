@@ -18,6 +18,7 @@ main:
   - title: "Publications"
     title_ja: "論文"
     url: /publications/
+    url_ja: /ja/publications/
 
   - title: "Tutorials"
     title_ja: "チュートリアル"
