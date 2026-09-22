@@ -32,9 +32,9 @@ Work experience
   * Signal Processing Research Team, Artificial Intelligence Research Center
   * Conducting research on speech processing and affective computing
 
-* 2014-2024: Lecturer (Docent)
+* 2014-2017: Lecturer (Docent)
   * Sepuluh Nopember Institute of Technology, Surabaya, Indonesia  
-  * Vibrastic Laboratory, Department of Engineering Physics  
+  * Vibrastic Laboratory, Department of Engineering Physics, Faculty of Industrial Tech. 
   * Teaching and conducting research in signal processing, acoustics, building physics, and vibration
 
 * 2012-2014: Engineer  

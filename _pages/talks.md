@@ -8,6 +8,8 @@ author_profile: true
 > Convey from me, even if it is one verse. (Prophet Muhammad ﷺ, Sahih al-Bukhari)
 
 ## Talks, Presentations, News, Updates  
+* **15/09/2026**: Four papers were accepted at [O-COCOSDA 2026](https://www.ococosda2026.com.ph/)! See you in Manila, Philippines. 
+* **09/09/2026**: One paper accepted at [SLT 2026](https://attend.ieee.org/slt-2026/)!
 * **31/07/2026**: FOUR papers were accepted at APSIPA-ASC 2026. See you in Bangkok, Thailand!
 * **11/07/2026**: Attending [Kansai Joint Speech Seminar at Osaka Institute of Technology](https://www.oit.ac.jp/personal/splab/kansai-sp/63.html), Osaka, Japan 
 * **04/07/2026**: A paper was accepted at [INTERSPEECH 2026](https://www.interspeech2026.org/)!
@@ -20,7 +22,7 @@ author_profile: true
 * **07/01/2026**: Published health report related to [steps, sleeps, and heart rate in 2025](../blogs/health_report_2023_2025.html)
 * **29/11/2025**: Attending The62 KJSS at Ritsumeikan OIC.  
 * **12/11/2025**: Presenting a paper at OCOCOSDA 2025, Yogyakarta. Two papers are accepted.  
-* **10/11/2025**: Give a workshop about AI for medical domain at ITS Surabaya  
+* **10/11/2025**: Give a [workshop about AI for medical domain at ITS Surabaya](https://www.instagram.com/p/DRBZYPEExTR/).  
 * **06/11/2025**: Presenting a paper at ICSigSys 2025, Bali. Two papers are accepted. Another paper was presented online by a student.
 * **27/10/2025**: Give a guest lecture at PENS Surabaya. The topic is the potential use of AI in medical domain (case study: voice technology).  
 * **22/10/2025**: Attending APSIPA 2025 at Singapore, presenting two papers.
