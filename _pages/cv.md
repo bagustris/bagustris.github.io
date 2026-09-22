@@ -13,11 +13,11 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Information Science, Japan Advanced Institute of Science and Technology, 2021
+* Ph.D. in Information Science, Japan Advanced Institute of Science and Technology, 2018-2021
   * Dissertation: Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information
-* M.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2012
+* M.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2010-2012
   * Thesis: On Source Signal Segregation Based On Binaural Inputs
-* B.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2009
+* B.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2005-2009
   * Thesis: Machine Sounds Separation From Microphone Array Using Independent Component Analysis For Fault Detection
 
 Work experience
