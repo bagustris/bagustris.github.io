@@ -33,7 +33,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 3. W. Zhou, **B. T. Atmaja**, and S. Sakti, "Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces", *INTERSPEECH 2026*, Sidney, Australia.
 
-4. B T. Atmaja and A. Sasou, “Evaluating multilingual self-supervised learning models for multilingual speech emotion recognition,” Journal of Signal Processing, vol. 30, no. 5, 2026. [PDF](../files/30_161.pdf)
+4. **B. T. Atmaja** and A. Sasou, “Evaluating multilingual self-supervised learning models for multilingual speech emotion recognition,” Journal of Signal Processing, vol. 30, no. 5, 2026. [PDF](../files/30_161.pdf)
 
 5. **B.T. Atmaja** and S. Sakti, "A Cascaded Speaker Diarization and Transcription System for Japanese Conversational Speech", *APSIPA-ASC 2026*.
 
@@ -70,7 +70,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 6. **B. T. Atmaja**, D. V. Rashika, D. P. Lestari and S. Sakti, "Semi-supervised Acoustic Scene Classification with Label Smoothing and Hard Samples Identification," 2025 IEEE International Conference on Signals and Systems (ICSigSys), Bali, Indonesia, 2025, pp. 15-19, [doi: 10.1109/ICSigSys67277.2025.11269138](https://doi.org/10.1109/ICSigSys67277.2025.11269138).
 
-7. M. B. Pratama Tjoa, B. Tris Atmaja and S. Sakti, "Indonesian Folklore Storytelling in Japanese Language with Text-to-Speech," 2025 IEEE International Conference on Signals and Systems (ICSigSys), Bali, Indonesia, 2025, pp. 113-117, [doi: 10.1109/ICSigSys67277.2025.11269173](https://doi.org/10.1109/ICSigSys67277.2025.11269173).
+7. M. B. P. Tjoa, **B. T. Atmaja** and S. Sakti, "Indonesian Folklore Storytelling in Japanese Language with Text-to-Speech," 2025 IEEE International Conference on Signals and Systems (ICSigSys), Bali, Indonesia, 2025, pp. 113-117, [doi: 10.1109/ICSigSys67277.2025.11269173](https://doi.org/10.1109/ICSigSys67277.2025.11269173).
 
 8. A. D. Prasetyo, **B. T. Atmaja**, D. Arifianto and S. Sakti, "A Comparison of Solicited and Longitudinal Cough Sounds for Tuberculosis Detection," 2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), Singapore, Singapore, 2025, pp. 1657-1662, [doi: 10.1109/APSIPAASC65261.2025.11249364](https://doi.org/10.1109/APSIPAASC65261.2025.11249364).  
 
@@ -198,9 +198,9 @@ If you don't have access to some of the papers below, please feel free to contac
 
 3. B. Putra, **B. T. Atmaja**, and S. Hidayat, "Fusion of artificial neural network and fuzzy system for short term weather forecasting," *Int. J. Inf. Commun. Technol.*, vol. 4, no. 2–4, pp. 210–226, 2012, doi: [10.1504/IJICT.2012.048765](https://doi.org/10.1504/IJICT.2012.048765).
 
-4. B. Putra, B. Atmaja, and D. Prananto, “Developing Speech Recognition System for Quranic Verse Recitation Learning Software”, IJID, vol. 1, no. 2, pp. 14–21, Dec. 2012, doi: [https://doi.org/10.14421/ijid.2012.01203](https://doi.org/10.14421/ijid.2012.01203).
+4. B. Putra, **B. T. Atmaja**, and D. Prananto, “Developing Speech Recognition System for Quranic Verse Recitation Learning Software”, IJID, vol. 1, no. 2, pp. 14–21, Dec. 2012, doi: [https://doi.org/10.14421/ijid.2012.01203](https://doi.org/10.14421/ijid.2012.01203).
 
-5. B. Atmaja, A. S. Aisyah, and D. Arifianto, “PEMISAHAN BANYAK SUMBER SUARA MESIN MENGGUNAKAN INDEPENDENT COMPONENT ANALYSIS (ICA) UNTUK DETEKSI KERUSAKAN”, Jurnal Ilmu Komputer dan Informasi, vol. 3, no. 1, pp. 30–37, May 2012. [PDF](../files/jiki_Journal_manager_139-319-1-PB.pdf)
+5. **B. T. Atmaja**, A. S. Aisyah, and D. Arifianto, “PEMISAHAN BANYAK SUMBER SUARA MESIN MENGGUNAKAN INDEPENDENT COMPONENT ANALYSIS (ICA) UNTUK DETEKSI KERUSAKAN”, Jurnal Ilmu Komputer dan Informasi, vol. 3, no. 1, pp. 30–37, May 2012. [PDF](../files/jiki_Journal_manager_139-319-1-PB.pdf)
 
 ## 2011
 
