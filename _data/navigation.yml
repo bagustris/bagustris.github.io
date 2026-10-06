@@ -28,6 +28,10 @@ main:
     title_ja: "ツール"
     url: /tools/
 
+  - title: "Blog"
+    title_ja: "ブログ"
+    url: /blog/
+
   - title: "Talks"
     title_ja: "講演"
     url: /talks/
