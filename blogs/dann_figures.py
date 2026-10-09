@@ -118,16 +118,16 @@ ax.bar(xs - wd_ / 2, [h0[-1, 0], h1[-1, 0]], wd_, color=BLUE, label="seen databa
 ax.bar(xs + wd_ / 2, [t0, t1], wd_, color=ORANGE, label="unseen database (test)")
 for x_, v_ in zip(np.r_[xs - wd_ / 2, xs + wd_ / 2], [h0[-1, 0], h1[-1, 0], t0, t1]):
     ax.text(x_, v_ + .01, f"{v_:.2f}", ha="center", fontsize=9)
-ax.set(xticks=xs, xticklabels=["no DANN", "DANN"], ylim=(0, 1.15), ylabel="real/fake accuracy", title="DANN trades a little train accuracy\nfor better transfer")
-ax.legend(frameon=False, fontsize=8, loc="lower right")
+ax.set(xticks=xs, xticklabels=["no DANN", "DANN"], ylim=(0, 1.4), ylabel="real/fake accuracy", title="DANN trades a little train accuracy\nfor better transfer")
+ax.legend(frameon=False, fontsize=8, loc="upper center")
 
 ax = axs[2]
 ax.plot(h1[:, 0], c=GREEN, label="task head: real/fake")
 ax.plot(h1[:, 1], c=ORANGE, label="domain head: which database")
 ax.plot(h0[:, 1], c=ORANGE, ls=":", label="domain head, no DANN")
 ax.axhline(.5, c=GRAY, ls=":"); ax.text(500, .51, "chance", ha="right", color=GRAY, fontsize=9)
-ax.set(xlabel="training step", ylabel="accuracy (train)", title="Domain head accuracy is pushed down", ylim=(.4, 1.0), xlim=(0, 500))
-ax.legend(frameon=False, fontsize=8, loc="center right")
+ax.set(xlabel="training step", ylabel="accuracy (train)", title="Domain head accuracy is pushed down", ylim=(.4, 1.25), xlim=(0, 500))
+ax.legend(frameon=False, fontsize=8, loc="upper right")
 fig.savefig(f"{OUT}/03-toy.png", dpi=150, bbox_inches="tight")
 print("no DANN: w", w0.round(2), "train/dom/test", h0[-1].round(2), round(t0, 2))
 print("DANN   : w", w1.round(2), "train/dom/test", h1[-1].round(2), round(t1, 2))

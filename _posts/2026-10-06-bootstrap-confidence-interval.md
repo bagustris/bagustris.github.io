@@ -3,6 +3,7 @@ title: "Bootstrap Confidence Interval, Explained with Pictures"
 description: "A simple, visual explanation of the bootstrap confidence interval, what it means when the interval includes or excludes zero, and why paired data needs a paired bootstrap."
 excerpt: "A simple, visual explanation of the bootstrap confidence interval, what it means when it includes or excludes zero, and why pairing matters."
 date: 2026-10-06 00:00:00 +0900
+mathjax: true
 ---
 
 You have one sample and one mean. How sure are you about that mean? A **confidence interval (CI)** answers this question. The **bootstrap** is a way to get a CI without assuming that your data follow a normal distribution. All you need is a computer that can shuffle numbers.
@@ -21,7 +22,7 @@ In plain words: *"If I could repeat my experiment many times, where would most o
 
 ## 2. Does the interval include zero?
 
-This matters most when you compare two conditions. Take the difference (for example, *after − before*) and bootstrap the **mean difference**. Zero means "no difference", so we check where zero sits relative to the interval.
+This matters most when you compare two conditions. Take the difference (for example, $$\text{after} - \text{before}$$) and bootstrap the **mean difference**. Zero means "no difference", so we check where zero sits relative to the interval.
 
 <img src="{{ '/images/bootstrap/02-include-exclude-zero.png' | relative_url }}" alt="CI including zero versus CI excluding zero">
 
@@ -33,7 +34,7 @@ Two cautions:
 - *Excluding zero* only means the effect is probably not exactly zero. It does not mean the effect is big. Look at the **size of the interval** too (B ranges from about 0.6 to 1.4, and whether that matters depends on your problem).
 - *Including zero* does not prove "no difference". It means your data are not enough to tell. With more data the interval usually gets narrower.
 
-A 95% CI that excludes 0 corresponds to p < 0.05 in a two-sided test. This is the same decision rule as in a classic significance test, but the CI also shows you **how large** the effect might be.
+A 95% CI that excludes 0 corresponds to $$p < 0.05$$ in a two-sided test. This is the same decision rule as in a classic significance test, but the CI also shows you **how large** the effect might be.
 
 ## 3. Paired vs. unpaired: why it matters
 
@@ -43,7 +44,7 @@ In an earlier post (in Indonesian) I wrote about the [paired t-test with LibreOf
 
 **Left:** the same 20 people measured before and after. People differ a lot from each other (scores from 50 to 100), but almost everyone gains a little, so the lines are nearly parallel.
 
-**Middle, paired bootstrap.** Compute `after − before` for each person first, then resample those 20 differences. The person-to-person variation is cancelled out, because each person is compared with themselves. The CI is narrow and **excludes zero**.
+**Middle, paired bootstrap.** Compute $$\text{after} - \text{before}$$ for each person first, then resample those 20 differences. The person-to-person variation is cancelled out, because each person is compared with themselves. The CI is narrow and **excludes zero**.
 
 **Right, unpaired bootstrap.** Resample the "before" group and the "after" group independently, as if they were different people. Now the large differences between people leak into the result as noise. The CI becomes about nine times wider and **includes zero**.
 

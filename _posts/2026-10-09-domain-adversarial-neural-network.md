@@ -3,6 +3,7 @@ title: "Domain Adversarial Neural Network (DANN), Explained Simply"
 description: "A simple, visual explanation of the Domain Adversarial Neural Network (DANN): the gradient reversal layer, the loss equations, a toy experiment, and how it is used in Nkululeko."
 excerpt: "How to stop a model from learning shortcuts like 'this recording style means fake'. A short visual tour of DANN and the gradient reversal layer."
 date: 2026-10-09 00:00:00 +0900
+mathjax: true
 ---
 
 Imagine a deepfake detector trained on two databases. Database A has mostly real speech and database B has mostly fake speech. The model may quietly learn: *"this microphone and recording style means real, that one means fake."* On a new database the shortcut breaks, and the detector fails. The same problem appears for emotion recognition across corpora or languages.
@@ -17,7 +18,7 @@ I recently saw this added to [Nkululeko in PR #465](https://github.com/felixbur/
 
 <img src="{{ '/images/dann/01-architecture.png' | relative_url }}" alt="DANN architecture with a task head and a domain head behind a gradient reversal layer">
 
-- **Shared model (blue):** turns the audio into a feature vector `h`. This is your normal model (MLP, CNN, AASIST, ...).
+- **Shared model (blue):** turns the audio into a feature vector $$h$$. This is your normal model (MLP, CNN, AASIST, ...).
 - **Task head (green):** predicts what you care about, for example real vs. fake.
 - **Domain head (orange):** a small extra classifier that predicts the *nuisance* label, for example which database or language the audio came from.
 - **GRL (red):** the gradient reversal layer, the one trick that makes it all work. It sits between the features and the domain head.
@@ -32,8 +33,8 @@ Normally, a head that predicts domains would push the features to *contain* doma
 
 | Pass | What the GRL does | Equation |
 |---|---|---|
-| **Forward** | Nothing. It passes the features through. | `GRL(h) = h` |
-| **Backward** | Flips the sign of the gradient and scales it. | `∂GRL/∂h = −λ` |
+| **Forward** | Nothing. It passes the features through. | $$\mathrm{GRL}(h) = h$$ |
+| **Backward** | Flips the sign of the gradient and scales it. | $$\dfrac{\partial\,\mathrm{GRL}}{\partial h} = -\lambda$$ |
 
 So the domain head still learns normally to guess the domain from `h`. But the gradient that travels *back into the shared model* is reversed. The shared model is therefore told: *"change your features so that the domain head becomes worse."* It is a two-player game: the domain head tries to detect the domain, the feature extractor tries to hide it.
 
@@ -55,30 +56,29 @@ class _GradientReversalFunction(torch.autograd.Function):
 
 The total loss that the model minimizes is:
 
-```
-L_total = L_task + w * Σ_k L_dom,k
-```
+$$
+L_{\text{total}} = L_{\text{task}} + w \sum_{k} L_{\text{dom},k}
+$$
 
 | Symbol | Meaning |
 |---|---|
-| `L_task` | The usual loss of the main task (cross-entropy for real/fake). |
-| `L_dom,k` | Cross-entropy of the domain head for the nuisance column `k` (for example `source_db`, `language`). |
-| `Σ_k` | You may use several nuisance columns at once. One head is made per column, and the losses are summed. |
-| `w` | `dann_weight`: how much the domain loss counts in the total. |
+| $$L_{\text{task}}$$ | The usual loss of the main task (cross-entropy for real/fake). |
+| $$L_{\text{dom},k}$$ | Cross-entropy of the domain head for the nuisance column `k` (for example `source_db`, `language`). |
+| $$\sum_k$$ | You may use several nuisance columns at once. One head is made per column, and the losses are summed. |
+| $$w$$ | `dann_weight`: how much the domain loss counts in the total. |
 
-For the feature extractor parameters `θ_f`, the update is:
+For the feature extractor parameters $$\theta_f$$, the update is:
 
-```
-θ_f  ←  θ_f − η * ( ∂L_task/∂θ_f  −  λ * ∂L_dom/∂θ_f )
-                     └─ be good at the task ─┘  └─ be BAD for the domain head ─┘
-```
+$$
+\theta_f \leftarrow \theta_f - \eta \Big( \underbrace{\frac{\partial L_{\text{task}}}{\partial \theta_f}}_{\text{be good at the task}} - \lambda \underbrace{\frac{\partial L_{\text{dom}}}{\partial \theta_f}}_{\text{be BAD for the domain head}} \Big)
+$$
 
 | Symbol | Meaning |
 |---|---|
-| `η` | Learning rate. |
-| `∂L_task/∂θ_f` | Normal gradient: make features useful for the task. |
-| `−λ · ∂L_dom/∂θ_f` | **Reversed** gradient from the GRL: make features *unhelpful* for the domain head. This is the `−λ` from the table above. |
-| `λ` | `dann_lambda`: the strength of the reversal. Too small gives no effect, too large can make training unstable. |
+| $$\eta$$ | Learning rate. |
+| $$\partial L_{\text{task}} / \partial \theta_f$$ | Normal gradient: make features useful for the task. |
+| $$-\lambda \, \partial L_{\text{dom}} / \partial \theta_f$$ | **Reversed** gradient from the GRL: make features *unhelpful* for the domain head. This is the $$-\lambda$$ from the table above. |
+| $$\lambda$$ | `dann_lambda`: the strength of the reversal. Too small gives no effect, too large can make training unstable. |
 
 The domain head itself uses the normal (non-reversed) gradient of `L_dom`, so it keeps trying its best. That is what makes the game adversarial.
 
@@ -121,7 +121,7 @@ A few practical notes from the PR:
 - **It needs a domain label** for each training sample, and at least two different values (the code raises an error otherwise).
 - **It does not guarantee invariance.** A strong enough domain head can still find domain traces, as the 0.69 in the toy example shows.
 - **It can hurt if the domain really carries signal.** If, say, language truly correlates with the label in your application, removing it will cost accuracy.
-- **Tuning matters.** Start with `λ = 1`, watch the task and domain losses, and compare against the `dann_reverse = False` ablation.
+- **Tuning matters.** Start with $$\lambda = 1$$, watch the task and domain losses, and compare against the `dann_reverse = False` ablation.
 
 ## Summary
 

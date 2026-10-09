@@ -3,6 +3,7 @@ title: "Goodness of Pronunciation (GOP), Explained Simply"
 description: "A simple, visual explanation of Goodness of Pronunciation (GOP): how a speech model turns phone posteriors into a pronunciation score, with annotated equations and figures."
 excerpt: "How can a computer tell whether you pronounced a sound correctly? A short visual tour of Goodness of Pronunciation (GOP)."
 date: 2026-10-08 00:00:00 +0900
+mathjax: true
 ---
 
 How can a computer tell whether you said the word *cat* correctly, or whether your "a" sounded more like "e"? **Goodness of Pronunciation (GOP)** is the classic answer. It gives every phone (a single speech sound) a score: *how confident is the model that this sound is the one you were supposed to say?* GOP was introduced by Witt and Young (2000) and is still the base of many pronunciation-training systems today.
@@ -20,7 +21,7 @@ No hand-made rules about "what a wrong /æ/ looks like" are needed. We only ask 
 
 <img src="{{ '/images/gop/01-posteriors.png' | relative_url }}" alt="Phone posterior heatmaps for a correct and an incorrect pronunciation">
 
-Each column is one time frame and each row is a candidate phone. Darker blue means higher probability, `P(q | frame)`. The dashed lines are the phone boundaries from forced alignment.
+Each column is one time frame and each row is a candidate phone. Darker blue means higher probability, $$P(q \mid \text{frame})$$. The dashed lines are the phone boundaries from forced alignment.
 
 - **A (left):** the speaker said /k æ t/. In each segment the dark cells sit on the row of the target phone.
 - **B (right):** the speaker said /k e t/. In the middle segment the dark cells moved to the row **e**, while the target row **æ** is almost empty. This is the signal that something went wrong.
@@ -35,18 +36,18 @@ This is the simple, widely used **posterior-based** form (as in neural-network G
 
 In plain text:
 
-```
-GOP(p) = (1 / T_p) * sum over t = s..e of  log P(p | o_t)
-```
+$$
+\mathrm{GOP}(p) = \frac{1}{T_p} \sum_{t=s}^{e} \log P(p \mid o_t)
+$$
 
 | Symbol | Meaning |
 |---|---|
-| `p` | The **target phone**, what the speaker *should* say (here /æ/). |
-| `s`, `e` | First and last frame of phone `p`, from forced alignment. |
-| `T_p` | Number of frames in the phone, `e − s + 1`. Dividing by it is an **average**, so a long phone is not punished just for being long. |
-| `o_t` | The audio (acoustic features) at frame `t`. |
-| `P(p \| o_t)` | The model's **posterior**: probability that frame `t` is phone `p`. Between 0 and 1. |
-| `log` | Turns probabilities into scores. `log 1 = 0` (perfect), and the score drops quickly as the probability goes toward 0. |
+| $$p$$ | The **target phone**, what the speaker *should* say (here /æ/). |
+| $$s$$, $$e$$ | First and last frame of phone `p`, from forced alignment. |
+| $$T_p$$ | Number of frames in the phone, $$e - s + 1$$. Dividing by it is an **average**, so a long phone is not punished just for being long. |
+| $$o_t$$ | The audio (acoustic features) at frame `t`. |
+| $$P(p \mid o_t)$$ | The model's **posterior**: probability that frame `t` is phone `p`. Between 0 and 1. |
+| $$\log$$ | Turns probabilities into scores. $$\log 1 = 0$$ (perfect), and the score drops quickly as the probability goes toward 0. |
 
 How to read the result:
 
@@ -56,13 +57,12 @@ How to read the result:
 
 ### Worked example
 
-Suppose /æ/ has 3 frames and the model gives `P(æ | o_t) = 0.9, 0.8, 0.1`. Then
+Suppose /æ/ has 3 frames and the model gives $$P(\text{æ} \mid o_t) = 0.9,\ 0.8,\ 0.1$$. Then
 
-```
-GOP = (log 0.9 + log 0.8 + log 0.1) / 3
-    = (−0.105 − 0.223 − 2.303) / 3
-    ≈ −0.88
-```
+$$
+\mathrm{GOP} = \frac{\log 0.9 + \log 0.8 + \log 0.1}{3}
+= \frac{-0.105 - 0.223 - 2.303}{3} \approx -0.88
+$$
 
 One bad frame pulled the average down a lot. This is a feature of the log: very unlikely frames are punished heavily.
 
@@ -80,12 +80,12 @@ The threshold is not universal. It is usually tuned per phone on data labelled b
 
 A low GOP can also happen when the audio is noisy, even if the phone is right. A popular variant, the **Log Posterior Ratio (LPR)**, asks a sharper question: *is the target phone better than the best alternative?*
 
-```
-LPR(p) = GOP(p) − max over q ≠ p of GOP(q)
-```
+$$
+\mathrm{LPR}(p) = \mathrm{GOP}(p) - \max_{q \neq p} \mathrm{GOP}(q)
+$$
 
-- `GOP(p)`: the score of the target phone.
-- `max GOP(q)`: the score of the strongest competing phone (here, `e`).
+- $$\mathrm{GOP}(p)$$: the score of the target phone.
+- $$\max_{q \neq p} \mathrm{GOP}(q)$$: the score of the strongest competing phone (here, `e`).
 - **Positive** LPR: the target wins. **Negative** LPR: another phone wins, so the speaker likely said that other phone.
 
 In the example above, LPR for /æ/ is about +3.0 for the correct speaker and about **−1.8** for the speaker who said /e/. Noise lowers all the scores together, so LPR is less affected by it. It also tells you *what* the speaker probably said instead.
