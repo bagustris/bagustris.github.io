@@ -64,6 +64,24 @@ author_profile: true
 
 ## 助成研究プロジェクト
 
-1. SIMULASI DAN PREDIKSI KEBISINGAN KERETA BANDARA SOEKARNO-HATTA（Penelitian Dosen Pemula、Dana Lokal ITS 2017）
-2. DETEKSI COVID-19 LINTAS DATA BERDASARKAN SUARA BATUK DENGAN DEEP LEARNING（TM/DRPM-ITS/PN.01.003、Funded by ITS 2022）
+1. スカルノ・ハッタ空港鉄道の騒音のシミュレーションと予測（ITS LPPM 助成、2017年）
+2. 咳音に基づく深層学習による COVID-19 のデータセット横断検出（TM/DRPM-ITS/PN.01.003、ITS 助成、2022年）
 3. 音声の音源-調音分解を用いた自己教師あり表現学習（Kakenhi B、2024-2027）
+4. 日本語学習とパラ言語分析のための ASR 技術の活用（NAIST 千手・文殊プロジェクト：フェーズ1 若手研究者支援プログラム）
+
+## 渡航助成
+
+1. 複雑系とデータサイエンスに関するハンズオンスクール参加のための渡航助成、ICTP（UNESCO/IAEA）、トリエステ、イタリア、2015年
+2. 技術経営集中コース参加のための渡航助成、MJIIT-UTM、クアラルンプール、マレーシア、2014年
+3. 学術開発のための計算科学基盤とその応用に関するワークショップ参加のための渡航助成、ICTP（UNESCO/IAEA）、トリエステ、イタリア、2015年
+4. 科学技術プログラミングの高度な技法とオープンソースパッケージ管理に関するワークショップ参加のための渡航助成、ICTP（UNESCO/IAEA）、トリエステ、イタリア、2016年
+5. 科学技術プログラミングの高度な技法とオープンソースパッケージ管理に関するワークショップ参加のための渡航助成、ICTP（UNESCO/IAEA）、トリエステ、イタリア、2017年
+6. NEC C&C 国際会議渡航助成 2019年
+7. 市民科学における機械学習の高度なワークショップ参加のための一部助成、ICTP（UNESCO/IAEA）、トリエステ、イタリア、2023年
+
+## 奨学金
+
+1. PPA/BBM 奨学金 2005-2008年（ITS、インドネシア）
+2. Bank BRI 奨学金 2008/2009年（ITS、インドネシア）
+3. JASSO 奨学金 2011年10月-2012年3月（熊本大学）
+4. 文部科学省（MEXT）奨学金 2017年10月-2021年3月（JAIST）

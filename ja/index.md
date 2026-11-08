@@ -82,7 +82,7 @@ const LINKS = {
   'Email':                   'mailto:bagustris@outlook.com',
   'GitHub Profile':          'https://github.com/bagustris',
   'Google Scholar':          'https://scholar.google.com/citations?user=xuiLAewAAAAJ&hl=en',
-  'CV':                      '/cv/',
+  'CV':                      '/ja/cv/',
   'Ayo Belajar Bahasa Jepang': 'https://bagustris.github.io/bbj/',
   'みんなの日本語':          'https://bagustris.github.io/minna-no-nihongo/',
   '仕事のための日本語':      'https://bagustris.github.io/japanese-for-work/',

@@ -3,6 +3,8 @@ layout: archive
 title: "CV"
 description: "Curriculum vitae of Bagus Tris Atmaja: education, positions, publications, and research projects in speech and audio processing."
 permalink: /cv/
+lang: en
+lang_ref: cv
 author_profile: true
 redirect_from:
   - /resume
@@ -15,13 +17,13 @@ Education
 ======
 * Ph.D. in Information Science, Japan Advanced Institute of Science and Technology, 2018-2021
   * Dissertation: Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information
-  * Advisor: Prof. Masato Akagi  
+  * Advisor(s): Prof. Masato Akagi  
 * M.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2010-2012
   * Thesis: On Source Signal Segregation Based On Binaural Inputs  (conducted at Kumamoto University, Japan)
-  * Advisor: Prof. Tsuyoshi Usagawa (Kumamoto University, Japan) and Prof. Dhany Arifianto (Sepuluh Nopember Institute of Technology, Indonesia)
+  * Advisor(s): Prof. Dhany Arifianto and Prof. Tsuyoshi Usagawa  
 * B.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2005-2009
   * Thesis: Machine Sounds Separation From Microphone Array Using Independent Component Analysis For Fault Detection  
-  * Advisor: Prof. Aulia Siti Aisjah and Prof. Dhany Arifianto  
+  * Advisor(s): Prof. Aulia Siti Aisjah and Prof. Dhany Arifianto  
 
 Work experience
 ======
