@@ -55,6 +55,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 14. H. Qi, **B. T. Atmaja**, S. Novitasari, A. Tjandra, S. Sakti, and S. Nakamura, “SpeeChain: A Scalable Framework for Machine Speech Chains,” Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.
 
+15. L. Yuxuan, **B. T. Atmaja**, "Event-Conditioned Narrative Recovery after Pauses and Disfluencies in Alzheimer's Speech," In Proc. 2026 IEEE Spoken Language Technology Workshop. [PDF](https://openreview.net/forum?id=3Zc5EIopNE)
 
 ## 2025
 
