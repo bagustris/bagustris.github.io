@@ -39,7 +39,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 6. H. Wu, W. Zhou, **B.T. Atmaja**, and S. Sakti, "Talking Face Generation by Tri-Flow: A Streaming Method", *APSIPA-ASC 2026*, Bangkok, Thailand.  
 
-7. A. D. Prasetyo, D. Arifianto, K. Indriawati, **B.T. Atmaja**, S. Sakti, "Weakly Supervised Noisy Label Cleaning for Cough-Based TB Screening", *APSIPA-ASC 2026, Bangkok, Thailand. 
+7. A. D. Prasetyo, D. Arifianto, K. Indriawati, **B.T. Atmaja**, S. Sakti, "Weakly Supervised Noisy Label Cleaning for Cough-Based TB Screening", *APSIPA-ASC 2026*, Bangkok, Thailand.
 
 8. T. Q. Chung, **B.T. Atmaja**, and S. Sakti, " Speak Better via Simultaneous Listening and Speaking in Unified Decoder-Only LLMs", *APSIPA-ASC 2026*, Bangkok, Thailand.  
 
