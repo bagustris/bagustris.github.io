@@ -17,7 +17,7 @@ body { margin: 0; }
 .book-sidebar {
   width: 260px;
   min-width: 260px;
-  background: var(--global-footer-bg-color);
+  background: var(--global-sidebar-bg);
   border-right: 1px solid var(--global-border-color);
   display: flex;
   flex-direction: column;

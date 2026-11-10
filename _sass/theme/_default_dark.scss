@@ -40,6 +40,7 @@ html[data-theme="dark"] {
     --top-control-shadow                : 0 1px 3px rgba(0, 0, 0, 0.5);
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
+    --global-sidebar-bg                 : #{$background-sidebar};
     --global-footer-bg-color            : #{$background-sidebar};
     --global-border-color               : #444c56;
     --global-dark-border-color          : #{$background-light};
