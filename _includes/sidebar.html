@@ -54,8 +54,7 @@
       {% endif %}
       <li>
         <a href="{{ domain }}{{ nav_url }}"{% if page.url == nav_url %} class="active"{% endif %}>
-          <span class="nav-title-en">{{ link.title }}</span>
-          {% if link.title_ja %}<span class="nav-title-ja">{{ link.title_ja }}</span>{% endif %}
+          {% if page.lang == 'ja' and link.title_ja %}{{ link.title_ja }}{% else %}{{ link.title }}{% endif %}
         </a>
       </li>
     {% endfor %}

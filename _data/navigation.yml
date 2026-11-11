@@ -23,22 +23,27 @@ main:
   - title: "Tutorials"
     title_ja: "チュートリアル"
     url: /tutorials/
+    url_ja: /ja/tutorials/
 
   - title: "Tools"
     title_ja: "ツール"
     url: /tools/
+    url_ja: /ja/tools/
 
   - title: "Blog"
     title_ja: "ブログ"
     url: /blog/
+    url_ja: /ja/blog/
 
   - title: "Talks"
     title_ja: "講演"
     url: /talks/
+    url_ja: /ja/talks/
 
   - title: "Teaching"
     title_ja: "教育"
     url: /teaching/
+    url_ja: /ja/teaching/
 
   - title: "CV"
     title_ja: "履歴書"
