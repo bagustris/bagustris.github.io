@@ -41,7 +41,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 7. A. D. Prasetyo, D. Arifianto, K. Indriawati, **B.T. Atmaja**, S. Sakti, "Weakly Supervised Noisy Label Cleaning for Cough-Based TB Screening", *APSIPA-ASC 2026*, Bangkok, Thailand.
 
-8. T. Q. Chung, **B.T. Atmaja**, and S. Sakti, " Speak Better via Simultaneous Listening and Speaking in Unified Decoder-Only LLMs", *APSIPA-ASC 2026*, Bangkok, Thailand.  
+8. T. Q. Chung, **B.T. Atmaja**, and S. Sakti, " Speak Better via Simultaneous Listening and Speaking in Unified Decoder-Only LLMs", *APSIPA-ASC 2026*, Bangkok, Thailand. [PDF](../files/m8706-chung%20final.pdf) [POSTER](../files/USC_Poster_A1.pdf)  
 
 9. D.R.N. Pramono, **B.T. Atmaja**, and S. Sakti, "Multi-Stream Artifact Detection for Audio Deepfake Detection via Temporal, Spectral, and Phase Cues", *APSIPA-ASC 2026*, Bangkok, Thailand.   
 
