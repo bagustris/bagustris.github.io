@@ -8,6 +8,7 @@ author_profile: true
 > Convey from me, even if it is one verse. (Prophet Muhammad ﷺ, Sahih al-Bukhari)
 
 ## Talks, Presentations, News, Updates  
+* **11/11/2026**: Attending APSIPA 2026 in Bangkok, Thailand (authoring 5 papers in total).  
 * **26/10/2026**: Participating in "Diaspora Berdampak" in Brawijaya University, Malang, Indonesia.  
 * **15/09/2026**: Four papers were accepted at [O-COCOSDA 2026](https://www.ococosda2026.com.ph/)! See you in Manila, Philippines. 
 * **09/09/2026**: One paper accepted at [SLT 2026](https://attend.ieee.org/slt-2026/)!
