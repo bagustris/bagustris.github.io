@@ -33,17 +33,17 @@ If you don't have access to some of the papers below, please feel free to contac
 
 3. W. Zhou, **B. T. Atmaja**, and S. Sakti, "Beyond One-Size-Fits-All: Personalized and Culturally Adaptive Emotional TTS via Interactive Optimization of Individual Emotion Perception Spaces", *INTERSPEECH 2026*, Sidney, Australia.
 
-4. **B. T. Atmaja** and A. Sasou, “Evaluating multilingual self-supervised learning models for multilingual speech emotion recognition,” Journal of Signal Processing, vol. 30, no. 5, 2026. [PDF](../files/30_161.pdf)
+4. **B. T. Atmaja** and A. Sasou, “Evaluating multilingual self-supervised learning models for multilingual speech emotion recognition,” Journal of Signal Processing, vol. 30, no. 5, 2026. [PDF](../files/30_161.pdf)  
 
-5. **B.T. Atmaja** and S. Sakti, "A Cascaded Speaker Diarization and Transcription System for Japanese Conversational Speech", *APSIPA-ASC 2026*, Bangkok, Thailand.  
+5. **B.T. Atmaja** and S. Sakti, "A Cascaded Speaker Diarization and Transcription System for Japanese Conversational Speech", *APSIPA-ASC 2026*, Bangkok, Thailand.  [PDF](../files/m93720-tris_atmaja%20final.pdf)  
 
-6. H. Wu, W. Zhou, **B.T. Atmaja**, and S. Sakti, "Talking Face Generation by Tri-Flow: A Streaming Method", *APSIPA-ASC 2026*, Bangkok, Thailand.  
+6. H. Wu, W. Zhou, **B.T. Atmaja**, and S. Sakti, "Talking Face Generation by Tri-Flow: A Streaming Method", *APSIPA-ASC 2026*, Bangkok, Thailand.  [PDF](../files/m94936-hu%20final.pdf)  
 
-7. A. D. Prasetyo, D. Arifianto, K. Indriawati, **B.T. Atmaja**, S. Sakti, "Weakly Supervised Noisy Label Cleaning for Cough-Based TB Screening", *APSIPA-ASC 2026*, Bangkok, Thailand.
+7. A. D. Prasetyo, D. Arifianto, K. Indriawati, **B.T. Atmaja**, S. Sakti, "Weakly Supervised Noisy Label Cleaning for Cough-Based TB Screening", *APSIPA-ASC 2026*, Bangkok, Thailand.  [PDF](../files/m95355-prasetyo%20final.pdf)  
 
 8. T. Q. Chung, **B.T. Atmaja**, and S. Sakti, " Speak Better via Simultaneous Listening and Speaking in Unified Decoder-Only LLMs", *APSIPA-ASC 2026*, Bangkok, Thailand. [PDF](../files/m8706-chung%20final.pdf) [POSTER](../files/USC_Poster_A1.pdf)  
 
-9. D.R.N. Pramono, **B.T. Atmaja**, and S. Sakti, "Multi-Stream Artifact Detection for Audio Deepfake Detection via Temporal, Spectral, and Phase Cues", *APSIPA-ASC 2026*, Bangkok, Thailand.   
+9. D.R.N. Pramono, **B.T. Atmaja**, and S. Sakti, "Multi-Stream Artifact Detection for Audio Deepfake Detection via Temporal, Spectral, and Phase Cues", *APSIPA-ASC 2026*, Bangkok, Thailand.  [PDF](../files/m8840-pramono%20final.pdf)  
 
 10. S. Angeles, **B. T. Atmaja**, N. Oco, and S. Sakti, “Zero-Shot ASR Error Correction for Low-Resource Spoken Question Answering,” Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.  
 
