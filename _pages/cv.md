@@ -13,7 +13,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Higher Education
 ======
 * Ph.D. in Information Science, Japan Advanced Institute of Science and Technology, 2018-2021
   * Dissertation: Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information
@@ -24,6 +24,13 @@ Education
 * B.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2005-2009
   * Thesis: Machine Sounds Separation From Microphone Array Using Independent Component Analysis For Fault Detection  
   * Advisor(s): Prof. Aulia Siti Aisjah and Prof. Dhany Arifianto  
+
+Basic Education
+======
+* Senior High School, SMA Darul Ulum 2 - BPPT, Jombang, 2002-2005  
+* Junior High School, SMP Negeri 1 Maospati, Magetan, 1999-2002  
+* Elementary School, SD Negeri Gulun 3, Maospati, Magetan, 1993-1999  
+
 
 Work experience
 ======

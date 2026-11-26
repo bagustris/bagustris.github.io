@@ -45,15 +45,15 @@ If you don't have access to some of the papers below, please feel free to contac
 
 9. D.R.N. Pramono, **B.T. Atmaja**, and S. Sakti, "Multi-Stream Artifact Detection for Audio Deepfake Detection via Temporal, Spectral, and Phase Cues", *APSIPA-ASC 2026*, Bangkok, Thailand.  [PDF](../files/m8840-pramono%20final.pdf)  
 
-10. S. Angeles, **B. T. Atmaja**, N. Oco, and S. Sakti, “Zero-Shot ASR Error Correction for Low-Resource Spoken Question Answering,” Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.  
+10. S. Angeles, **B. T. Atmaja**, N. Oco, and S. Sakti, “Zero-Shot ASR Error Correction for Low-Resource Spoken Question Answering,” Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.  [PDF](../files/O-COCOSDA_2026_paper__35.pdf)  
 
-11. R. Kurosawa, **B. T. Atmaja**, A. Sasou, and S. Sakti, "What Does Whisper Learn About Speech Emotion Recognition? Insights from Text-Independent Evaluation and Emotionally Incongruent Speech," Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.  
+11. R. Kurosawa, **B. T. Atmaja**, A. Sasou, and S. Sakti, "What Does Whisper Learn About Speech Emotion Recognition? Insights from Text-Independent Evaluation and Emotionally Incongruent Speech," Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.  [PDF](../files/O-COCOSDA_2026_paper__32.pdf)  
 
-12. D. V. Rashika, **B. T. Atmaja**, D. P. Lestari, and S. Sakti, "Rethinking the Role of Environmental Sounds as Situational Context for Speech Recognition," Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.
+12. D. V. Rashika, **B. T. Atmaja**, D. P. Lestari, and S. Sakti, "Rethinking the Role of Environmental Sounds as Situational Context for Speech Recognition," Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.  
 
-13. T. Shirai, **B. T. Atmaja**, and S. Sakti, “Can Highly Proficient L2 Speech Serve as a Reference for Automatic Pronunciation Assessment?,” Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.
+13. T. Shirai, **B. T. Atmaja**, and S. Sakti, “Can Highly Proficient L2 Speech Serve as a Reference for Automatic Pronunciation Assessment?,” Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.  [PDF](../files/O-COCOSDA_2026_paper__16.pdf)  
 
-14. H. Qi, **B. T. Atmaja**, S. Novitasari, A. Tjandra, S. Sakti, and S. Nakamura, “SpeeChain: A Scalable Framework for Machine Speech Chains,” Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026.
+14. H. Qi, **B. T. Atmaja**, S. Novitasari, A. Tjandra, S. Sakti, and S. Nakamura, “SpeeChain: A Scalable Framework for Machine Speech Chains,” Proc. 29th International Conference of Oriental COCOSDA (O-COCOSDA 2026), Cebu, Philippines, Nov. 25-27, 2026. [PDF](../files/O-COCOSDA_2026_paper__6.pdf)
 
 15. L. Yuxuan, **B. T. Atmaja**, and S. Sakti, "Event-Conditioned Narrative Recovery after Pauses and Disfluencies in Alzheimer's Speech," In Proc. 2026 IEEE Spoken Language Technology Workshop. [PDF](https://openreview.net/forum?id=3Zc5EIopNE)
 
