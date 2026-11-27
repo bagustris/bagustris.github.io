@@ -9,6 +9,21 @@ html[data-theme="dark"] { --area-speech: #338ced; --area-acoustics: #e76624; --a
 #area-filter { display: flex; flex-wrap: wrap; gap: .4em; margin: 1em 0; }
 #area-filter button { margin: 0; padding: .2em .8em; border: 1.5px solid var(--global-border-color, #888); border-radius: 999px; background: transparent; color: inherit; font: inherit; font-size: .85em; line-height: 1.5; cursor: pointer; }
 #area-filter button[aria-pressed="true"] { border-color: var(--area, currentColor); box-shadow: 0 0 0 1px var(--area, currentColor); font-weight: bold; }
+#area-distribution { margin: 0 0 1.2em; }
+#area-distribution summary { cursor: pointer; font-weight: bold; }
+.area-dist { margin-top: .6em; font-size: .8em; font-variant-numeric: tabular-nums; }
+.area-dist__head, .area-dist__row { display: grid; grid-template-columns: 3.2em minmax(4em, 1fr) 2.4em repeat(3, 6.8em); column-gap: .5em; align-items: center; padding: .15em 0; }
+.area-dist__head { font-weight: bold; border-bottom: 1px solid var(--global-border-color, #888); }
+.area-dist__row[data-year="total"] { font-weight: bold; border-bottom: 2px solid var(--global-border-color, #888); }
+.area-dist__bar { display: flex; gap: 2px; height: 12px; }
+.area-dist__seg { flex-basis: 0; background: var(--area); }
+@media (max-width: 600px) {
+  .area-dist__head { display: flex; flex-wrap: wrap; column-gap: 1em; }
+  .area-dist__head > :nth-child(-n+3) { display: none; }
+  .area-dist__row { grid-template-columns: 3.2em minmax(0, 1fr) 2.4em; }
+  .area-dist__val { grid-column: 2 / -1; font-weight: normal; }
+  .area-dist__val::before { content: attr(data-name) ": "; }
+}
 .area-tags { margin-left: .35em; }
 .area-tag { display: inline-block; white-space: nowrap; border: 1.5px solid var(--area); border-radius: 999px; padding: 0 .6em; font-size: .75em; font-weight: normal; font-style: normal; line-height: 1.5; vertical-align: 1px; }
 .area-tag__dot { display: inline-block; width: 8px; height: 8px; margin-right: .35em; border-radius: 50%; background: var(--area); }
@@ -133,12 +148,85 @@ html[data-theme="dark"] { --area-speech: #338ced; --area-acoustics: #e76624; --a
     show(AREAS.indexOf(wanted) < 0 ? 'all' : wanted);
   }
 
+  /* A paper with k tags adds 1/k to each of its areas, so every bar adds to 100%. Untagged papers are left out. */
+  function tally(sections) {
+    var total = { year: 'total', n: 0, shares: [0, 0, 0] };
+    var years = {};
+    sections.forEach(function (section) {
+      section.papers.forEach(function (item) {
+        var areas = areasOf(item);
+        if (!areas.length) { return; }
+        var year = years[section.year] || (years[section.year] = { year: section.year, n: 0, shares: [0, 0, 0] });
+        [total, year].forEach(function (row) {
+          row.n += 1;
+          areas.forEach(function (area) { row.shares[AREAS.indexOf(area)] += 1 / areas.length; });
+        });
+      });
+    });
+    var newestFirst = Object.keys(years).sort().reverse().map(function (key) { return years[key]; });
+    return total.n ? [total].concat(newestFirst) : [];
+  }
+
+  function oneDecimal(value) {
+    return String(Math.round(value * 10) / 10);
+  }
+
+  function addDistribution(names, rows, mount) {
+    var details = element('details');
+    details.id = 'area-distribution';
+    details.appendChild(element('summary', '', 'Distribution'));
+    var table = element('div', 'area-dist');
+    var head = element('div', 'area-dist__head');
+    ['Year', '', 'No.'].forEach(function (label) { head.appendChild(element('span', '', label)); });
+    AREAS.forEach(function (area, index) {
+      var label = element('span', 'area--' + area);
+      label.appendChild(dot());
+      label.appendChild(document.createTextNode(names[index]));
+      head.appendChild(label);
+    });
+    table.appendChild(head);
+
+    var largest = Math.max.apply(null, rows.slice(1).map(function (row) { return row.n; }));
+    rows.forEach(function (row) {
+      var line = element('div', 'area-dist__row');
+      line.setAttribute('data-year', row.year);
+      line.appendChild(element('span', '', row.year === 'total' ? 'Total' : row.year));
+      var track = element('div');
+      var bar = element('div', 'area-dist__bar');
+      bar.style.width = (row.year === 'total' ? 100 : 100 * row.n / largest) + '%';
+      row.shares.forEach(function (share, index) {
+        if (!share) { return; }
+        var segment = element('span', 'area-dist__seg area--' + AREAS[index]);
+        segment.setAttribute('data-area', AREAS[index]);
+        segment.style.flexGrow = share;
+        segment.title = names[index] + ': ' + oneDecimal(share) + ' of ' + row.n;
+        bar.appendChild(segment);
+      });
+      track.appendChild(bar);
+      line.appendChild(track);
+      line.appendChild(element('span', 'area-dist__n', String(row.n)));
+      row.shares.forEach(function (share, index) {
+        var value = element('span', 'area-dist__val', oneDecimal(share) + ' (' + Math.round(100 * share / row.n) + '%)');
+        value.setAttribute('data-area', AREAS[index]);
+        value.setAttribute('data-name', names[index]);
+        line.appendChild(value);
+      });
+      table.appendChild(line);
+    });
+    details.appendChild(table);
+    mount.appendChild(details);
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     var japanese = document.documentElement.lang.indexOf('ja') === 0;
     var names = japanese ? NAMES.ja : NAMES.en;
     addTags(names);
-    var sections = document.querySelector('[data-area-publications]') ? yearSections() : [];
-    if (sections.length) { addFilter(names, sections); }
+    var mount = document.querySelector('[data-area-publications]');
+    var sections = mount ? yearSections() : [];
+    if (!sections.length) { return; }
+    addFilter(names, sections);
+    var rows = tally(sections);
+    if (rows.length) { addDistribution(names, rows, mount); }
   });
 })();
 </script>
