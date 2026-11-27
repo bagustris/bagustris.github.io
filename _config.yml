@@ -192,6 +192,12 @@ exclude:
   - serve
   - tes
   - fisbang
+  - docs
+  - tests
+  - CLAUDE.md
+  - CLAUDE.md.0
+  - AGENTS.md
+  - notes.md
 keep_files:
   - .git
   - .svn

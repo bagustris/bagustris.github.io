@@ -1,0 +1,232 @@
+{% if include.publications %}<div data-area-publications></div>{% endif %}
+<style>
+:root { --area-speech: #257de0; --area-acoustics: #f47230; --area-multimodal: #00b894; }
+html[data-theme="dark"] { --area-speech: #338ced; --area-acoustics: #e76624; --area-multimodal: #00a888; }
+.area-tag--speech, .area--speech { --area: var(--area-speech); }
+.area-tag--acoustics, .area--acoustics { --area: var(--area-acoustics); }
+.area-tag--multimodal, .area--multimodal { --area: var(--area-multimodal); }
+#main [hidden] { display: none !important; }
+#area-filter { display: flex; flex-wrap: wrap; gap: .4em; margin: 1em 0; }
+#area-filter button { margin: 0; padding: .2em .8em; border: 1.5px solid var(--global-border-color, #888); border-radius: 999px; background: transparent; color: inherit; font: inherit; font-size: .85em; line-height: 1.5; cursor: pointer; }
+#area-filter button[aria-pressed="true"] { border-color: var(--area, currentColor); box-shadow: 0 0 0 1px var(--area, currentColor); font-weight: bold; }
+#area-distribution { margin: 0 0 1.2em; }
+#area-distribution summary { cursor: pointer; font-weight: bold; }
+.area-dist { margin-top: .6em; font-size: .8em; font-variant-numeric: tabular-nums; }
+.area-dist__head, .area-dist__row { display: grid; grid-template-columns: 3.2em minmax(4em, 1fr) 2.4em repeat(3, 6.8em); column-gap: .5em; align-items: center; padding: .15em 0; }
+.area-dist__head { font-weight: bold; border-bottom: 1px solid var(--global-border-color, #888); }
+.area-dist__row[data-year="total"] { font-weight: bold; border-bottom: 2px solid var(--global-border-color, #888); }
+.area-dist__bar { display: flex; gap: 2px; height: 12px; }
+.area-dist__seg { flex-basis: 0; background: var(--area); }
+@media (max-width: 600px) {
+  .area-dist__head { display: flex; flex-wrap: wrap; column-gap: 1em; }
+  .area-dist__head > :nth-child(-n+3) { display: none; }
+  .area-dist__row { grid-template-columns: 3.2em minmax(0, 1fr) 2.4em; }
+  .area-dist__val { grid-column: 2 / -1; font-weight: normal; }
+  .area-dist__val::before { content: attr(data-name) ": "; }
+}
+.area-tags { margin-left: .35em; }
+.area-tag { display: inline-block; white-space: nowrap; border: 1.5px solid var(--area); border-radius: 999px; padding: 0 .6em; font-size: .75em; font-weight: normal; font-style: normal; line-height: 1.5; vertical-align: 1px; }
+.area-tag__dot { display: inline-block; width: 8px; height: 8px; margin-right: .35em; border-radius: 50%; background: var(--area); }
+</style>
+<script>
+(function () {
+  /* Inline script under layout: compress. Use block comments and end every statement with a semicolon. */
+  if (window.areaTags) { return; }
+  window.areaTags = true;
+
+  var AREAS = ['speech', 'acoustics', 'multimodal'];
+  var NAMES = { en: ['Speech', 'Acoustics', 'Multimodal'], ja: ['音声', '音響', 'マルチモーダル'] };
+
+  function element(tag, className, text) {
+    var node = document.createElement(tag);
+    if (className) { node.className = className; }
+    if (text) { node.textContent = text; }
+    return node;
+  }
+
+  function dot() {
+    var node = element('i', 'area-tag__dot');
+    node.setAttribute('aria-hidden', 'true');
+    return node;
+  }
+
+  function areasOf(item) {
+    return AREAS.filter(function (area) { return item.classList.contains(area); });
+  }
+
+  /* Put the tags on the item's last line, which is before any nested list. */
+  function place(item, tags) {
+    var children = Array.prototype.slice.call(item.children);
+    var nested = children.filter(function (c) { return c.tagName === 'UL' || c.tagName === 'OL'; })[0] || null;
+    var end = nested ? children.indexOf(nested) : children.length;
+    var paragraph = children.slice(0, end).filter(function (c) { return c.tagName === 'P'; }).pop();
+    var parent = paragraph || item;
+    var before = paragraph ? null : nested;
+    parent.insertBefore(document.createTextNode(' '), before);
+    parent.insertBefore(tags, before);
+  }
+
+  function addTags(names) {
+    document.querySelectorAll('#main li.speech, #main li.acoustics, #main li.multimodal').forEach(function (item) {
+      var tags = element('span', 'area-tags');
+      areasOf(item).forEach(function (area, index) {
+        var tag = element('span', 'area-tag area-tag--' + area);
+        tag.appendChild(dot());
+        tag.appendChild(document.createTextNode(names[AREAS.indexOf(area)]));
+        if (index) { tags.appendChild(document.createTextNode(' ')); }
+        tags.appendChild(tag);
+      });
+      place(item, tags);
+    });
+  }
+
+  /* A paper is a list item under an h2 that starts with a four-digit year, up to the next h2 or hr. */
+  function yearSections() {
+    var sections = [];
+    document.querySelectorAll('#main h2').forEach(function (heading) {
+      var year = /^[0-9]{4}\b/.exec(heading.textContent.trim());
+      if (!year) { return; }
+      var section = { year: year[0], nodes: [heading], lists: [], papers: [] };
+      var node = heading.nextElementSibling;
+      while (node && node.tagName !== 'H2' && node.tagName !== 'HR') {
+        section.nodes.push(node);
+        if (node.tagName === 'OL' || node.tagName === 'UL') {
+          var items = Array.prototype.slice.call(node.children);
+          section.lists.push({ node: node, items: items });
+          section.papers = section.papers.concat(items);
+        }
+        node = node.nextElementSibling;
+      }
+      sections.push(section);
+    });
+    return sections;
+  }
+
+  function addFilter(names, sections) {
+    var bar = element('div');
+    bar.id = 'area-filter';
+    bar.setAttribute('role', 'group');
+    bar.setAttribute('aria-label', 'Filter publications by area');
+
+    function matches(item, choice) {
+      return choice === 'all' || item.classList.contains(choice);
+    }
+
+    function show(choice) {
+      sections.forEach(function (section) {
+        var empty = !section.papers.some(function (item) { return matches(item, choice); });
+        section.nodes.forEach(function (node) { node.hidden = choice !== 'all' && empty; });
+        section.lists.forEach(function (list) {
+          list.items.forEach(function (item) { item.hidden = !matches(item, choice); });
+          if (!list.items.some(function (item) { return matches(item, choice); }) && choice !== 'all') {
+            list.node.hidden = true;
+          }
+        });
+      });
+      bar.querySelectorAll('button').forEach(function (button) {
+        button.setAttribute('aria-pressed', String(button.getAttribute('data-area') === choice));
+      });
+    }
+
+    ['all'].concat(AREAS).forEach(function (choice) {
+      var button = element('button', choice === 'all' ? '' : 'area--' + choice);
+      button.type = 'button';
+      button.setAttribute('data-area', choice);
+      if (choice !== 'all') { button.appendChild(dot()); }
+      button.appendChild(document.createTextNode(choice === 'all' ? 'All' : names[AREAS.indexOf(choice)]));
+      button.addEventListener('click', function () {
+        var url = new URL(window.location.href);
+        if (choice === 'all') { url.searchParams.delete('theme'); } else { url.searchParams.set('theme', choice); }
+        window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+        show(choice);
+      });
+      bar.appendChild(button);
+    });
+
+    sections[0].nodes[0].parentNode.insertBefore(bar, sections[0].nodes[0]);
+    var wanted = (new URLSearchParams(window.location.search).get('theme') || '').toLowerCase();
+    show(AREAS.indexOf(wanted) < 0 ? 'all' : wanted);
+  }
+
+  /* A paper with k tags adds 1/k to each of its areas, so every bar adds to 100%. Untagged papers are left out. */
+  function tally(sections) {
+    var total = { year: 'total', n: 0, shares: [0, 0, 0] };
+    var years = {};
+    sections.forEach(function (section) {
+      section.papers.forEach(function (item) {
+        var areas = areasOf(item);
+        if (!areas.length) { return; }
+        var year = years[section.year] || (years[section.year] = { year: section.year, n: 0, shares: [0, 0, 0] });
+        [total, year].forEach(function (row) {
+          row.n += 1;
+          areas.forEach(function (area) { row.shares[AREAS.indexOf(area)] += 1 / areas.length; });
+        });
+      });
+    });
+    var newestFirst = Object.keys(years).sort().reverse().map(function (key) { return years[key]; });
+    return total.n ? [total].concat(newestFirst) : [];
+  }
+
+  function oneDecimal(value) {
+    return String(Math.round(value * 10) / 10);
+  }
+
+  function addDistribution(names, rows, mount) {
+    var details = element('details');
+    details.id = 'area-distribution';
+    details.appendChild(element('summary', '', 'Distribution'));
+    var table = element('div', 'area-dist');
+    var head = element('div', 'area-dist__head');
+    ['Year', '', 'No.'].forEach(function (label) { head.appendChild(element('span', '', label)); });
+    AREAS.forEach(function (area, index) {
+      var label = element('span', 'area--' + area);
+      label.appendChild(dot());
+      label.appendChild(document.createTextNode(names[index]));
+      head.appendChild(label);
+    });
+    table.appendChild(head);
+
+    var largest = Math.max.apply(null, rows.slice(1).map(function (row) { return row.n; }));
+    rows.forEach(function (row) {
+      var line = element('div', 'area-dist__row');
+      line.setAttribute('data-year', row.year);
+      line.appendChild(element('span', '', row.year === 'total' ? 'Total' : row.year));
+      var track = element('div');
+      var bar = element('div', 'area-dist__bar');
+      bar.style.width = (row.year === 'total' ? 100 : 100 * row.n / largest) + '%';
+      row.shares.forEach(function (share, index) {
+        if (!share) { return; }
+        var segment = element('span', 'area-dist__seg area--' + AREAS[index]);
+        segment.setAttribute('data-area', AREAS[index]);
+        segment.style.flexGrow = share;
+        segment.title = names[index] + ': ' + oneDecimal(share) + ' of ' + row.n;
+        bar.appendChild(segment);
+      });
+      track.appendChild(bar);
+      line.appendChild(track);
+      line.appendChild(element('span', 'area-dist__n', String(row.n)));
+      row.shares.forEach(function (share, index) {
+        var value = element('span', 'area-dist__val', oneDecimal(share) + ' (' + Math.round(100 * share / row.n) + '%)');
+        value.setAttribute('data-area', AREAS[index]);
+        value.setAttribute('data-name', names[index]);
+        line.appendChild(value);
+      });
+      table.appendChild(line);
+    });
+    details.appendChild(table);
+    mount.appendChild(details);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var japanese = document.documentElement.lang.indexOf('ja') === 0;
+    var names = japanese ? NAMES.ja : NAMES.en;
+    addTags(names);
+    var mount = document.querySelector('[data-area-publications]');
+    var sections = mount ? yearSections() : [];
+    if (!sections.length) { return; }
+    addFilter(names, sections);
+    var rows = tally(sections);
+    if (rows.length) { addDistribution(names, rows, mount); }
+  });
+})();
+</script>
