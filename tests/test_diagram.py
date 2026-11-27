@@ -9,6 +9,20 @@ const at = (area, fx) => {
   return hit.closest('a').getAttribute('href'); };
 return [at('speech', 0.5), at('acoustics', 0.08), at('multimodal', 0.06)];"""
 
+LABEL_CLASHES = """
+const part = (area, tag) => document.querySelector('.area-diagram__link--' + area + ' ' + tag);
+const inside = (e, x, y) => ((x - e.cx.baseVal.value) / e.rx.baseVal.value) ** 2
+  + ((y - e.cy.baseVal.value) / e.ry.baseVal.value) ** 2 <= 1;
+const clashes = [];
+for (const [area, inner] of [['multimodal', 'acoustics'], ['acoustics', 'speech'], ['speech', null]]) {
+  const b = part(area, 'text').getBBox();
+  const corners = [[b.x, b.y], [b.x + b.width, b.y], [b.x, b.y + b.height], [b.x + b.width, b.y + b.height]];
+  if (!corners.every(c => inside(part(area, 'ellipse'), ...c))) clashes.push(area + ' leaves its ring');
+  if (inner && corners.some(c => inside(part(inner, 'ellipse'), ...c))) clashes.push(area + ' overlaps ' + inner);
+}
+return clashes;"""
+
+
 class DiagramTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -34,6 +48,10 @@ class DiagramTest(unittest.TestCase):
             self.assertTrue(query(self.site, url,
               "return document.querySelector('.area-diagram svg').getBoundingClientRect().right <= innerWidth;",
               width=390))
+
+    def test_labels_stay_inside_their_own_ring(self):
+        for url in ("/", "/ja/"):
+            self.assertEqual(query(self.site, url, LABEL_CLASHES), [], url)
 
     def test_theme_colors(self):
         self.assertEqual(query(self.site, "/", """

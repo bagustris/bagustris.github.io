@@ -14,7 +14,7 @@
   <svg viewBox="0 0 470 352" role="group" aria-label="{{ diagram_labels[0] }}">
     <a class="area-diagram__link area-diagram__link--multimodal area--multimodal" href="{{ include.base }}#multimodal">
       <ellipse cx="235" cy="176" rx="230" ry="170"></ellipse>
-      <text x="{% if page.lang == "ja" %}122{% else %}104{% endif %}" y="104">{{ diagram_labels[1] }}</text>
+      <text {% if page.lang == "ja" %}x="135" y="82"{% else %}x="104" y="104"{% endif %}>{{ diagram_labels[1] }}</text>
     </a>
     <a class="area-diagram__link area-diagram__link--acoustics area--acoustics" href="{{ include.base }}#acoustics">
       <ellipse cx="280" cy="200" rx="165" ry="106"></ellipse>
