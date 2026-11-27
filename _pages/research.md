@@ -44,7 +44,7 @@ I combine audio with other information, such as text and video, to understand an
 
 [See multimodal publications](/publications/?theme=multimodal)
 
-## Research Journey
+### Research Journey
 
 * {:.acoustics} **2005–2009, Bachelor's:** machine sound separation for fault detection
 * {:.speech .acoustics} **2010–2012, Master's:** source segregation from binaural inputs
@@ -71,13 +71,25 @@ The following are past research themes that I offer:
 12. {:.speech} Few-shot learning on acoustic data to capture 10 dimensions of emotions reliably perceived in distinct vocal bursts: Awe, Excitement, Amusement, Awkwardness, Fear, Horror, Distress, Triumph, Sadness, and Surprise
 13. {:.speech .multimodal} Multimodal learning (audio+video+text) to capture 10 dimensions of emotions reliably perceived in distinct vocal bursts: Awe, Excitement, Amusement, Awkwardness, Fear, Horror, Distress, Triumph, Sadness, and Surprise
 14. {:.multimodal} Inferring self-reported emotions from multimodal expression, using multi-output regression to predict fine-grained self-report annotations of seven 'in-the-wild' emotional experiences
-{% endcomment %}
 
-### Other Topics/Themes
+
+### Research Topics/Themes
 
 Read my [papers](https://scholar.google.co.jp/citations?user=xuiLAewAAAAJ&hl=en). Usually, I write down the remaining tasks for future work in that topic.
 
-For master's level, you can also propose your research theme. Contact me by email for details.
+For master's level, you can also propose your research theme. PhD students are expected to have a clear research direction and be able to work independently. 
+
+### Style Guide
+
+An example repository for ~~undergraduate~~ final projects can be seen [in this guide](https://github.com/bagustris/tugas-akhir).
+
+{% endcomment %}
+
+### Teaching Policy
+
+There are no specific requirements for master's students; however, doctoral students require **a publication** before enrollment, at minimum hosted in IEEE Xplore or equivalent. A strong background in signal processing and machine learning is a plus for student candidates. I prefer to supervise students who are highly motivated and passionate about research and previously have used either Nkululeko, Speechain, or [other my toolkits](https://github.com/bagustris). My research interests are speech, acoustics, and multimodal. PhD students should propose their themes independently. I choose practicability over novelty of research topics (but still, there should be contribution/novelty in research). Regular meetings (lab study, seminar, meeting) are keys to discuss progress, challenges, and next steps. Students are encouraged to actively **read** relevant literature, **do** experiments, and critically **analyze** the results. While research is important, health is also a priority, both physically and mentally. Ultimately, I aim to help students develop their research skills and contribute meaningfully to their field of study.
+
+For undergraduate level, I will try to provide the baseline method, and you will improve the results using your proposed method.
 
 ### Typical Timeline
 
@@ -89,15 +101,6 @@ Yellow: work hard, play harder phases
 
 The timeline is on a yearly basis; it can be adapted for undergraduate students (S1, last year), master's students (S2, 2 years), and PhD students (S3, three years of research from the beginning).
 
-### Style Guide
-
-An example repository for ~~undergraduate~~ final projects can be seen [in this guide](https://github.com/bagustris/tugas-akhir).
-
-### Teaching Policy
-
-There are no specific requirements for master's students; however, doctoral students require **a publication** before enrollment, at minimum hosted in IEEE Xplore or equivalent. A strong background in signal processing and machine learning is a plus for student candidates. I prefer to supervise students who are highly motivated and passionate about research and previously have used either Nkululeko or Speechain toolkits. My research interests are speech, acoustics, and multimodal. PhD students should propose their themes independently. I choose practicability over novelty of research topics (but still, there should be contribution/novelty in research). Regular meetings (lab study, seminar, meeting) are keys to discuss progress, challenges, and next steps. Students are encouraged to actively **read** relevant literature, **do** experiments, and critically **analyze** the results. While research is important, health is also a priority, both physically and mentally. Ultimately, I aim to help students develop their research skills and contribute meaningfully to their field of study.
-
-For undergraduate level, I will try to provide the baseline method, and you will improve the results using your proposed method.
 
 ## Funding and Awards
 
@@ -118,6 +121,7 @@ For undergraduate level, I will try to provide the baseline method, and you will
 5. Travel grant for attending Workshop on Advanced Techniques for Scientific Programming and Management of Open Source Packages, ICTP (UNESCO/IAEA), Trieste, Italy, 2017.
 6. NEC C&C International Conference Travel Grant 2019   
 7. Partial grant for attending Advanced Workshop on Machine Learning in Citizen Science, ICTP (UNESCO/IAEA), Trieste, Italy, 2023.
+8. FY2026 Senju Monju Project (Phase 3) Early-Career Researcher International Conference Presentation Support Program  
 
 ### Scholarships
 
