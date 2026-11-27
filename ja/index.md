@@ -16,9 +16,7 @@ BTA は NAIST の音声 AI 研究者・教育者です。音声分類から ASR�
 
 日本語については、日本語能力試験（JLPT）N3を取得（2020年）。来日後も学習を継続しており、下記マインドマップの「日本語」に挙げた教材・ツールは自身の学習のために作成したものです。
 
-<p align="center">
- <img src="../images/research_bta_jp.png" alt="研究領域: 音声、音響、マルチモーダル">
-</p>
+{% include research-areas.html base="/ja/research/" %}
 
 以下は、BTA の研究、ツール、チュートリアル、コース、論文、その他の関心事をまとめたマインドマップです。ノードをクリックすると詳細を確認できます。
 <pre class="mermaid">

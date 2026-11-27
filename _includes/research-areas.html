@@ -1,0 +1,28 @@
+{% include area-tags.html %}
+{% if page.lang == "ja" %}{% assign diagram_labels = "研究分野|マルチモーダル|音響|音声" | split: "|" %}{% else %}{% assign diagram_labels = "Research areas|Multimodal|Acoustics|Speech" | split: "|" %}{% endif %}
+<style>
+.area-diagram { max-width: 470px; margin: 1em auto; }
+.area-diagram svg { display: block; width: 100%; height: auto; }
+.area-diagram ellipse { fill: var(--area); fill-opacity: .12; stroke: var(--area); stroke-width: 2; }
+.area-diagram text { fill: var(--global-text-color, #333); font-size: 22px; text-anchor: middle; dominant-baseline: middle; }
+.area-diagram a { cursor: pointer; text-decoration: none; outline: none; }
+.area-diagram a:hover ellipse { fill-opacity: .28; }
+.area-diagram a:focus-visible ellipse { fill-opacity: .28; stroke-width: 5; }
+.area-diagram a:hover text, .area-diagram a:focus-visible text { text-decoration: underline; }
+</style>
+<div class="area-diagram">
+  <svg viewBox="0 0 470 352" role="group" aria-label="{{ diagram_labels[0] }}">
+    <a class="area-diagram__link area-diagram__link--multimodal area--multimodal" href="{{ include.base }}#multimodal">
+      <ellipse cx="235" cy="176" rx="230" ry="170"></ellipse>
+      <text x="{% if page.lang == "ja" %}122{% else %}104{% endif %}" y="104">{{ diagram_labels[1] }}</text>
+    </a>
+    <a class="area-diagram__link area-diagram__link--acoustics area--acoustics" href="{{ include.base }}#acoustics">
+      <ellipse cx="280" cy="200" rx="165" ry="106"></ellipse>
+      <text x="204" y="155">{{ diagram_labels[2] }}</text>
+    </a>
+    <a class="area-diagram__link area-diagram__link--speech area--speech" href="{{ include.base }}#speech">
+      <ellipse cx="330" cy="214" rx="85" ry="60"></ellipse>
+      <text x="329" y="219">{{ diagram_labels[3] }}</text>
+    </a>
+  </svg>
+</div>
