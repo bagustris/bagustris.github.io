@@ -231,7 +231,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 5. **B. T. Atmaja**, "[Integrasi Al-Quran dan sains untuk memodelkan ulang konsep perputaran bumi dan matahari](/files/Atmaja%20-%202009%20-%20Integrasi%20Al-Quran%20dan%20Sains%20Untuk%20Memodelkan%20Ulang%20Konsep%20Perputaran%20Bumi%20dan%20Matahari.pdf)," 2009, PIMNAS XXII, 21-25 Augustus 2009, Universitas Brawijaya, Malang.
 
-6. **B. T. Atmaja** and D. Arifianto, "Machinery fault diagnosis using independent component analysis and instantaneous frequency," in *Proc. Int. Conf. Instrum., Commun., Inf. Technol. Biomed. Eng. (ICICI-BME)*, 2009, doi: [10.1109/ICICI-BME.2009.5417257](https://doi.org/10.1109/ICICI-BME.2009.5417257).
+6. **B. T. Atmaja** and D. Arifianto, "Machinery fault diagnosis using independent component analysis and instantaneous frequency," in *Proc. Int. Conf. Instrum., Commun., Inf. Technol. Biomed. Eng. (ICICI-BME)*, 2009, doi: [10.1109/ICICI-BME.2009.5417257](https://doi.org/10.1109/ICICI-BME.2009.5417257).  [PDF](../files/ICICI-BME.2009.5417257.pdf)  
 
 ## 2007
 
