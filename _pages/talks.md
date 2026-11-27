@@ -5,7 +5,8 @@ description: "Talks, presentations, conference appearances, and recent updates f
 permalink: /talks/
 author_profile: true
 ---
-> Convey from me, even if it is one verse. (Prophet Muhammad ﷺ, Sahih al-Bukhari)
+> Convey from me, even if it is one verse.  
+> Say the truth even though it is bitter (i.e. difficult to admit)  
 
 ## Talks, Presentations, News, Updates  
 * **11/25/2026**: Attending O-COCOSODA 2026 in Cebu, Philippines. Authoring total of 5 papers.  

@@ -211,7 +211,7 @@ If you don't have access to some of the papers below, please feel free to contac
 
 2. {:.speech} B. Putra, **B. T. Atmaja**, and D. Prananto, "Prototyping of Quranic verse recitation learning software using speech recognition techniques based on cepstral feature," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 82–87.[PDF](/files/2011_2.pdf)
 
-3. B. Putra, **B. T. Atmaja**, and S. Hidayat, "Short term weather forecasting using fusion of fuzzy-artificial neural network," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 48–53.[PDF](/files/2011_3.pdf)
+3. {:.multimodal} B. Putra, **B. T. Atmaja**, and S. Hidayat, "Short term weather forecasting using fusion of fuzzy-artificial neural network," in *Proc. Int. Conf. Inform. Develop. (ICID)*, 2011, pp. 48–53.[PDF](/files/2011_3.pdf)
 
 4. **B. T. Atmaja**, "[Kebangkitan sains Islam, kebangkitan peradaban Islam](/files/Atmaja%20-%202011%20-%20Kebangkitan%20Sains%20Islam%20,%20Kebangkitan%20Peradaban%20Islam.pdf)," 2011.
 
@@ -229,9 +229,9 @@ If you don't have access to some of the papers below, please feel free to contac
 
 3. {:.acoustics} **B. T. Atmaja**, "[Pemisahan banyak sumber suara mesin dari microphone array dengan metode independent component analysis (ICA) untuk deteksi kerusakan](/files/Atmaja%20-%202009%20-%20Pemisahan%20Banyak%20Sumber%20Suara%20Mesin%20Dari%20Microphone%20Array%20Dengan%20Metode%20Independent%20Component%20Analysis%20%28ICA%29%20Untuk%20Detek.pdf)," B.S. thesis, Inst. Teknol. Sepuluh Nopember, 2009.
 
-4. B. Putra and **B. T. Atmaja**, "Implementasi sistem fuzzy untuk pengaturan lampu lalu lintas," 2009.[PDF](/files/2009_4_Putra_Atmaja.pdf)
+4. {:.multimodal}  B. Putra and **B. T. Atmaja**, "Implementasi sistem fuzzy untuk pengaturan lampu lalu lintas," 2009.[PDF](/files/2009_4_Putra_Atmaja.pdf)
 
-5. **B. T. Atmaja**, "[Integrasi Al-Quran dan sains untuk memodelkan ulang konsep perputaran bumi dan matahari](/files/Atmaja%20-%202009%20-%20Integrasi%20Al-Quran%20dan%20Sains%20Untuk%20Memodelkan%20Ulang%20Konsep%20Perputaran%20Bumi%20dan%20Matahari.pdf)," 2009, PIMNAS XXII, 21-25 Augustus 2009, Universitas Brawijaya, Malang.
+5. {:.multimodal} **B. T. Atmaja**, "[Integrasi Al-Quran dan sains untuk memodelkan ulang konsep perputaran bumi dan matahari](/files/Atmaja%20-%202009%20-%20Integrasi%20Al-Quran%20dan%20Sains%20Untuk%20Memodelkan%20Ulang%20Konsep%20Perputaran%20Bumi%20dan%20Matahari.pdf)," 2009, PIMNAS XXII, 21-25 Augustus 2009, Universitas Brawijaya, Malang.
 
 6. {:.acoustics} **B. T. Atmaja** and D. Arifianto, "Machinery fault diagnosis using independent component analysis and instantaneous frequency," in *Proc. Int. Conf. Instrum., Commun., Inf. Technol. Biomed. Eng. (ICICI-BME)*, 2009, doi: [10.1109/ICICI-BME.2009.5417257](https://doi.org/10.1109/ICICI-BME.2009.5417257).  [PDF](../files/ICICI-BME.2009.5417257.pdf)  
 
