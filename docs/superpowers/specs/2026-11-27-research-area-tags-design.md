@@ -131,8 +131,8 @@ Clicking an area opens that area under Research Areas.
 - **Filter behavior:** `/publications/?theme=speech` opens filtered. A theme shows
   only papers carrying that tag; the areas are not nested for filtering. Empty year
   headings are hidden. Numbering follows the visible items.
-- **Counting:** only numbered entries under a year heading are papers. The numbered
-  profile links at the top of the page are not.
+- **Counting:** list entries (numbered or bulleted) under a heading that starts with
+  a year are papers. The numbered profile links at the top of the page are not.
 - **Shared code:** styles and scripts live in one include
   (`_includes/area-tags.html`), added to each page with one line. Counts are worked
   out in the browser from the list itself. Without JavaScript, pages show their

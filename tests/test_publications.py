@@ -74,3 +74,59 @@ class FilterTest(unittest.TestCase):
         self.assertEqual((s["papers"], s["search"]), (["SM26", "ALL24"], "?theme=multimodal"))
         s = self.state("/zz-pubs/?theme=speech", click % "all")
         self.assertEqual((len(s["papers"]), s["search"]), (5, ""))
+
+
+# Realistic editing slips: a bulleted paper, and a year heading with extra words.
+EDITS = """---
+layout: archive
+permalink: /zz-edits/
+title: zz
+---
+{% include area-tags.html publications=true %}
+
+## 2026
+
+1. {:.speech} S26.
+
+A stray paragraph.
+
+* {:.acoustics} Bullet26.
+
+## 2025 (in press)
+
+1. {:.multimodal} M25.
+"""
+
+EDITS_STATE = """
+const shown = e => e.getClientRects().length > 0;
+return {
+  papers: [...document.querySelectorAll('#main ol > li, #main ul > li')].filter(shown)
+            .map(li => li.textContent.split('.')[0].trim()),
+  years: [...document.querySelectorAll('#main h2')].filter(shown).map(h => h.textContent.trim()),
+  counts: [...document.querySelectorAll('.area-dist__row')].map(r =>
+            [r.dataset.year, r.querySelector('.area-dist__n').textContent]) };"""
+
+
+class EditingSlipTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.site = build({"_pages/zz-edits.md": EDITS})
+
+    def state(self, theme):
+        return query(self.site, f"/zz-edits/?theme={theme}", EDITS_STATE)
+
+    def test_bulleted_paper_is_filtered_like_a_numbered_one(self):
+        self.assertEqual(self.state("speech")["papers"], ["S26"])
+        s = self.state("acoustics")
+        self.assertEqual((s["papers"], s["years"]), (["Bullet26"], ["2026"]))
+
+    def test_year_heading_with_extra_words_is_a_year(self):
+        s = self.state("speech")
+        self.assertNotIn("M25", s["papers"])
+        self.assertNotIn("2025 (in press)", s["years"])
+        s = self.state("multimodal")
+        self.assertEqual((s["papers"], s["years"]), (["M25"], ["2025 (in press)"]))
+
+    def test_both_are_counted(self):
+        self.assertEqual(self.state("all")["counts"],
+                         [["total", "3"], ["2026", "2"], ["2025", "1"]])

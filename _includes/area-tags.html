@@ -80,17 +80,17 @@ html[data-theme="dark"] { --area-speech: #338ced; --area-acoustics: #e76624; --a
     });
   }
 
-  /* A paper is an item of a numbered list under a four-digit year heading, up to the next h2 or hr. */
+  /* A paper is a list item under an h2 that starts with a four-digit year, up to the next h2 or hr. */
   function yearSections() {
     var sections = [];
     document.querySelectorAll('#main h2').forEach(function (heading) {
-      var year = heading.textContent.trim();
-      if (!/^[0-9]{4}$/.test(year)) { return; }
-      var section = { year: year, nodes: [heading], lists: [], papers: [] };
+      var year = /^[0-9]{4}\b/.exec(heading.textContent.trim());
+      if (!year) { return; }
+      var section = { year: year[0], nodes: [heading], lists: [], papers: [] };
       var node = heading.nextElementSibling;
       while (node && node.tagName !== 'H2' && node.tagName !== 'HR') {
         section.nodes.push(node);
-        if (node.tagName === 'OL') {
+        if (node.tagName === 'OL' || node.tagName === 'UL') {
           var items = Array.prototype.slice.call(node.children);
           section.lists.push({ node: node, items: items });
           section.papers = section.papers.concat(items);
