@@ -81,7 +81,9 @@ def build(extra_files=None):
     ]
     result = subprocess.run(command, capture_output=True, text=True, timeout=300)
     if result.returncode != 0 or not (out / "index.html").exists():
-        raise RuntimeError("Jekyll build failed:\n" + (result.stdout + result.stderr)[-3000:])
+        lines = (result.stdout + result.stderr).splitlines()
+        message = [line for line in lines if not re.match(r"\s+from |/srv/jekyll/vendor", line)]
+        raise RuntimeError("Jekyll build failed:\n" + "\n".join(message[-30:]))
     return out
 
 

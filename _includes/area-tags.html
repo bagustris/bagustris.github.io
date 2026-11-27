@@ -1,0 +1,68 @@
+<style>
+:root { --area-speech: #257de0; --area-acoustics: #f47230; --area-multimodal: #00b894; }
+html[data-theme="dark"] { --area-speech: #338ced; --area-acoustics: #e76624; --area-multimodal: #00a888; }
+.area-tag--speech, .area--speech { --area: var(--area-speech); }
+.area-tag--acoustics, .area--acoustics { --area: var(--area-acoustics); }
+.area-tag--multimodal, .area--multimodal { --area: var(--area-multimodal); }
+.area-tags { margin-left: .35em; }
+.area-tag { display: inline-block; white-space: nowrap; border: 1.5px solid var(--area); border-radius: 999px; padding: 0 .6em; font-size: .75em; font-weight: normal; font-style: normal; line-height: 1.5; vertical-align: 1px; }
+.area-tag__dot { display: inline-block; width: 8px; height: 8px; margin-right: .35em; border-radius: 50%; background: var(--area); }
+</style>
+<script>
+(function () {
+  /* Inline script under layout: compress. Use block comments and end every statement with a semicolon. */
+  if (window.areaTags) { return; }
+  window.areaTags = true;
+
+  var AREAS = ['speech', 'acoustics', 'multimodal'];
+  var NAMES = { en: ['Speech', 'Acoustics', 'Multimodal'], ja: ['音声', '音響', 'マルチモーダル'] };
+
+  function element(tag, className, text) {
+    var node = document.createElement(tag);
+    if (className) { node.className = className; }
+    if (text) { node.textContent = text; }
+    return node;
+  }
+
+  function dot() {
+    var node = element('i', 'area-tag__dot');
+    node.setAttribute('aria-hidden', 'true');
+    return node;
+  }
+
+  function areasOf(item) {
+    return AREAS.filter(function (area) { return item.classList.contains(area); });
+  }
+
+  /* Put the tags on the item's last line, which is before any nested list. */
+  function place(item, tags) {
+    var children = Array.prototype.slice.call(item.children);
+    var nested = children.filter(function (c) { return c.tagName === 'UL' || c.tagName === 'OL'; })[0] || null;
+    var end = nested ? children.indexOf(nested) : children.length;
+    var paragraph = children.slice(0, end).filter(function (c) { return c.tagName === 'P'; }).pop();
+    var parent = paragraph || item;
+    var before = paragraph ? null : nested;
+    parent.insertBefore(document.createTextNode(' '), before);
+    parent.insertBefore(tags, before);
+  }
+
+  function addTags(names) {
+    document.querySelectorAll('#main li.speech, #main li.acoustics, #main li.multimodal').forEach(function (item) {
+      var tags = element('span', 'area-tags');
+      areasOf(item).forEach(function (area, index) {
+        var tag = element('span', 'area-tag area-tag--' + area);
+        tag.appendChild(dot());
+        tag.appendChild(document.createTextNode(names[AREAS.indexOf(area)]));
+        if (index) { tags.appendChild(document.createTextNode(' ')); }
+        tags.appendChild(tag);
+      });
+      place(item, tags);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var japanese = document.documentElement.lang.indexOf('ja') === 0;
+    addTags(japanese ? NAMES.ja : NAMES.en);
+  });
+})();
+</script>

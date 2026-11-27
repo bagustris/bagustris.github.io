@@ -13,15 +13,17 @@ redirect_from:
 
 {% include base_path %}
 
+{% include area-tags.html %}
+
 Higher Education
 ======
-* Ph.D. in Information Science, Japan Advanced Institute of Science and Technology, 2018-2021
+* {:.multimodal} Ph.D. in Information Science, Japan Advanced Institute of Science and Technology, 2018-2021
   * Dissertation: Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information
   * Advisor(s): Prof. Masato Akagi  
-* M.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2010-2012
+* {:.speech .acoustics} M.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2010-2012
   * Thesis: On Source Signal Segregation Based On Binaural Inputs  (conducted at Kumamoto University, Japan)
   * Advisor(s): Prof. Dhany Arifianto and Prof. Tsuyoshi Usagawa  
-* B.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2005-2009
+* {:.acoustics} B.E. in Engineering Physics, Sepuluh Nopember Institute of Technology, 2005-2009
   * Thesis: Machine Sounds Separation From Microphone Array Using Independent Component Analysis For Fault Detection  
   * Advisor(s): Prof. Aulia Siti Aisjah and Prof. Dhany Arifianto  
 
